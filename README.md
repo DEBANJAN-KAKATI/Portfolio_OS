@@ -83,8 +83,8 @@ Dev Mode edits ──────── Publish ──────────�
 Requires **Node.js 20.19+**.
 
 ```bash
-git clone https://github.com/DEBANJAN-KAKATI/portfolio.git
-cd portfolio
+git clone https://github.com/DEBANJAN-KAKATI/Portfolio_OS.git
+cd Portfolio_OS
 npm install
 npm run dev
 ```

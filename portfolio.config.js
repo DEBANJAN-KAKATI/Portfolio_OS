@@ -17,7 +17,7 @@ const config = {
   // Where the site and its data live.
   repo: {
     owner: 'DEBANJAN-KAKATI',
-    name: 'portfolio', // change if the portfolio repo has a different name
+    name: 'Portfolio_OS', // change if the portfolio repo has a different name
     branch: 'main',
   },
 
