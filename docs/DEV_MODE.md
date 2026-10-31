@@ -45,6 +45,7 @@ Add these under **Vercel → Settings → Environment Variables** (see `.env.exa
 - **Desktop icons** (right-click): pin or unpin to the taskbar and Start, or remove from the desktop, for visitors.
 - **Portfolio Studio**: every section with search, bulk actions and drag-to-reorder; a live preview; Profile & text; Desktop & Start layout; deleted items (restorable for 30 days); sync; version history; and **Pending changes → Publish**.
 - **Command Prompt**: `status`, `add <type>`, `upload`, `publish [message]`, `studio`, `logout`.
+- **Browser → Relay**: test your own apps from the server instead of your device. The app sees the server's IP, and your network only sees HTTPS to the portfolio. Only hosts in `portfolio.config.js → devMode.relay.hosts` can be reached (no private addresses, every redirect re-checked, 30 requests a minute), so the site never works as an open proxy. The preview runs no scripts and loads nothing from the site; JavaScript apps are best tested through their API endpoints. For anonymous browsing in general, use Tor Browser or a VPN.
 
 Before upload, images are resized to at most 2560 px and re-encoded as WebP, which strips EXIF and GPS data. The server checks file types by their bytes and only accepts paths under `public/media/…` and `public/resume.pdf`.
 

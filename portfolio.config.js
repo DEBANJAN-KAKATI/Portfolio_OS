@@ -61,6 +61,13 @@ const config = {
     largeMediaStorage: 'vercel-blob',
     maxImageBytes: 5 * 1024 * 1024,
     maxImageDimension: 2560,
+    // Browser app "Relay" mode: test requests leave from the server, not your device.
+    // Only these hosts can be reached ("*.example.com" allows subdomains), so the
+    // portfolio never works as an open proxy.
+    relay: {
+      hosts: ['jalproloy.vercel.app', 'jst-my-rb.vercel.app'],
+      ratePerMinute: 30,
+    },
   },
 
   // Live "Check for updates" in the Windows Update app (unauthenticated GitHub API).

@@ -46,6 +46,7 @@ A portfolio is something people explore, so I built one you can explore like a c
 | **Education** | Degree and coursework in a System Information view |
 | **Casual Works** | Experiments and blog posts written in Markdown |
 | **Photos · Media Player · 3D Viewer** | Gallery with slideshow; YouTube, Vimeo and uploaded videos; interactive `.glb` models |
+| **Browser** | Test my live apps in tabs. *Relay* mode (owner only) sends requests from the server, so the app never sees my IP |
 | **Command Prompt** | `help`, `whoami`, `projects`, `skills`, `neofetch`, a virtual file system and a few easter eggs |
 | **Resume** | The PDF rendered in-app with pdf.js, plus a download button |
 | **Mail** | A contact form |

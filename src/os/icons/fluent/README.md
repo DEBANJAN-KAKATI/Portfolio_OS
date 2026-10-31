@@ -7,6 +7,6 @@ Microsoft's open-source Fluent icons, used under the MIT licence (see the LICENS
 - **Fluent Emoji** (flat color), github.com/microsoft/fluentui-emoji:
   projects (file folder), education (graduation cap), viewer3d (package), games (video game), paint (artist palette), recycle (wastebasket)
 
-`mail.svg` is the Gmail logo (Google), since Mail sends to my Gmail. `terminal.svg` is an original drawing. No Windows logo or Windows application icon files are used.
+`mail.svg` is the Gmail logo (Google), since Mail sends to my Gmail. `terminal.svg` and `browser.svg` are original drawings. No Windows logo or Windows application icon files are used.
 
 To change an app's icon, replace `<app id>.svg` here; `src/os/apps/registry.js` picks files up by name.

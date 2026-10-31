@@ -6,7 +6,7 @@
 import { lazy } from 'react';
 import {
   User, FolderGit2, Briefcase, Activity, Trophy, GraduationCap, NotebookPen, Heart, Image, Clapperboard,
-  Box, SquareTerminal, Gamepad2, Mail, FileText, RefreshCw, Settings, Palette, Trash2, Wrench,
+  Box, SquareTerminal, Gamepad2, Mail, FileText, RefreshCw, Settings, Palette, Trash2, Wrench, Globe,
 } from 'lucide-react';
 
 const placeholder = () => import('@/apps/Placeholder.jsx');
@@ -39,6 +39,7 @@ const APPS = [
   { id: 'videos', title: 'Media Player', icon: Clapperboard, colors: ['#ff6b6b', '#c92a2a'], load: placeholder, size: { w: 900, h: 600 }, single: true, keywords: ['videos', 'youtube'] },
   { id: 'viewer3d', title: '3D Viewer', icon: Box, colors: ['#b18cff', '#6f3fd8'], load: placeholder, size: { w: 920, h: 640 }, single: true, keywords: ['3d', 'models', 'renders', 'blender'] },
   { id: 'terminal', title: 'Command Prompt', icon: SquareTerminal, colors: ['#4a4a4a', '#141414'], load: placeholder, size: { w: 760, h: 480 }, minSize: { w: 420, h: 260 }, keywords: ['cmd', 'terminal', 'shell', 'console'] },
+  { id: 'browser', title: 'Browser', icon: Globe, colors: ['#4fb6ff', '#0a64c8'], load: placeholder, size: { w: 1000, h: 680 }, minSize: { w: 480, h: 320 }, keywords: ['web', 'edge', 'internet', 'test', 'relay', 'proxy'] },
   { id: 'games', title: 'Games', icon: Gamepad2, colors: ['#7ee36a', '#2f9e44'], load: placeholder, size: { w: 760, h: 560 }, single: true, keywords: ['minesweeper', 'snake', 'tic tac toe', 'memory'] },
   { id: 'mail', title: 'Mail', icon: Mail, colors: ['#5aa9ff', '#0a64c8'], load: placeholder, size: { w: 880, h: 600 }, single: true, keywords: ['contact', 'email', 'hire', 'message', 'outlook'] },
   { id: 'resume', title: 'Resume', icon: FileText, colors: ['#ff6b5a', '#c4321f'], load: placeholder, size: { w: 860, h: 680 }, single: true, keywords: ['cv', 'pdf'] },
@@ -66,6 +67,7 @@ const LOADERS = {
   recycle: () => import('@/apps/RecycleBin.jsx'),
   update: () => import('@/apps/update/WindowsUpdate.jsx'),
   terminal: () => import('@/apps/terminal/Terminal.jsx'),
+  browser: () => import('@/apps/browser/Browser.jsx'),
   viewer3d: () => import('@/apps/viewer3d/Viewer3D.jsx'),
   photos: () => import('@/apps/Photos.jsx'),
   videos: () => import('@/apps/MediaPlayer.jsx'),

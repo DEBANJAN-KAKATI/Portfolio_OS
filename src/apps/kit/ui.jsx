@@ -38,6 +38,7 @@ export function Chip({ children, active, onClick, className = '' }) {
   const Tag = onClick ? 'button' : 'span';
   return (
     <Tag
+      type={onClick ? 'button' : undefined}
       onClick={onClick}
       aria-pressed={onClick ? Boolean(active) : undefined}
       className={`inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 text-xs ${onClick ? 'hover:bg-[var(--surface-hover)]' : ''} ${className}`}

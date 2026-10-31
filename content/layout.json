@@ -16,12 +16,13 @@
     {"app": "videos", "col": 2, "row": 3},
     {"app": "viewer3d", "col": 2, "row": 4},
     {"app": "terminal", "col": 3, "row": 0},
-    {"app": "games", "col": 3, "row": 1},
-    {"app": "paint", "col": 3, "row": 2},
-    {"app": "recycle", "col": 3, "row": 3}
+    {"app": "browser", "col": 3, "row": 1},
+    {"app": "games", "col": 3, "row": 2},
+    {"app": "paint", "col": 3, "row": 3},
+    {"app": "recycle", "col": 3, "row": 4}
   ],
   "pinnedTaskbar": ["resume", "projects", "about", "mail", "terminal", "settings"],
-  "pinnedStart": ["resume", "about", "projects", "experience", "skills", "education", "achievements", "mail", "casual", "hobbies", "photos", "videos", "viewer3d", "games", "terminal", "paint", "update", "settings"],
+  "pinnedStart": ["resume", "about", "projects", "experience", "skills", "education", "achievements", "mail", "casual", "hobbies", "photos", "videos", "viewer3d", "games", "terminal", "browser", "paint", "update", "settings"],
   "defaultWallpaper": "auto",
   "shortcuts": [
     {"id": "sc_github", "name": "GitHub", "url": "https://github.com/DEBANJAN-KAKATI", "icon": "github"},
