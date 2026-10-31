@@ -1,0 +1,15 @@
+# Normalize line endings; Windows checkouts still get CRLF where Git is configured for it.
+* text=auto eol=lf
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.glb binary
+*.mp4 binary
+*.webm binary
+*.woff2 binary

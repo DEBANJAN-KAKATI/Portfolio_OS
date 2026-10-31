@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7a072"/><stop offset="1" stop-color="#4a3f6b"/></linearGradient></defs>
+<rect width="1200" height="800" fill="url(#g)"/><circle cx="860" cy="380" r="90" fill="#ffd9a0"/><path d="M0 520 C300 480 600 560 1200 500 L1200 800 L0 800Z" fill="#2f2a52"/><path d="M0 600 C400 560 800 640 1200 590" stroke="#ffd9a0" stroke-width="6" fill="none" opacity=".5"/>
+<text x="40" y="760" font-family="Segoe UI, Arial, sans-serif" font-size="34" fill="#fff" opacity=".85">Placeholder · River at dusk</text>
+</svg>

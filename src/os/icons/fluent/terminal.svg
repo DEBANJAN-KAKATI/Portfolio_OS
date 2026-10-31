@@ -1,0 +1,17 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Original console icon (not a Microsoft asset), drawn to sit alongside the Fluent color icons. -->
+  <defs>
+    <linearGradient id="term-body" x1="3" y1="4" x2="21" y2="20" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B3B3B"/>
+      <stop offset="1" stop-color="#121212"/>
+    </linearGradient>
+    <linearGradient id="term-bar" x1="3" y1="4" x2="21" y2="8" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6B6B6B"/>
+      <stop offset="1" stop-color="#454545"/>
+    </linearGradient>
+  </defs>
+  <rect x="2.5" y="3.5" width="19" height="17" rx="3" fill="url(#term-body)"/>
+  <path d="M2.5 6.5a3 3 0 0 1 3-3h13a3 3 0 0 1 3 3v1h-19v-1Z" fill="url(#term-bar)"/>
+  <path d="M6.5 11l3 2.25-3 2.25" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M11 16h5.5" stroke="#4CC2FF" stroke-width="1.6" stroke-linecap="round"/>
+</svg>

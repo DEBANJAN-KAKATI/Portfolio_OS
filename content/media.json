@@ -1,0 +1,17 @@
+{
+  "photos": [
+    { "id": "ph_sample_1", "src": "/media/placeholders/photo-1.svg", "caption": "Placeholder photo — mountains", "album": "Travel", "date": "2026-05-01" },
+    { "id": "ph_sample_2", "src": "/media/placeholders/photo-2.svg", "caption": "Placeholder photo — city lights", "album": "Travel", "date": "2026-06-11" },
+    { "id": "ph_sample_3", "src": "/media/placeholders/photo-3.svg", "caption": "Placeholder photo — desk setup", "album": "Everyday", "date": "2026-07-21" },
+    { "id": "ph_sample_4", "src": "/media/placeholders/photo-4.svg", "caption": "Placeholder photo — river at dusk", "album": "Everyday", "date": "2026-08-30" }
+  ],
+  "videos": [],
+  "models": [],
+  "renders": [],
+  "wallpapers": [
+    { "id": "wp_morning", "name": "Bloom · Morning", "src": "/wallpapers/morning.svg", "timeOfDay": "morning" },
+    { "id": "wp_evening", "name": "Bloom · Evening", "src": "/wallpapers/evening.svg", "timeOfDay": "evening" },
+    { "id": "wp_night", "name": "Bloom · Night", "src": "/wallpapers/night.svg", "timeOfDay": "night" },
+    { "id": "wp_aurora", "name": "Aurora", "src": "/wallpapers/aurora.svg", "timeOfDay": null }
+  ]
+}

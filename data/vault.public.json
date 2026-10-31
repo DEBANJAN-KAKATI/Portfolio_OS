@@ -1,0 +1,865 @@
+{
+  "personal_info": {
+    "name": "DEBANJAN KAKATI",
+    "email": null,
+    "linkedin": "https://www.linkedin.com/in/debanjan-kakati-5517891b7/",
+    "github": "https://github.com/DEBANJAN-KAKATI",
+    "location": "Goa, India"
+  },
+  "education": [
+    {
+      "institution": "Birla Institute of Technology and Science, Pilani – Goa Campus",
+      "degree": "B.E. Chemical (Hons.) | Minor: Finance",
+      "duration": "Aug 2023 – Jul 2027",
+      "gpa": null,
+      "location": "Goa, India"
+    }
+  ],
+  "coursework": {
+    "quantitative": [
+      "Probability & Stochastic Processes",
+      "Statistical Methods",
+      "Computation Methods for Economics",
+      "Machine Learning / AI",
+      "Data Analytics",
+      "Big Data Analysis"
+    ],
+    "finance": [
+      "Derivatives & Risk Management",
+      "Financial Risk Analysis & Management",
+      "Security Analysis & Portfolio Management",
+      "Business Analysis & Valuation",
+      "Financial Management",
+      "Fundamentals of Finance & Accounting"
+    ],
+    "computing_ai": [
+      "Deep Learning & Generative AI",
+      "Natural Language Processing",
+      "Computer Vision",
+      "Data Structures & Algorithms",
+      "High-Performance Computing",
+      "Retrieval-Augmented Generation (RAG)"
+    ],
+    "chemical_process": [
+      "Plant Design & Economics",
+      "Chemical Reaction Engineering",
+      "Mass & Heat Transfer Operations",
+      "Thermodynamics",
+      "Process Dynamics & Control",
+      "Catalysis & High-Throughput Experimentation"
+    ],
+    "business_operations": [
+      "Logistic Chain Introduction",
+      "Corporate Finance",
+      "Operations Management",
+      "Product Management",
+      "Industry 4.0",
+      "Venture Capital & Entrepreneurship"
+    ]
+  },
+  "skills": {
+    "programming": [
+      "Python (NumPy, Pandas, Scikit-learn, TensorFlow, PyTorch, Matplotlib, Seaborn, OpenCV)",
+      "C++",
+      "C",
+      "Java",
+      "SQL",
+      "JavaScript/TypeScript",
+      "MATLAB/Simulink",
+      "Rust"
+    ],
+    "frameworks_web": [
+      "FastAPI",
+      "React",
+      "Node.js",
+      "Electron",
+      "HTML5/CSS3",
+      "RESTful APIs",
+      "LangGraph",
+      "LangChain"
+    ],
+    "quant_methods": [
+      "Time-Series Econometrics (AR-GARCH)",
+      "Transfer Entropy Spillover Networks",
+      "Quantile Regression",
+      "Monte Carlo Simulation",
+      "CVaR / Portfolio Risk Optimization",
+      "CAPM / WACC Modeling",
+      "DCF / 3-Statement Valuation"
+    ],
+    "ai_ml": [
+      "Transformer Architectures",
+      "Large Language Models (LLMs)",
+      "RAG Systems (FAISS / Vector DBs)",
+      "Convolutional Neural Networks (CNNs)",
+      "Graph Neural Networks (GNNs)",
+      "Grad-CAM / Explainable AI (XAI)",
+      "Time-Series Forecasting (LSTM, ARIMA)"
+    ],
+    "data_systems": [
+      "MySQL",
+      "PostgreSQL",
+      "Apache Spark",
+      "BigQuery",
+      "Docker",
+      "Azure",
+      "AWS",
+      "Git/GitHub",
+      "MLflow",
+      "Power BI",
+      "Advanced Excel",
+      "SCADA / Industrial IoT"
+    ],
+    "chemical_engineering": [
+      "High-Throughput Experimentation (HTE)",
+      "Catalytic Reactor Operations",
+      "Online Gas Chromatography (GC)",
+      "Detailed Hydrocarbon Analysis (DHA)",
+      "Mass & Energy Balance Closure",
+      "Aspen Plus",
+      "ANSYS FEA",
+      "SolidWorks"
+    ]
+  },
+  "experiences": [
+    {
+      "role": "Digitalization Intern — Innovation & Learning Solutions (ILS)",
+      "company": "Shell Technology Centre (PTIN)",
+      "duration": "May 2026 – Jul 2026",
+      "location": "Bengaluru, India",
+      "bullets": [
+        "Architected an end-to-end digital transformation platform for an 8-parallel-reactor High-Throughput Experimentation (HTE) catalyst testing unit, reducing campaign data assembly time from ~10 days to real-time.",
+        "Built automated data pipelines ingesting online Gas Chromatography (GC) analysis and SCADA telemetry, engineering mass balance closure engines (GC mol% to mass, density, and flow rates).",
+        "Developed the DHA Octane Data Merger & Extraction Platform batch-processing raw analyser reports, automating RON/MON extraction and C1–C15 carbon number matrix breakdown across 8 reactors.",
+        "Engineered an automated TXT file condition-slicing and de-duplication engine with 3-sigma outlier detection, publishing a live 9-plot analytics grid tracking C5+ yield, H2 consumption, and RON trade-offs."
+      ],
+      "points_tier": {
+        "1": [
+          "Architected an end-to-end digital transformation platform for an 8-parallel-reactor High-Throughput Experimentation (HTE) catalyst testing unit, reducing campaign data assembly time from ~10 days to real-time."
+        ],
+        "2": [
+          "Architected an end-to-end digital transformation platform for an 8-parallel-reactor High-Throughput Experimentation (HTE) catalyst testing unit, reducing campaign data assembly time from ~10 days to real-time.",
+          "Built automated data pipelines ingesting online Gas Chromatography (GC) analysis and SCADA telemetry, engineering mass balance closure engines (GC mol% to mass, density, and flow rates)."
+        ],
+        "3": [
+          "Architected an end-to-end digital transformation platform for an 8-parallel-reactor High-Throughput Experimentation (HTE) catalyst testing unit, reducing campaign data assembly time from ~10 days to real-time.",
+          "Built automated data pipelines ingesting online Gas Chromatography (GC) analysis and SCADA telemetry, engineering mass balance closure engines (GC mol% to mass, density, and flow rates).",
+          "Developed the DHA Octane Data Merger & Extraction Platform batch-processing raw analyser reports, automating RON/MON extraction and C1–C15 carbon number matrix breakdown across 8 reactors."
+        ]
+      },
+      "selected_tier": "2",
+      "id": "exp_shell",
+      "tags": [
+        "chemical",
+        "full_stack",
+        "ai_ml",
+        "product"
+      ]
+    },
+    {
+      "role": "Business & Operations Growth Associate",
+      "company": "INTELLIPAAT",
+      "duration": "Aug 2025 – Present",
+      "location": "Remote",
+      "bullets": [
+        "Led development of 3 AI-driven operational analytics systems (multi-modal decision platform, traffic optimization model, HR automation tool), boosting process efficiency 30–45% and slashing manual workload 50%+.",
+        "Engineered full end-to-end dataflow pipelines (data ingestion → model inference → interactive dashboard), outperforming peer benchmarks by ~35% on predictive accuracy and real-time execution speed.",
+        "Built multi-agent generative AI workflows using LangGraph and Python to automate candidate screening, performance scoring, and cross-department resource optimization."
+      ],
+      "points_tier": {
+        "1": [
+          "Led development of 3 AI-driven operational analytics systems (multi-modal decision platform, traffic optimization model, HR automation tool), boosting process efficiency 30–45% and slashing manual workload 50%+."
+        ],
+        "2": [
+          "Led development of 3 AI-driven operational analytics systems (multi-modal decision platform, traffic optimization model, HR automation tool), boosting process efficiency 30–45% and slashing manual workload 50%+.",
+          "Engineered full end-to-end dataflow pipelines (data ingestion → model inference → interactive dashboard), outperforming peer benchmarks by ~35% on predictive accuracy and real-time execution speed."
+        ],
+        "3": [
+          "Led development of 3 AI-driven operational analytics systems (multi-modal decision platform, traffic optimization model, HR automation tool), boosting process efficiency 30–45% and slashing manual workload 50%+.",
+          "Engineered full end-to-end dataflow pipelines (data ingestion → model inference → interactive dashboard), outperforming peer benchmarks by ~35% on predictive accuracy and real-time execution speed.",
+          "Built multi-agent generative AI workflows using LangGraph and Python to automate candidate screening, performance scoring, and cross-department resource optimization."
+        ]
+      },
+      "selected_tier": "2",
+      "id": "exp_intellipaat",
+      "tags": [
+        "ai_ml",
+        "product",
+        "full_stack",
+        "quant"
+      ]
+    },
+    {
+      "role": "Business Analytics & Industry 4.0 Intern",
+      "company": "PIEDS – BITS Pilani (Govt. of India Society)",
+      "duration": "May 2025 – Jul 2025",
+      "location": "Remote",
+      "bullets": [
+        "Evaluated 50+ early-stage startups on commercial viability, market sizing, unit economics, and growth defensibility to drive strategic incubation and EIR investment decisions.",
+        "Facilitated high-stakes outreach to 20+ institutional venture capital funds, securing active funding conversations and expanding the incubator's curated investor network to 50+ mentors.",
+        "Conducted quantitative benchmark analysis across sector cohorts, defining KPI scorecards for milestone tracking, burn management, and Series Seed/A pipeline readiness."
+      ],
+      "points_tier": {
+        "1": [
+          "Evaluated 50+ early-stage startups on commercial viability, market sizing, unit economics, and growth defensibility to drive strategic incubation and EIR investment decisions."
+        ],
+        "2": [
+          "Evaluated 50+ early-stage startups on commercial viability, market sizing, unit economics, and growth defensibility to drive strategic incubation and EIR investment decisions.",
+          "Facilitated high-stakes outreach to 20+ institutional venture capital funds, securing active funding conversations and expanding the incubator's curated investor network to 50+ mentors."
+        ],
+        "3": [
+          "Evaluated 50+ early-stage startups on commercial viability, market sizing, unit economics, and growth defensibility to drive strategic incubation and EIR investment decisions.",
+          "Facilitated high-stakes outreach to 20+ institutional venture capital funds, securing active funding conversations and expanding the incubator's curated investor network to 50+ mentors.",
+          "Conducted quantitative benchmark analysis across sector cohorts, defining KPI scorecards for milestone tracking, burn management, and Series Seed/A pipeline readiness."
+        ]
+      },
+      "selected_tier": "2",
+      "id": "exp_pieds",
+      "tags": [
+        "product",
+        "finance"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Sai   Movieswipe",
+      "context": "Open Source System | GitHub: Sai---MovieSwipe",
+      "bullets": [],
+      "points_tier": {
+        "1": [],
+        "2": [],
+        "3": []
+      },
+      "selected_tier": "2",
+      "github_url": "https://github.com/DEBANJAN-KAKATI/Sai---MovieSwipe",
+      "id": "proj_gh_sai___movieswipe",
+      "tags": [
+        "ai_ml"
+      ]
+    },
+    {
+      "title": "Furo   Travelswipe",
+      "context": "Open Source System | GitHub: Furo---TravelSwipe",
+      "bullets": [],
+      "points_tier": {
+        "1": [],
+        "2": [],
+        "3": []
+      },
+      "selected_tier": "2",
+      "github_url": "https://github.com/DEBANJAN-KAKATI/Furo---TravelSwipe",
+      "id": "proj_gh_furo___travelswipe",
+      "tags": [
+        "full_stack",
+        "ai_ml"
+      ]
+    },
+    {
+      "title": "Qr Chat",
+      "context": "Open Source System | GitHub: QR-Chat",
+      "bullets": [],
+      "points_tier": {
+        "1": [],
+        "2": [],
+        "3": []
+      },
+      "selected_tier": "2",
+      "github_url": "https://github.com/DEBANJAN-KAKATI/QR-Chat",
+      "id": "proj_gh_qr_chat",
+      "tags": [
+        "full_stack",
+        "ai_ml"
+      ]
+    },
+    {
+      "title": "Shell Platform",
+      "context": "Open Source System | GitHub: SHELL_platform",
+      "bullets": [],
+      "points_tier": {
+        "1": [],
+        "2": [],
+        "3": []
+      },
+      "selected_tier": "2",
+      "github_url": "https://github.com/DEBANJAN-KAKATI/SHELL_platform",
+      "id": "proj_gh_shell_platform",
+      "tags": [
+        "full_stack",
+        "ai_ml"
+      ]
+    },
+    {
+      "title": "Quantitative Finance Portfolio",
+      "context": "Open Source System | GitHub: Quantitative-Finance-Portfolio",
+      "bullets": [],
+      "points_tier": {
+        "1": [],
+        "2": [],
+        "3": []
+      },
+      "selected_tier": "2",
+      "github_url": "https://github.com/DEBANJAN-KAKATI/Quantitative-Finance-Portfolio",
+      "id": "proj_gh_quantitative_finance_portfolio",
+      "tags": [
+        "quant",
+        "finance"
+      ]
+    },
+    {
+      "title": "Jalpraloy",
+      "context": "Open Source System | GitHub: JALPRALOY",
+      "bullets": [],
+      "points_tier": {
+        "1": [],
+        "2": [],
+        "3": []
+      },
+      "selected_tier": "2",
+      "github_url": "https://github.com/DEBANJAN-KAKATI/JALPRALOY",
+      "id": "proj_gh_jalpraloy",
+      "tags": [
+        "ai_ml",
+        "quant",
+        "finance"
+      ]
+    },
+    {
+      "title": "Portfolio Analyser",
+      "context": "Open Source System | GitHub: portfolio_analyser",
+      "bullets": [],
+      "points_tier": {
+        "1": [],
+        "2": [],
+        "3": []
+      },
+      "selected_tier": "2",
+      "github_url": "https://github.com/DEBANJAN-KAKATI/portfolio_analyser",
+      "id": "proj_gh_portfolio_analyser",
+      "tags": [
+        "ai_ml",
+        "quant",
+        "finance"
+      ]
+    },
+    {
+      "title": "Developer Portfolios",
+      "context": "Open Source System | GitHub: developer-portfolios",
+      "bullets": [],
+      "points_tier": {
+        "1": [],
+        "2": [],
+        "3": []
+      },
+      "selected_tier": "2",
+      "github_url": "https://github.com/DEBANJAN-KAKATI/developer-portfolios",
+      "id": "proj_gh_developer_portfolios",
+      "tags": [
+        "quant",
+        "finance"
+      ]
+    },
+    {
+      "title": "Jstmyrb",
+      "context": "Open Source System | GitHub: jstMyRB",
+      "bullets": [],
+      "points_tier": {
+        "1": [],
+        "2": [],
+        "3": []
+      },
+      "selected_tier": "2",
+      "github_url": "https://github.com/DEBANJAN-KAKATI/jstMyRB",
+      "id": "proj_gh_jstmyrb",
+      "tags": [
+        "ai_ml"
+      ]
+    },
+    {
+      "title": "Advanced Rag System",
+      "context": "Open Source System | GitHub: advanced-rag-system",
+      "bullets": [],
+      "points_tier": {
+        "1": [],
+        "2": [],
+        "3": []
+      },
+      "selected_tier": "2",
+      "github_url": "https://github.com/DEBANJAN-KAKATI/advanced-rag-system",
+      "id": "proj_gh_advanced_rag_system",
+      "tags": [
+        "ai_ml",
+        "full_stack"
+      ]
+    },
+    {
+      "title": "High-Frequency Market Maker Engine",
+      "context": "Quant Systems | Rust + C++",
+      "bullets": [
+        "Engineered low-latency L2 orderbook parser processing 500k ticks/sec with P99 < 15 microseconds."
+      ],
+      "points_tier": {
+        "1": [
+          "Engineered low-latency L2 orderbook parser processing 500k ticks/sec with P99 < 15 microseconds."
+        ],
+        "2": [
+          "Engineered low-latency L2 orderbook parser processing 500k ticks/sec with P99 < 15 microseconds."
+        ],
+        "3": [
+          "Engineered low-latency L2 orderbook parser processing 500k ticks/sec with P99 < 15 microseconds."
+        ]
+      },
+      "selected_tier": "2",
+      "id": "proj_13",
+      "tags": [
+        "quant",
+        "systems"
+      ]
+    },
+    {
+      "title": "HTE Catalyst Testing Digital Transformation Platform (DGD-2026)",
+      "context": "Shell Technology Centre | Innovation & Learning Solutions",
+      "bullets": [
+        "Engineered an integrated 5-step guided web platform (Run Plan → Reactor Logs → DHA Import → Online DHA Table → Master Plots) for an 8-reactor parallel catalyst testing skid.",
+        "Automated batch processing of raw Detailed Hydrocarbon Analysis (DHA) GC reports, calculating RON, MON, TOS, and C1–C15 paraffin/aromatic family distributions.",
+        "Automated elemental mass balance calculations and condition-based time-series segmentation, exporting 20-tab governed workbooks and reducing manual analysis turnaround by >90%."
+      ],
+      "points_tier": {
+        "1": [
+          "Engineered an integrated 5-step guided web platform (Run Plan → Reactor Logs → DHA Import → Online DHA Table → Master Plots) for an 8-reactor parallel catalyst testing skid."
+        ],
+        "2": [
+          "Engineered an integrated 5-step guided web platform (Run Plan → Reactor Logs → DHA Import → Online DHA Table → Master Plots) for an 8-reactor parallel catalyst testing skid.",
+          "Automated batch processing of raw Detailed Hydrocarbon Analysis (DHA) GC reports, calculating RON, MON, TOS, and C1–C15 paraffin/aromatic family distributions."
+        ],
+        "3": [
+          "Engineered an integrated 5-step guided web platform (Run Plan → Reactor Logs → DHA Import → Online DHA Table → Master Plots) for an 8-reactor parallel catalyst testing skid.",
+          "Automated batch processing of raw Detailed Hydrocarbon Analysis (DHA) GC reports, calculating RON, MON, TOS, and C1–C15 paraffin/aromatic family distributions.",
+          "Automated elemental mass balance calculations and condition-based time-series segmentation, exporting 20-tab governed workbooks and reducing manual analysis turnaround by >90%."
+        ]
+      },
+      "selected_tier": "2",
+      "id": "proj_shell_hte",
+      "tags": [
+        "chemical",
+        "full_stack",
+        "ai_ml",
+        "product"
+      ]
+    },
+    {
+      "title": "Systemic Risk in the Cryptocurrency Ecosystem",
+      "context": "Financial Risk & Management | Prof. Ashwini Kumar",
+      "bullets": [
+        "Engineered a multi-stage econometric framework combining AR-GARCH(1,1), Transfer Entropy spillover networks, and leave-one-out systemic indices across 8 digital assets over 10 years (stationary ADF: -22.15, p < 0.001).",
+        "Discovered stablecoins USDT (SI: 0.1316) and USDC (SI: 0.1222) transmit greater systemic contagion than BTC (0.0754) and ETH (0.0623), with the dominant spillover channel running USDC → USDT (TE: 0.0333).",
+        "Applied quantile regression (τ = 0.1, 0.5, 0.9) capturing regulatory shock asymmetry, and modeled tail risk showing USDT kurtosis of 45.10 vs BTC at 12.45."
+      ],
+      "points_tier": {
+        "1": [
+          "Engineered a multi-stage econometric framework combining AR-GARCH(1,1), Transfer Entropy spillover networks, and leave-one-out systemic indices across 8 digital assets over 10 years (stationary ADF: -22.15, p < 0.001)."
+        ],
+        "2": [
+          "Engineered a multi-stage econometric framework combining AR-GARCH(1,1), Transfer Entropy spillover networks, and leave-one-out systemic indices across 8 digital assets over 10 years (stationary ADF: -22.15, p < 0.001).",
+          "Discovered stablecoins USDT (SI: 0.1316) and USDC (SI: 0.1222) transmit greater systemic contagion than BTC (0.0754) and ETH (0.0623), with the dominant spillover channel running USDC → USDT (TE: 0.0333)."
+        ],
+        "3": [
+          "Engineered a multi-stage econometric framework combining AR-GARCH(1,1), Transfer Entropy spillover networks, and leave-one-out systemic indices across 8 digital assets over 10 years (stationary ADF: -22.15, p < 0.001).",
+          "Discovered stablecoins USDT (SI: 0.1316) and USDC (SI: 0.1222) transmit greater systemic contagion than BTC (0.0754) and ETH (0.0623), with the dominant spillover channel running USDC → USDT (TE: 0.0333).",
+          "Applied quantile regression (τ = 0.1, 0.5, 0.9) capturing regulatory shock asymmetry, and modeled tail risk showing USDT kurtosis of 45.10 vs BTC at 12.45."
+        ]
+      },
+      "selected_tier": "2",
+      "id": "proj_systemic_risk",
+      "tags": [
+        "quant",
+        "finance",
+        "ai_ml"
+      ]
+    },
+    {
+      "title": "BitsLens — Quantitative Portfolio Engine",
+      "context": "Prof. Ashwini Kumar | BITS Pilani",
+      "bullets": [
+        "Architected an algorithmic portfolio optimization engine.",
+        "Engineered time-series volatility and momentum features."
+      ],
+      "points_tier": {
+        "1": [
+          "Architected an algorithmic portfolio optimization engine coupling Transformer return forecasting with CVaR optimization."
+        ],
+        "2": [
+          "Architected an algorithmic portfolio optimization engine.",
+          "Engineered time-series volatility and momentum features."
+        ],
+        "3": [
+          "Architected an algorithmic portfolio optimization engine.",
+          "Engineered time-series features.",
+          "Shipped production microservices."
+        ]
+      },
+      "selected_tier": "2",
+      "id": "proj_bitslens",
+      "tags": [
+        "quant",
+        "finance",
+        "ai_ml",
+        "full_stack"
+      ]
+    },
+    {
+      "title": "Advanced Local RAG Knowledge Engine",
+      "context": "Production System | GitHub: advanced-rag-system",
+      "bullets": [
+        "Engineered an enterprise-grade, locally hosted Retrieval-Augmented Generation (RAG) platform pairing FastAPI backend with modern React interface, supporting multi-format document ingestion (PDF, DOCX, TXT, MD).",
+        "Implemented hybrid retrieval fusing dense semantic vector search (FAISS / HuggingFace embeddings) and BM25 sparse keyword ranking with cross-encoder re-ranking for pinpoint accuracy.",
+        "Built resilient rate-limit governors, exponential backoff pipelines, and offline fallbacks guaranteeing 99.9% query uptime under heavy token loads."
+      ],
+      "points_tier": {
+        "1": [
+          "Engineered an enterprise-grade, locally hosted Retrieval-Augmented Generation (RAG) platform pairing FastAPI backend with modern React interface, supporting multi-format document ingestion (PDF, DOCX, TXT, MD)."
+        ],
+        "2": [
+          "Engineered an enterprise-grade, locally hosted Retrieval-Augmented Generation (RAG) platform pairing FastAPI backend with modern React interface, supporting multi-format document ingestion (PDF, DOCX, TXT, MD).",
+          "Implemented hybrid retrieval fusing dense semantic vector search (FAISS / HuggingFace embeddings) and BM25 sparse keyword ranking with cross-encoder re-ranking for pinpoint accuracy."
+        ],
+        "3": [
+          "Engineered an enterprise-grade, locally hosted Retrieval-Augmented Generation (RAG) platform pairing FastAPI backend with modern React interface, supporting multi-format document ingestion (PDF, DOCX, TXT, MD).",
+          "Implemented hybrid retrieval fusing dense semantic vector search (FAISS / HuggingFace embeddings) and BM25 sparse keyword ranking with cross-encoder re-ranking for pinpoint accuracy.",
+          "Built resilient rate-limit governors, exponential backoff pipelines, and offline fallbacks guaranteeing 99.9% query uptime under heavy token loads."
+        ]
+      },
+      "selected_tier": "2",
+      "github_url": "https://github.com/DEBANJAN-KAKATI/advanced-rag-system",
+      "id": "proj_advanced_rag",
+      "tags": [
+        "ai_ml",
+        "full_stack"
+      ]
+    },
+    {
+      "title": "Explainable AI for Diabetic Retinopathy Screening in Rural India",
+      "context": "Healthcare AI Pipeline | GitHub / MATLAB",
+      "bullets": [
+        "Developed an end-to-end Explainable AI (XAI) diagnostic pipeline comprising automated fundus image quality assurance, retinal lesion segmentation, and deep CNN ensemble classification (Grades 0–4).",
+        "Integrated Grad-CAM saliency heatmaps highlighting microaneurysms and hemorrhages for clinician auditability, paired with automated medical PDF report generation.",
+        "Built a Simulink-based telemedicine queue simulation to evaluate rural primary healthcare clinic deployment, reducing screening patient wait times by 40%."
+      ],
+      "points_tier": {
+        "1": [
+          "Developed an end-to-end Explainable AI (XAI) diagnostic pipeline comprising automated fundus image quality assurance, retinal lesion segmentation, and deep CNN ensemble classification (Grades 0–4)."
+        ],
+        "2": [
+          "Developed an end-to-end Explainable AI (XAI) diagnostic pipeline comprising automated fundus image quality assurance, retinal lesion segmentation, and deep CNN ensemble classification (Grades 0–4).",
+          "Integrated Grad-CAM saliency heatmaps highlighting microaneurysms and hemorrhages for clinician auditability, paired with automated medical PDF report generation."
+        ],
+        "3": [
+          "Developed an end-to-end Explainable AI (XAI) diagnostic pipeline comprising automated fundus image quality assurance, retinal lesion segmentation, and deep CNN ensemble classification (Grades 0–4).",
+          "Integrated Grad-CAM saliency heatmaps highlighting microaneurysms and hemorrhages for clinician auditability, paired with automated medical PDF report generation.",
+          "Built a Simulink-based telemedicine queue simulation to evaluate rural primary healthcare clinic deployment, reducing screening patient wait times by 40%."
+        ]
+      },
+      "selected_tier": "2",
+      "id": "proj_xai_retinopathy",
+      "tags": [
+        "ai_ml",
+        "full_stack",
+        "product"
+      ]
+    },
+    {
+      "title": "Ice Melting Rate Prediction via ML — Patent Pending",
+      "context": "Prof. Anirban Roy | App No. IDF/H/115107",
+      "bullets": [
+        "Engineered a patent-pending machine learning model predicting ice melting dynamics from thermodynamic properties on 237+ experimental data points, attaining 96% accuracy (RMSE: 46.8, MAE: 36.4).",
+        "Discovered perfect heat capacity correlation (r = 1.0) and benchmarked 12+ regression and deep learning architectures, tuning a TensorFlow/Keras neural network that slashed required training data by ~40%."
+      ],
+      "points_tier": {
+        "1": [
+          "Engineered a patent-pending machine learning model predicting ice melting dynamics from thermodynamic properties on 237+ experimental data points, attaining 96% accuracy (RMSE: 46.8, MAE: 36.4)."
+        ],
+        "2": [
+          "Engineered a patent-pending machine learning model predicting ice melting dynamics from thermodynamic properties on 237+ experimental data points, attaining 96% accuracy (RMSE: 46.8, MAE: 36.4).",
+          "Discovered perfect heat capacity correlation (r = 1.0) and benchmarked 12+ regression and deep learning architectures, tuning a TensorFlow/Keras neural network that slashed required training data by ~40%."
+        ],
+        "3": [
+          "Engineered a patent-pending machine learning model predicting ice melting dynamics from thermodynamic properties on 237+ experimental data points, attaining 96% accuracy (RMSE: 46.8, MAE: 36.4).",
+          "Discovered perfect heat capacity correlation (r = 1.0) and benchmarked 12+ regression and deep learning architectures, tuning a TensorFlow/Keras neural network that slashed required training data by ~40%."
+        ]
+      },
+      "selected_tier": "2",
+      "id": "proj_ice_melting",
+      "tags": [
+        "chemical",
+        "ai_ml",
+        "quant"
+      ]
+    },
+    {
+      "title": "Paints Industry Equity Valuation & 3-Statement Modeling",
+      "context": "Prof. Mohit Kumar | Corporate Finance",
+      "bullets": [
+        "Constructed integrated 3-statement financial models for Asian Paints, Berger Paints, and Kansai Nerolac projecting 5-year Free Cash Flows to Firm (FCFF) with terminal value assumptions.",
+        "Estimated Cost of Equity at 13.21% via CAPM and derived WACC range of 11.8%–12.4% incorporating synthetic rating Cost of Debt (7.47%); conducted ±100 bps WACC sensitivity analysis and EV/EBITDA trading comps (35.44x)."
+      ],
+      "points_tier": {
+        "1": [
+          "Constructed integrated 3-statement financial models for Asian Paints, Berger Paints, and Kansai Nerolac projecting 5-year Free Cash Flows to Firm (FCFF) with terminal value assumptions."
+        ],
+        "2": [
+          "Constructed integrated 3-statement financial models for Asian Paints, Berger Paints, and Kansai Nerolac projecting 5-year Free Cash Flows to Firm (FCFF) with terminal value assumptions.",
+          "Estimated Cost of Equity at 13.21% via CAPM and derived WACC range of 11.8%–12.4% incorporating synthetic rating Cost of Debt (7.47%); conducted ±100 bps WACC sensitivity analysis and EV/EBITDA trading comps (35.44x)."
+        ],
+        "3": [
+          "Constructed integrated 3-statement financial models for Asian Paints, Berger Paints, and Kansai Nerolac projecting 5-year Free Cash Flows to Firm (FCFF) with terminal value assumptions.",
+          "Estimated Cost of Equity at 13.21% via CAPM and derived WACC range of 11.8%–12.4% incorporating synthetic rating Cost of Debt (7.47%); conducted ±100 bps WACC sensitivity analysis and EV/EBITDA trading comps (35.44x)."
+        ]
+      },
+      "selected_tier": "2",
+      "id": "proj_paints_valuation",
+      "tags": [
+        "finance",
+        "quant"
+      ]
+    },
+    {
+      "title": "Corporate Finance & Capital Structure Analysis — Power Grid Corp",
+      "context": "Financial Analysis | Prof. Mohit Kumar",
+      "bullets": [
+        "Estimated FY25 WACC of 8.03% (Beta = 0.541) and evaluated a ₹2.5 Cr lease vs. buy decision using DCF methodology incorporating tax shields and depreciation benefits to maximize Net Present Value.",
+        "Modeled a ₹1,200 Cr rights issue deriving Theoretical Ex-Rights Price (TERP) of ₹269.70 with 20% EPS dilution, proving debt-to-equity de-leveraging from 1.59 to 0.94."
+      ],
+      "points_tier": {
+        "1": [
+          "Estimated FY25 WACC of 8.03% (Beta = 0.541) and evaluated a ₹2.5 Cr lease vs. buy decision using DCF methodology incorporating tax shields and depreciation benefits to maximize Net Present Value."
+        ],
+        "2": [
+          "Estimated FY25 WACC of 8.03% (Beta = 0.541) and evaluated a ₹2.5 Cr lease vs. buy decision using DCF methodology incorporating tax shields and depreciation benefits to maximize Net Present Value.",
+          "Modeled a ₹1,200 Cr rights issue deriving Theoretical Ex-Rights Price (TERP) of ₹269.70 with 20% EPS dilution, proving debt-to-equity de-leveraging from 1.59 to 0.94."
+        ],
+        "3": [
+          "Estimated FY25 WACC of 8.03% (Beta = 0.541) and evaluated a ₹2.5 Cr lease vs. buy decision using DCF methodology incorporating tax shields and depreciation benefits to maximize Net Present Value.",
+          "Modeled a ₹1,200 Cr rights issue deriving Theoretical Ex-Rights Price (TERP) of ₹269.70 with 20% EPS dilution, proving debt-to-equity de-leveraging from 1.59 to 0.94."
+        ]
+      },
+      "selected_tier": "2",
+      "id": "proj_powergrid_corp",
+      "tags": [
+        "finance",
+        "quant"
+      ]
+    },
+    {
+      "title": "FreeWind — Spatiotemporal AQI Forecasting Platform",
+      "context": "Smart India Hackathon | National Top 1%",
+      "bullets": [
+        "Designed a spatiotemporal air quality forecasting engine fusing Graph Neural Networks (GNNs) and bidirectional LSTMs across 300,000+ multi-city sensor records, achieving 32% lower MAE than traditional baselines.",
+        "Engineered real-time pollution source attribution fusing satellite imagery, traffic heatmaps, and meteorological telemetry; recognized in the Top 1% nationwide at SIH."
+      ],
+      "points_tier": {
+        "1": [
+          "Designed a spatiotemporal air quality forecasting engine fusing Graph Neural Networks (GNNs) and bidirectional LSTMs across 300,000+ multi-city sensor records, achieving 32% lower MAE than traditional baselines."
+        ],
+        "2": [
+          "Designed a spatiotemporal air quality forecasting engine fusing Graph Neural Networks (GNNs) and bidirectional LSTMs across 300,000+ multi-city sensor records, achieving 32% lower MAE than traditional baselines.",
+          "Engineered real-time pollution source attribution fusing satellite imagery, traffic heatmaps, and meteorological telemetry; recognized in the Top 1% nationwide at SIH."
+        ],
+        "3": [
+          "Designed a spatiotemporal air quality forecasting engine fusing Graph Neural Networks (GNNs) and bidirectional LSTMs across 300,000+ multi-city sensor records, achieving 32% lower MAE than traditional baselines.",
+          "Engineered real-time pollution source attribution fusing satellite imagery, traffic heatmaps, and meteorological telemetry; recognized in the Top 1% nationwide at SIH."
+        ]
+      },
+      "selected_tier": "2",
+      "id": "proj_freewind_aqi",
+      "tags": [
+        "ai_ml",
+        "full_stack",
+        "product"
+      ]
+    },
+    {
+      "title": "jstPDF — Privacy-First Desktop PDF Processing Suite",
+      "context": "Desktop App | GitHub: jstPDF",
+      "bullets": [
+        "Engineered a zero-telemetry, unlimited desktop PDF manipulation application (merge, split, compress, watermark, rotate, OCR conversion) executed entirely client-side for absolute privacy.",
+        "Optimized WebAssembly and JavaScript binary manipulation pipelines to process multi-hundred-megabyte documents with zero memory leaks and instantaneous response."
+      ],
+      "points_tier": {
+        "1": [
+          "Engineered a zero-telemetry, unlimited desktop PDF manipulation application (merge, split, compress, watermark, rotate, OCR conversion) executed entirely client-side for absolute privacy."
+        ],
+        "2": [
+          "Engineered a zero-telemetry, unlimited desktop PDF manipulation application (merge, split, compress, watermark, rotate, OCR conversion) executed entirely client-side for absolute privacy.",
+          "Optimized WebAssembly and JavaScript binary manipulation pipelines to process multi-hundred-megabyte documents with zero memory leaks and instantaneous response."
+        ],
+        "3": [
+          "Engineered a zero-telemetry, unlimited desktop PDF manipulation application (merge, split, compress, watermark, rotate, OCR conversion) executed entirely client-side for absolute privacy.",
+          "Optimized WebAssembly and JavaScript binary manipulation pipelines to process multi-hundred-megabyte documents with zero memory leaks and instantaneous response."
+        ]
+      },
+      "selected_tier": "2",
+      "github_url": "https://github.com/DEBANJAN-KAKATI/jstPDF",
+      "id": "proj_jstpdf",
+      "tags": [
+        "full_stack",
+        "product"
+      ]
+    },
+    {
+      "title": "Sales & Market Analytics Dashboard — Kalpana Furniture Ltd.",
+      "context": "Product Analytics & BI Solution",
+      "bullets": [
+        "Engineered a Power BI executive suite analyzing 3+ years of transactional data over 8 categories; discovered seasonal demand triggers yielding a 13% gross margin uplift and ₹1.2L annual inventory cost savings.",
+        "Segmented 500+ B2B customer accounts by recency, frequency, and monetary value, proving 3 core segments drove 67% of revenue and guiding targeted tier-pricing strategies."
+      ],
+      "points_tier": {
+        "1": [
+          "Engineered a Power BI executive suite analyzing 3+ years of transactional data over 8 categories; discovered seasonal demand triggers yielding a 13% gross margin uplift and ₹1.2L annual inventory cost savings."
+        ],
+        "2": [
+          "Engineered a Power BI executive suite analyzing 3+ years of transactional data over 8 categories; discovered seasonal demand triggers yielding a 13% gross margin uplift and ₹1.2L annual inventory cost savings.",
+          "Segmented 500+ B2B customer accounts by recency, frequency, and monetary value, proving 3 core segments drove 67% of revenue and guiding targeted tier-pricing strategies."
+        ],
+        "3": [
+          "Engineered a Power BI executive suite analyzing 3+ years of transactional data over 8 categories; discovered seasonal demand triggers yielding a 13% gross margin uplift and ₹1.2L annual inventory cost savings.",
+          "Segmented 500+ B2B customer accounts by recency, frequency, and monetary value, proving 3 core segments drove 67% of revenue and guiding targeted tier-pricing strategies."
+        ]
+      },
+      "selected_tier": "2",
+      "id": "proj_kalpana_dashboard",
+      "tags": [
+        "product",
+        "finance",
+        "full_stack"
+      ]
+    },
+    {
+      "title": "Computer Vision Microalgae Growth Prediction Platform",
+      "context": "MANTHAN Bio-Innovation Application | Prof. Anirban Roy",
+      "bullets": [
+        "Built a computer vision and deep learning monitoring pipeline tracking microalgae biomass density in photobioreactors from microscope optical telemetry, achieving 94% biomass estimation accuracy.",
+        "Automated kinetic growth rate modeling across varying CO2 injection and irradiance regimes, optimizing harvest cycles by 2.5 days."
+      ],
+      "points_tier": {
+        "1": [
+          "Built a computer vision and deep learning monitoring pipeline tracking microalgae biomass density in photobioreactors from microscope optical telemetry, achieving 94% biomass estimation accuracy."
+        ],
+        "2": [
+          "Built a computer vision and deep learning monitoring pipeline tracking microalgae biomass density in photobioreactors from microscope optical telemetry, achieving 94% biomass estimation accuracy.",
+          "Automated kinetic growth rate modeling across varying CO2 injection and irradiance regimes, optimizing harvest cycles by 2.5 days."
+        ],
+        "3": [
+          "Built a computer vision and deep learning monitoring pipeline tracking microalgae biomass density in photobioreactors from microscope optical telemetry, achieving 94% biomass estimation accuracy.",
+          "Automated kinetic growth rate modeling across varying CO2 injection and irradiance regimes, optimizing harvest cycles by 2.5 days."
+        ]
+      },
+      "selected_tier": "2",
+      "id": "proj_algae_manthan",
+      "tags": [
+        "chemical",
+        "ai_ml"
+      ]
+    }
+  ],
+  "patents_certifications": [
+    {
+      "type": "Patent",
+      "title": "Ice Melting Rate Prediction Model",
+      "details": "Filed: Jan 27, 2025 | Issued: Nov 5, 2025 | App No. IDF/H/115107 | Patent Office: India",
+      "tags": [
+        "chemical",
+        "ai_ml",
+        "quant"
+      ]
+    },
+    {
+      "type": "Certification",
+      "title": "Advanced Data Science & Artificial Intelligence",
+      "details": "Intellipaat (2023) — Comprehensive Master's certification in ML/DL pipelines",
+      "tags": [
+        "ai_ml",
+        "full_stack"
+      ]
+    },
+    {
+      "type": "Certification",
+      "title": "Advanced Artificial Intelligence & Robotics",
+      "details": "myEquation – ROBO AI (2024) — Neural controllers and autonomous state machines",
+      "tags": [
+        "ai_ml",
+        "full_stack"
+      ]
+    }
+  ],
+  "pors_achievements": [
+    {
+      "title": "SAE Formula Bharat — Chassis Development Engineer",
+      "details": "Secured Top 25 national finalist placement among 80+ engineering teams; engineered 7+ optimized CAD/FEA designs (ANSYS, SolidWorks) and accelerated vehicle assembly by 2+ weeks through early FEA validation.",
+      "tags": [
+        "chemical",
+        "product",
+        "quant"
+      ]
+    },
+    {
+      "title": "Smart India Hackathon (SIH) — National Top 1% Finalist",
+      "details": "Ranked in the top 1% nationwide out of thousands of teams for FreeWind AI pollution analytics platform.",
+      "tags": [
+        "ai_ml",
+        "product",
+        "full_stack"
+      ]
+    },
+    {
+      "title": "Indian Space Academy — Remote Sensing & GIS Training",
+      "details": "Certified in satellite geospatial analysis, multi-spectral band interpretation, and spatial GIS modeling.",
+      "tags": [
+        "ai_ml",
+        "chemical",
+        "quant"
+      ]
+    }
+  ],
+  "awards_medals": [
+    {
+      "title": "National Mathematics Olympiad Gold Medal",
+      "details": "Ranked 1st nationwide for advanced combinatorial proofs",
+      "tags": [
+        "quant",
+        "math"
+      ]
+    },
+    {
+      "title": "Smart India Hackathon (SIH)",
+      "details": "National Top 1% Finalist among 50,000+ national participants",
+      "tags": [
+        "ai_ml",
+        "sde",
+        "product"
+      ]
+    },
+    {
+      "title": "Formula Bharat Motorsports Design",
+      "details": "National Top 25 Finalist for lightweight chassis optimization",
+      "tags": [
+        "chemical",
+        "engineering"
+      ]
+    },
+    {
+      "title": "Academic Excellence Award",
+      "details": "Merit Scholarship & Recognition, BITS Pilani",
+      "tags": [
+        "finance",
+        "quant"
+      ]
+    }
+  ],
+  "testimonials": [],
+  "meta": {
+    "source": "jstMyRB",
+    "schema_version": 1,
+    "exported_at": "2026-10-28T15:13:26.815Z",
+    "sample": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "desktopIcons": [
+    { "app": "about", "col": 0, "row": 0 },
+    { "app": "projects", "col": 0, "row": 1 },
+    { "app": "experience", "col": 0, "row": 2 },
+    { "app": "skills", "col": 0, "row": 3 },
+    { "app": "education", "col": 0, "row": 4 },
+    { "app": "achievements", "col": 0, "row": 5 },
+    { "app": "resume", "col": 1, "row": 0 },
+    { "app": "mail", "col": 1, "row": 1 },
+    { "app": "terminal", "col": 1, "row": 2 },
+    { "app": "games", "col": 1, "row": 3 },
+    { "app": "casual", "col": 1, "row": 4 },
+    { "app": "hobbies", "col": 1, "row": 5 },
+    { "app": "photos", "col": 2, "row": 0 },
+    { "app": "videos", "col": 2, "row": 1 },
+    { "app": "viewer3d", "col": 2, "row": 2 },
+    { "app": "paint", "col": 2, "row": 3 },
+    { "app": "recycle", "col": 2, "row": 5 }
+  ],
+  "pinnedTaskbar": ["projects", "about", "terminal", "mail", "settings"],
+  "pinnedStart": [
+    "about", "projects", "experience", "skills", "education", "achievements",
+    "resume", "mail", "terminal", "games", "photos", "videos",
+    "viewer3d", "paint", "update", "settings", "casual", "hobbies"
+  ],
+  "defaultWallpaper": "auto",
+  "shortcuts": [
+    { "id": "sc_github", "name": "GitHub", "url": "https://github.com/DEBANJAN-KAKATI", "icon": "github" },
+    { "id": "sc_linkedin", "name": "LinkedIn", "url": "https://www.linkedin.com/in/debanjan-kakati-5517891b7/", "icon": "linkedin" }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "entries": [
+    {
+      "id": "sync_20261028151644",
+      "date": "2026-10-28T15:16:44.957Z",
+      "title": "Initial install",
+      "added": [
+        {
+          "id": "proj_shell_hte",
+          "title": "HTE Catalyst Testing Digital Transformation Platform (DGD-2026)",
+          "section": "projects"
+        },
+        {
+          "id": "proj_advanced_rag",
+          "title": "Advanced Local RAG Knowledge Engine",
+          "section": "projects"
+        },
+        {
+          "id": "proj_gh_qr_chat",
+          "title": "CipherDrop (QR-Chat)",
+          "section": "projects"
+        },
+        {
+          "id": "proj_gh_furo___travelswipe",
+          "title": "Furo — TravelSwipe",
+          "section": "projects"
+        },
+        {
+          "id": "proj_gh_sai___movieswipe",
+          "title": "Sai — MovieSwipe",
+          "section": "projects"
+        },
+        {
+          "id": "proj_gh_portfolio_analyser",
+          "title": "Portfolio Analyser",
+          "section": "projects"
+        },
+        {
+          "id": "proj_gh_jalpraloy",
+          "title": "JalProloy — Flood Early Warning",
+          "section": "projects"
+        },
+        {
+          "id": "proj_gh_jstmyrb",
+          "title": "jstMyRB — AI Career OS",
+          "section": "projects"
+        },
+        {
+          "id": "proj_xai_retinopathy",
+          "title": "Explainable AI for Diabetic Retinopathy Screening in Rural India",
+          "section": "projects"
+        },
+        {
+          "id": "proj_jstpdf",
+          "title": "jstPDF — Privacy-First Desktop PDF Processing Suite",
+          "section": "projects"
+        },
+        {
+          "id": "proj_qf_algo_trading",
+          "title": "Algorithmic Trading & Technical Indicators",
+          "section": "projects"
+        },
+        {
+          "id": "proj_qf_credit_risk",
+          "title": "Credit Risk Modeling",
+          "section": "projects"
+        },
+        {
+          "id": "proj_qf_ipo_success",
+          "title": "IPO Success Prediction",
+          "section": "projects"
+        },
+        {
+          "id": "proj_qf_portfolio_optimization",
+          "title": "Portfolio Optimization (Modern Portfolio Theory)",
+          "section": "projects"
+        },
+        {
+          "id": "proj_qf_bitcoin_wikipedia",
+          "title": "Bitcoin Price Prediction from Wikipedia Sentiment",
+          "section": "projects"
+        },
+        {
+          "id": "proj_qf_news_sentiment",
+          "title": "Financial News Sentiment Analysis",
+          "section": "projects"
+        },
+        {
+          "id": "proj_qf_lstm_forecasting",
+          "title": "Stock Price Forecasting with LSTMs",
+          "section": "projects"
+        },
+        {
+          "id": "proj_qf_var_monte_carlo",
+          "title": "Value at Risk via Monte Carlo Simulation",
+          "section": "projects"
+        },
+        {
+          "id": "proj_ice_melting",
+          "title": "Ice Melting Rate Prediction via ML — Patent Pending",
+          "section": "projects"
+        },
+        {
+          "id": "proj_13",
+          "title": "High-Frequency Market Maker Engine",
+          "section": "projects"
+        },
+        {
+          "id": "proj_systemic_risk",
+          "title": "Systemic Risk in the Cryptocurrency Ecosystem",
+          "section": "projects"
+        },
+        {
+          "id": "proj_bitslens",
+          "title": "BitsLens — Quantitative Portfolio Engine",
+          "section": "projects"
+        },
+        {
+          "id": "proj_paints_valuation",
+          "title": "Paints Industry Equity Valuation & 3-Statement Modeling",
+          "section": "projects"
+        },
+        {
+          "id": "proj_powergrid_corp",
+          "title": "Corporate Finance & Capital Structure Analysis — Power Grid Corp",
+          "section": "projects"
+        },
+        {
+          "id": "proj_freewind_aqi",
+          "title": "FreeWind — Spatiotemporal AQI Forecasting Platform",
+          "section": "projects"
+        },
+        {
+          "id": "proj_kalpana_dashboard",
+          "title": "Sales & Market Analytics Dashboard — Kalpana Furniture Ltd.",
+          "section": "projects"
+        },
+        {
+          "id": "proj_algae_manthan",
+          "title": "Computer Vision Microalgae Growth Prediction Platform",
+          "section": "projects"
+        },
+        {
+          "id": "proj_local_livesubs",
+          "title": "LiveSubs — Live Subtitles & Translation",
+          "section": "projects"
+        },
+        {
+          "id": "proj_local_voicecue_dj",
+          "title": "VoiceCue DJ Studio",
+          "section": "projects"
+        },
+        {
+          "id": "proj_local_face_age",
+          "title": "Live Face Age Range Estimator",
+          "section": "projects"
+        },
+        {
+          "id": "proj_local_algae_classifier",
+          "title": "Algae Stress Classifier",
+          "section": "projects"
+        },
+        {
+          "id": "proj_local_algae_analyzer",
+          "title": "Algae Image Analyzer (RGB & Optical Density)",
+          "section": "projects"
+        },
+        {
+          "id": "proj_local_voice_sales_agent",
+          "title": "Voice AI Sales Agent",
+          "section": "projects"
+        },
+        {
+          "id": "proj_local_indoml",
+          "title": "IndoML — Tutor Response Classification",
+          "section": "projects"
+        },
+        {
+          "id": "proj_local_meesho",
+          "title": "Meesho Data Science Competition",
+          "section": "projects"
+        },
+        {
+          "id": "proj_local_robot_vision",
+          "title": "Object Detection for Robotics Vision",
+          "section": "projects"
+        },
+        {
+          "id": "proj_local_satellite_land",
+          "title": "Satellite Multispectral Land Analysis",
+          "section": "projects"
+        },
+        {
+          "id": "proj_local_sms_spam",
+          "title": "SMS Spam Classifier",
+          "section": "projects"
+        },
+        {
+          "id": "proj_local_csgo",
+          "title": "CS:GO Round Winner Prediction",
+          "section": "projects"
+        },
+        {
+          "id": "proj_local_customer_churn",
+          "title": "Customer Churn Prediction",
+          "section": "projects"
+        },
+        {
+          "id": "proj_local_census_income",
+          "title": "Census Income Classification",
+          "section": "projects"
+        },
+        {
+          "id": "proj_local_flight_price",
+          "title": "Flight Price Prediction",
+          "section": "projects"
+        },
+        {
+          "id": "proj_local_movie_recommender",
+          "title": "Movie Recommendation System",
+          "section": "projects"
+        },
+        {
+          "id": "proj_local_netflix_svd",
+          "title": "Netflix Prize Recommendation Engine",
+          "section": "projects"
+        },
+        {
+          "id": "proj_local_walmart_forecast",
+          "title": "Walmart Sales Forecasting",
+          "section": "projects"
+        },
+        {
+          "id": "proj_local_potato_price",
+          "title": "Potato Price Forecasting (India)",
+          "section": "projects"
+        },
+        {
+          "id": "proj_gh_22aiml_projects",
+          "title": "22AIML Projects",
+          "section": "projects"
+        },
+        {
+          "id": "exp_shell",
+          "title": "Digitalization Intern — Innovation & Learning Solutions (ILS) @ Shell Technology Centre (PTIN)",
+          "section": "experiences"
+        },
+        {
+          "id": "exp_intellipaat",
+          "title": "Business & Operations Growth Associate @ INTELLIPAAT",
+          "section": "experiences"
+        },
+        {
+          "id": "exp_pieds",
+          "title": "Business Analytics & Industry 4.0 Intern @ PIEDS – BITS Pilani (Govt. of India Society)",
+          "section": "experiences"
+        },
+        {
+          "id": "edu_birla_institute_of_technology_and_science_pilani_goa_campus",
+          "title": "Birla Institute of Technology and Science, Pilani – Goa Campus",
+          "section": "education"
+        },
+        {
+          "id": "patent_ice_melting_rate_prediction_model",
+          "title": "Ice Melting Rate Prediction Model",
+          "section": "achievements"
+        },
+        {
+          "id": "certification_advanced_data_science_artificial_intelligence",
+          "title": "Advanced Data Science & Artificial Intelligence",
+          "section": "achievements"
+        },
+        {
+          "id": "certification_advanced_artificial_intelligence_robotics",
+          "title": "Advanced Artificial Intelligence & Robotics",
+          "section": "achievements"
+        },
+        {
+          "id": "por_sae_formula_bharat_chassis_development_engineer",
+          "title": "SAE Formula Bharat — Chassis Development Engineer",
+          "section": "achievements"
+        },
+        {
+          "id": "por_smart_india_hackathon_sih_national_top_1_finalist",
+          "title": "Smart India Hackathon (SIH) — National Top 1% Finalist",
+          "section": "achievements"
+        },
+        {
+          "id": "por_indian_space_academy_remote_sensing_gis_training",
+          "title": "Indian Space Academy — Remote Sensing & GIS Training",
+          "section": "achievements"
+        },
+        {
+          "id": "award_national_mathematics_olympiad_gold_medal",
+          "title": "National Mathematics Olympiad Gold Medal",
+          "section": "achievements"
+        },
+        {
+          "id": "award_smart_india_hackathon_sih",
+          "title": "Smart India Hackathon (SIH)",
+          "section": "achievements"
+        },
+        {
+          "id": "award_formula_bharat_motorsports_design",
+          "title": "Formula Bharat Motorsports Design",
+          "section": "achievements"
+        },
+        {
+          "id": "award_academic_excellence_award",
+          "title": "Academic Excellence Award",
+          "section": "achievements"
+        }
+      ],
+      "updated": [],
+      "removed": [],
+      "sources": [
+        "vault",
+        "github"
+      ]
+    }
+  ]
+}

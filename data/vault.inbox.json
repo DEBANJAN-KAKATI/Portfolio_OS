@@ -1,0 +1,471 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "op": "edit", "section": "projects", "id": "proj_gh_jstmyrb",
+      "data": {
+        "title": "jstMyRB — AI Career OS",
+        "context": "Resume Engine & Career CRM | GitHub: jstMyRB",
+        "tags": ["ai_ml", "full_stack", "product"],
+        "points_tier": {
+          "1": ["Built an AI-powered <b>Career OS</b> and 1-page resume engine on <b>FastAPI</b> with a <b>multi-LLM router</b>."],
+          "2": [
+            "Built an AI-powered <b>Career OS</b> and 1-page resume engine on <b>FastAPI</b> with a <b>multi-LLM router</b>.",
+            "Ranks career-vault entries with subword <b>BM25</b> retrieval and 1/2/3-point bullet tiers, polished by a Google XYZ bullet critic."
+          ],
+          "3": [
+            "Built an AI-powered <b>Career OS</b> and 1-page resume engine on <b>FastAPI</b> with a <b>multi-LLM router</b>.",
+            "Ranks career-vault entries with subword <b>BM25</b> retrieval and 1/2/3-point bullet tiers, polished by a Google XYZ bullet critic.",
+            "Ships an ATS compliance scorer, a recruitment Kanban CRM and a cover-letter generator, deployable serverless on <b>Vercel</b>."
+          ]
+        }
+      },
+      "base_updated_at": "2026-10-28T15:03:54", "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "edit", "section": "projects", "id": "proj_gh_jalpraloy",
+      "data": {
+        "title": "JalProloy — Flood Early Warning",
+        "context": "Smart India Hackathon PS 26071 | GitHub: JALPRALOY",
+        "tags": ["ai_ml", "full_stack"],
+        "points_tier": {
+          "1": ["AI/ML heavy-rainfall early warning and hyperlocal flood prediction for Assam (SIH PS 26071, MoES/IMD)."],
+          "2": [
+            "AI/ML heavy-rainfall early warning and hyperlocal flood prediction for Assam (SIH PS 26071, MoES/IMD).",
+            "Fuses satellite, radar, <b>NWP</b> and river-gauge data into per-hexagon flood risk for the next 6 h–5 days."
+          ],
+          "3": [
+            "AI/ML heavy-rainfall early warning and hyperlocal flood prediction for Assam (SIH PS 26071, MoES/IMD).",
+            "Fuses satellite, radar, <b>NWP</b> and river-gauge data into per-hexagon flood risk for the next 6 h–5 days.",
+            "Live river watch, flood news, CAP alerts and a 4-language offline <b>PWA</b> (English, Assamese, Bengali, Hindi)."
+          ]
+        }
+      },
+      "base_updated_at": "2026-10-28T15:03:54", "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "edit", "section": "projects", "id": "proj_gh_sai___movieswipe",
+      "data": {
+        "title": "Sai — MovieSwipe",
+        "context": "Movie & TV Discovery App | GitHub: Sai---MovieSwipe",
+        "tags": ["full_stack", "ai_ml"],
+        "points_tier": {
+          "1": ["Built a swipe-to-decide movie and TV discovery app that learns your taste with every swipe and curates personalized watchlists."],
+          "2": [
+            "Built a swipe-to-decide movie and TV discovery app that learns your taste with every swipe and curates personalized watchlists.",
+            "Group sessions match what to watch together, curing decision paralysis."
+          ],
+          "3": [
+            "Built a swipe-to-decide movie and TV discovery app that learns your taste with every swipe and curates personalized watchlists.",
+            "Group sessions match what to watch together, curing decision paralysis.",
+            "<b>FastAPI</b> backend with a <b>React</b> + <b>TypeScript</b> frontend, containerised with <b>Docker</b> and shipped as an Android app via <b>Capacitor</b>."
+          ]
+        }
+      },
+      "base_updated_at": "2026-10-28T15:03:54", "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "edit", "section": "projects", "id": "proj_gh_furo___travelswipe",
+      "data": {
+        "title": "Furo — TravelSwipe",
+        "context": "Travel Discovery App | GitHub: Furo---TravelSwipe",
+        "tags": ["full_stack"],
+        "points_tier": {
+          "1": ["Swipe-based travel discovery app: find places fast, build smart day itineraries and explore with offline maps."],
+          "2": [
+            "Swipe-based travel discovery app: find places fast, build smart day itineraries and explore with offline maps.",
+            "Built with <b>Vite</b> and <b>Leaflet</b> maps, packaged as a native Android APK with <b>Capacitor</b>."
+          ],
+          "3": [
+            "Swipe-based travel discovery app: find places fast, build smart day itineraries and explore with offline maps.",
+            "Built with <b>Vite</b> and <b>Leaflet</b> maps, packaged as a native Android APK with <b>Capacitor</b>."
+          ]
+        }
+      },
+      "base_updated_at": "2026-10-28T15:03:54", "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "edit", "section": "projects", "id": "proj_gh_qr_chat",
+      "data": {
+        "title": "CipherDrop (QR-Chat)",
+        "context": "Offline Ephemeral Messaging | GitHub: QR-Chat",
+        "tags": ["full_stack", "sde"],
+        "points_tier": {
+          "1": ["Anonymous, self-destructing chat rooms opened by scanning a personalised QR code, with fast file transfer over Wi-Fi, hotspot or Bluetooth — no internet needed."],
+          "2": [
+            "Anonymous, self-destructing chat rooms opened by scanning a personalised QR code, with fast file transfer over Wi-Fi, hotspot or Bluetooth — no internet needed.",
+            "Real-time messaging over <b>WebSockets</b> on a <b>FastAPI</b> server, with optional PIN-protected rooms."
+          ],
+          "3": [
+            "Anonymous, self-destructing chat rooms opened by scanning a personalised QR code, with fast file transfer over Wi-Fi, hotspot or Bluetooth — no internet needed.",
+            "Real-time messaging over <b>WebSockets</b> on a <b>FastAPI</b> server, with optional PIN-protected rooms.",
+            "Inspired by BitChat (offline encrypted chat) and Xender-for-PC (local file transfer)."
+          ]
+        }
+      },
+      "base_updated_at": "2026-10-28T15:03:54", "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "edit", "section": "projects", "id": "proj_gh_portfolio_analyser",
+      "data": {
+        "title": "Portfolio Analyser",
+        "context": "Web-Crawling AI Agent | GitHub: portfolio_analyser",
+        "tags": ["ai_ml"],
+        "points_tier": {
+          "1": ["AI agent that crawls every developer portfolio listed in emmabostian/developer-portfolios and opens each project."],
+          "2": [
+            "AI agent that crawls every developer portfolio listed in emmabostian/developer-portfolios and opens each project.",
+            "Writes two-point summaries per project into alphabetically organised Markdown docs."
+          ],
+          "3": [
+            "AI agent that crawls every developer portfolio listed in emmabostian/developer-portfolios and opens each project.",
+            "Writes two-point summaries per project into alphabetically organised Markdown docs."
+          ]
+        }
+      },
+      "base_updated_at": "2026-10-28T15:03:54", "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "edit", "section": "projects", "id": "proj_shell_hte",
+      "data": { "github_url": "https://github.com/DEBANJAN-KAKATI/SHELL_platform" },
+      "base_updated_at": "2026-10-28T15:03:54", "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "edit", "section": "projects", "id": "proj_xai_retinopathy",
+      "data": { "github_url": "https://github.com/DEBANJAN-KAKATI/Explainable_AI_for_Diabetic_Retinopathy_Screening_in_Rural-India" },
+      "base_updated_at": "2026-10-28T15:03:54", "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "edit", "section": "projects", "id": "proj_ice_melting",
+      "data": { "github_url": "https://github.com/DEBANJAN-KAKATI/ice-melting-rate-prediction" },
+      "base_updated_at": "2026-10-28T15:03:54", "edited_at": "2026-10-28T16:30:00Z"
+    },
+    { "op": "delete", "section": "projects", "id": "proj_gh_shell_platform", "data": { "reason": "Template-only duplicate of proj_shell_hte (same repo)" }, "edited_at": "2026-10-28T16:30:00Z" },
+    { "op": "delete", "section": "projects", "id": "proj_gh_advanced_rag_system", "data": { "reason": "Template-only duplicate of proj_advanced_rag (same repo)" }, "edited_at": "2026-10-28T16:30:00Z" },
+    { "op": "delete", "section": "projects", "id": "proj_gh_developer_portfolios", "data": { "reason": "Fork of emmabostian/developer-portfolios, not original work" }, "edited_at": "2026-10-28T16:30:00Z" },
+    { "op": "delete", "section": "projects", "id": "proj_gh_quantitative_finance_portfolio", "data": { "reason": "Split into one entry per project (proj_qf_*)" }, "edited_at": "2026-10-28T16:30:00Z" },
+
+    {
+      "op": "add", "section": "projects", "id": "proj_qf_algo_trading",
+      "data": {
+        "title": "Algorithmic Trading & Technical Indicators", "context": "Quant Finance | Python",
+        "tags": ["quant", "finance"],
+        "github_url": "https://github.com/DEBANJAN-KAKATI/Quantitative-Finance-Portfolio/tree/main/Algorithmic_Trading",
+        "bullets": [
+          "Automated stock screener that pulls historical prices with <b>yfinance</b> and computes the indicators quants use for trading signals.",
+          "Calculates Garman-Klass volatility, <b>RSI</b>, Bollinger Bands, <b>ATR</b> and <b>MACD</b> for S&P 500 stocks."
+        ]
+      },
+      "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "add", "section": "projects", "id": "proj_qf_credit_risk",
+      "data": {
+        "title": "Credit Risk Modeling", "context": "Quant Finance | Machine Learning",
+        "tags": ["quant", "finance", "ai_ml"],
+        "github_url": "https://github.com/DEBANJAN-KAKATI/Quantitative-Finance-Portfolio/tree/main/Credit_Risk_Modeling",
+        "bullets": [
+          "End-to-end credit scoring pipeline that predicts loan defaults with <b>Gradient Boosting</b>.",
+          "Explains individual predictions with <b>SHAP</b> values and exports the trained model artifacts for reuse."
+        ]
+      },
+      "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "add", "section": "projects", "id": "proj_qf_ipo_success",
+      "data": {
+        "title": "IPO Success Prediction", "context": "Quant Finance | Classification",
+        "tags": ["quant", "finance", "ai_ml"],
+        "github_url": "https://github.com/DEBANJAN-KAKATI/Quantitative-Finance-Portfolio/tree/main/IPO_Success_Prediction",
+        "bullets": [
+          "Predicts whether an upcoming IPO will list strongly from issue duration, price band and days to listing.",
+          "Compares <b>Random Forest</b>, <b>Gradient Boosting</b>, <b>SVM</b> and logistic regression, and exports the model as a reusable predictor."
+        ]
+      },
+      "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "add", "section": "projects", "id": "proj_qf_portfolio_optimization",
+      "data": {
+        "title": "Portfolio Optimization (Modern Portfolio Theory)", "context": "Quant Finance | Optimization",
+        "tags": ["quant", "finance"],
+        "github_url": "https://github.com/DEBANJAN-KAKATI/Quantitative-Finance-Portfolio/tree/main/Portfolio_Optimization",
+        "bullets": [
+          "Optimizes asset weights across SPY, BND, GLD, QQQ and VTI to maximize the <b>Sharpe ratio</b>.",
+          "Solves the constrained allocation problem with <b>SciPy</b>'s SLSQP optimizer."
+        ]
+      },
+      "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "add", "section": "projects", "id": "proj_qf_bitcoin_wikipedia",
+      "data": {
+        "title": "Bitcoin Price Prediction from Wikipedia Sentiment", "context": "Quant Finance | Alternative Data",
+        "tags": ["quant", "finance", "ai_ml"],
+        "github_url": "https://github.com/DEBANJAN-KAKATI/Quantitative-Finance-Portfolio/tree/main/Bitcoin_Price_Prediction",
+        "bullets": [
+          "Tests whether edit activity and sentiment on Bitcoin's Wikipedia page act as a leading signal for its price.",
+          "Merges historical BTC prices with edit-comment sentiment scores to forecast price movements."
+        ]
+      },
+      "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "add", "section": "projects", "id": "proj_qf_news_sentiment",
+      "data": {
+        "title": "Financial News Sentiment Analysis", "context": "Quant Finance | NLP",
+        "tags": ["quant", "finance", "ai_ml"],
+        "github_url": "https://github.com/DEBANJAN-KAKATI/Quantitative-Finance-Portfolio/tree/main/Financial_Sentiment_Analysis",
+        "bullets": [
+          "NLP pipeline that scrapes Google News RSS headlines and turns them into a quantified market mood.",
+          "Scores headlines with <b>VADER</b> and <b>FinBERT</b> to relate news sentiment to stock and gold prices."
+        ]
+      },
+      "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "add", "section": "projects", "id": "proj_qf_lstm_forecasting",
+      "data": {
+        "title": "Stock Price Forecasting with LSTMs", "context": "Quant Finance | Deep Learning",
+        "tags": ["quant", "finance", "ai_ml"],
+        "github_url": "https://github.com/DEBANJAN-KAKATI/Quantitative-Finance-Portfolio/tree/main/Stock_Price_Forecasting_LSTMs",
+        "bullets": [
+          "Forecasts stock prices from historical time series with <b>LSTM</b> networks built in <b>TensorFlow</b>/Keras.",
+          "Targets the noisy, non-linear patterns that classical models like ARIMA struggle to capture."
+        ]
+      },
+      "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "add", "section": "projects", "id": "proj_qf_var_monte_carlo",
+      "data": {
+        "title": "Value at Risk via Monte Carlo Simulation", "context": "Quant Finance | Risk",
+        "tags": ["quant", "finance"],
+        "github_url": "https://github.com/DEBANJAN-KAKATI/Quantitative-Finance-Portfolio/tree/main/Value_at_Risk_Monte_Carlo",
+        "bullets": [
+          "Estimates portfolio <b>Value at Risk</b> by <b>Monte Carlo</b> simulation of returns on market data from yfinance.",
+          "Reports the worst expected loss over a horizon at chosen confidence levels such as 95% and 99%."
+        ]
+      },
+      "edited_at": "2026-10-28T16:30:00Z"
+    },
+
+    {
+      "op": "add", "section": "projects", "id": "proj_local_livesubs",
+      "data": {
+        "title": "LiveSubs — Live Subtitles & Translation", "context": "Chrome Extension + Windows App",
+        "tags": ["ai_ml", "full_stack", "product"], "repo_hint": "LiveSubs",
+        "bullets": [
+          "Live subtitles for any audio: a Chrome extension for browser tabs and an <b>Electron</b> Windows app that captures everything playing on the PC.",
+          "Speech-to-text with <b>Whisper</b> large-v3 plus context-aware AI translation into any language, with dual subtitles.",
+          "Cuts audio at pauses, passes earlier sentences as context, filters hallucinations and exports timestamped .srt transcripts."
+        ]
+      },
+      "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "add", "section": "projects", "id": "proj_local_voicecue_dj",
+      "data": {
+        "title": "VoiceCue DJ Studio", "context": "Audio AI Web App",
+        "tags": ["ai_ml", "full_stack"], "repo_hint": "VoiceCue-DJ-Studio",
+        "bullets": [
+          "Extended the VoiceCue app with musical instrument identification across 8 families using a spectral classifier on the <b>Web Audio API</b>.",
+          "Added a DJ deck (hot cues, sweep filter, stem EQ kills, beat looper) and a 64-band FFT visualizer in <b>React</b>.",
+          "Transcript NLP with AFINN sentiment and named-entity recognition, plus cue-sheet export for Rekordbox, Traktor and Serato."
+        ]
+      },
+      "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "add", "section": "projects", "id": "proj_local_face_age",
+      "data": {
+        "title": "Live Face Age Range Estimator", "context": "Computer Vision Demo",
+        "tags": ["ai_ml"], "repo_hint": "face-age-camera",
+        "bullets": [
+          "Real-time webcam demo in <b>Python</b> and <b>OpenCV</b> that detects faces and predicts one of eight broad age ranges.",
+          "Runs a pretrained Caffe age classifier through OpenCV's DNN module, downloading the model files on first run."
+        ]
+      },
+      "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "add", "section": "projects", "id": "proj_local_algae_classifier",
+      "data": {
+        "title": "Algae Stress Classifier", "context": "Computer Vision · Bioprocess Monitoring",
+        "tags": ["chemical", "ai_ml"], "repo_hint": "algae-stress-classifier",
+        "bullets": [
+          "Classifies microalgae images as healthy or stressed from resized pixels, colour histograms and texture statistics extracted with <b>OpenCV</b>.",
+          "Benchmarks <b>Random Forest</b>, Gradient Boosting, <b>XGBoost</b>, SVM and logistic regression against a <b>CNN</b>, tuned with grid search and stratified k-fold CV."
+        ]
+      },
+      "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "add", "section": "projects", "id": "proj_local_algae_analyzer",
+      "data": {
+        "title": "Algae Image Analyzer (RGB & Optical Density)", "context": "Desktop Research Tool",
+        "tags": ["chemical"], "repo_hint": "algae-image-analyzer",
+        "bullets": [
+          "Desktop tool for algae life-cycle research: drag to select a region of a photo and get its RGB statistics and optical density.",
+          "Computes channel-specific optical density for red, green and blue, and exports results for analysis; built with <b>Python</b> and Tkinter."
+        ]
+      },
+      "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "add", "section": "projects", "id": "proj_local_voice_sales_agent",
+      "data": {
+        "title": "Voice AI Sales Agent", "context": "LiveKit Agents",
+        "tags": ["ai_ml"], "repo_hint": "voice-sales-agent",
+        "bullets": [
+          "Real-time voice sales agent built on <b>LiveKit Agents</b> that answers customer questions from a product catalogue.",
+          "Voice pipeline with Cartesia speech, Silero voice-activity detection and <b>Llama 3.3 70B</b> served through Cerebras."
+        ]
+      },
+      "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "add", "section": "projects", "id": "proj_local_indoml",
+      "data": {
+        "title": "IndoML — Tutor Response Classification", "context": "NLP · MRBench v3",
+        "tags": ["ai_ml"], "repo_hint": "indoml-tutor-response-classification",
+        "bullets": [
+          "Classifies tutor responses from the MRBench v3 dataset, starting with a <b>TF-IDF</b> + logistic-regression baseline and error analysis.",
+          "Fine-tunes <b>BERT</b> (bert-base-uncased) with <b>PyTorch</b> and Hugging Face Transformers."
+        ]
+      },
+      "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "add", "section": "projects", "id": "proj_local_meesho",
+      "data": {
+        "title": "Meesho Data Science Competition", "context": "Team entry with Anurav Satyaraj · BITS Pilani Goa",
+        "tags": ["ai_ml"], "repo_hint": "meesho-data-science-competition",
+        "bullets": [
+          "Competition entry built with teammate Anurav Satyaraj, prototyping on a representative subset of the data to manage compute.",
+          "Random Forest baseline followed by a <b>CNN</b> image model in <b>TensorFlow</b>."
+        ]
+      },
+      "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "add", "section": "projects", "id": "proj_local_robot_vision",
+      "data": {
+        "title": "Object Detection for Robotics Vision", "context": "Robotics · Deep Learning",
+        "tags": ["ai_ml"], "repo_hint": "robotics-vision-cnn",
+        "bullets": [
+          "<b>CNN</b> image classifier on CIFAR-10 as the vision module for a robot, built with <b>TensorFlow</b>/Keras.",
+          "Tracks parameters and metrics with <b>Neptune</b> experiment logging.",
+          "Companion simulation of a line-following, obstacle-avoiding robot."
+        ]
+      },
+      "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "add", "section": "projects", "id": "proj_local_satellite_land",
+      "data": {
+        "title": "Satellite Multispectral Land Analysis", "context": "Indian Space Academy · Remote Sensing",
+        "tags": ["ai_ml"], "repo_hint": "satellite-land-analysis",
+        "bullets": [
+          "Processes large multiband satellite GeoTIFFs window by window with <b>rasterio</b> and computes <b>NDVI</b> from red and NIR bands.",
+          "Clusters land cover with <b>K-Means</b> and classifies it with a Random Forest."
+        ]
+      },
+      "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "add", "section": "projects", "id": "proj_local_sms_spam",
+      "data": {
+        "title": "SMS Spam Classifier", "context": "NLP · Streamlit App",
+        "tags": ["ai_ml"], "repo_hint": "sms-spam-classifier",
+        "bullets": [
+          "Detects spam SMS with <b>NLTK</b> preprocessing (stop-word removal, Porter stemming) and <b>TF-IDF</b> features on an imbalanced dataset.",
+          "Compared Naive Bayes variants, SVM, KNN, decision trees, Random Forest, AdaBoost, Gradient Boosting and <b>XGBoost</b>.",
+          "Serves the trained model and vectorizer through a <b>Streamlit</b> web app."
+        ]
+      },
+      "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "add", "section": "projects", "id": "proj_local_csgo",
+      "data": {
+        "title": "CS:GO Round Winner Prediction", "context": "Supervised Learning",
+        "tags": ["ai_ml"], "repo_hint": "csgo-round-winner-prediction",
+        "bullets": [
+          "Predicts which team wins a Counter-Strike: GO round from in-game round snapshots.",
+          "Feature analysis and model comparison with <b>PyCaret</b>, logistic regression, decision trees and <b>Random Forest</b>."
+        ]
+      },
+      "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "add", "section": "projects", "id": "proj_local_customer_churn",
+      "data": {
+        "title": "Customer Churn Prediction", "context": "Supervised Learning",
+        "tags": ["ai_ml"], "repo_hint": "customer-churn-prediction",
+        "bullets": ["Predicts which customers will churn using logistic regression, decision trees and <b>Random Forest</b> in <b>scikit-learn</b>."]
+      },
+      "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "add", "section": "projects", "id": "proj_local_census_income",
+      "data": {
+        "title": "Census Income Classification", "context": "Supervised Learning",
+        "tags": ["ai_ml"], "repo_hint": "census-income-classification",
+        "bullets": [
+          "Binary classification of income bracket from census records after data cleaning and EDA.",
+          "Compares logistic regression, decision tree and <b>Random Forest</b> models."
+        ]
+      },
+      "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "add", "section": "projects", "id": "proj_local_flight_price",
+      "data": {
+        "title": "Flight Price Prediction", "context": "Regression",
+        "tags": ["ai_ml"], "repo_hint": "flight-price-prediction",
+        "bullets": [
+          "Predicts flight booking prices with linear regression, decision tree and <b>Random Forest</b> regressors.",
+          "Feature selection guided by correlation analysis and <b>statsmodels</b>."
+        ]
+      },
+      "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "add", "section": "projects", "id": "proj_local_movie_recommender",
+      "data": {
+        "title": "Movie Recommendation System", "context": "Content-Based Recommender",
+        "tags": ["ai_ml"], "repo_hint": "movie-recommendation-system",
+        "bullets": ["Content-based movie recommender built from the TMDB 5000 movies and credits metadata with <b>Pandas</b>."]
+      },
+      "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "add", "section": "projects", "id": "proj_local_netflix_svd",
+      "data": {
+        "title": "Netflix Prize Recommendation Engine", "context": "Collaborative Filtering",
+        "tags": ["ai_ml"], "repo_hint": "netflix-recommendation-engine",
+        "bullets": ["Collaborative-filtering recommender on the Netflix Prize ratings data using <b>SVD</b> from the Surprise library."]
+      },
+      "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "add", "section": "projects", "id": "proj_local_walmart_forecast",
+      "data": {
+        "title": "Walmart Sales Forecasting", "context": "Time Series",
+        "tags": ["ai_ml", "finance"], "repo_hint": "walmart-sales-forecasting",
+        "bullets": ["Forecasts Walmart sales with <b>SARIMAX</b> time-series models in <b>statsmodels</b>."]
+      },
+      "edited_at": "2026-10-28T16:30:00Z"
+    },
+    {
+      "op": "add", "section": "projects", "id": "proj_local_potato_price",
+      "data": {
+        "title": "Potato Price Forecasting (India)", "context": "Regression",
+        "tags": ["ai_ml", "finance"], "repo_hint": "potato-price-forecasting",
+        "bullets": ["Models Indian potato prices from 1997–2015 with <b>Random Forest</b> and Gradient Boosting regressors after exploratory visualisation."]
+      },
+      "edited_at": "2026-10-28T16:30:00Z"
+    }
+  ]
+}

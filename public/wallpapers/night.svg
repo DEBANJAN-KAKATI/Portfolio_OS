@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+<defs>
+<radialGradient id="bg" cx="50%" cy="55%" r="75%"><stop offset="0" stop-color="#18264a"/><stop offset="1" stop-color="#05070f"/></radialGradient>
+<linearGradient id="p" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4f7dff"/><stop offset="1" stop-color="#1b2a7a"/></linearGradient>
+<filter id="b"><feGaussianBlur stdDeviation="40"/></filter>
+</defs>
+<rect width="1920" height="1080" fill="url(#bg)"/>
+<circle cx="960" cy="600" r="320" fill="#3355ff" opacity=".35" filter="url(#b)"/>
+<g transform="translate(960 600)" fill="url(#p)">
+<ellipse rx="110" ry="300" transform="rotate(0) translate(0 -150)" opacity="0.42"/>
+<ellipse rx="110" ry="300" transform="rotate(45) translate(0 -150)" opacity="0.54"/>
+<ellipse rx="110" ry="300" transform="rotate(90) translate(0 -150)" opacity="0.6599999999999999"/>
+<ellipse rx="110" ry="300" transform="rotate(135) translate(0 -150)" opacity="0.42"/>
+<ellipse rx="110" ry="300" transform="rotate(180) translate(0 -150)" opacity="0.54"/>
+<ellipse rx="110" ry="300" transform="rotate(225) translate(0 -150)" opacity="0.6599999999999999"/>
+<ellipse rx="110" ry="300" transform="rotate(270) translate(0 -150)" opacity="0.42"/>
+<ellipse rx="110" ry="300" transform="rotate(315) translate(0 -150)" opacity="0.54"/>
+</g>
+</svg>

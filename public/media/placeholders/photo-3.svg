@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2c2a35"/><stop offset="1" stop-color="#4b4658"/></linearGradient></defs>
+<rect width="1200" height="800" fill="url(#g)"/><rect x="300" y="200" width="600" height="340" rx="16" fill="#111"/><rect x="320" y="220" width="560" height="300" fill="#3a7bd5"/><rect x="560" y="540" width="80" height="80" fill="#222"/><rect x="200" y="620" width="800" height="24" rx="8" fill="#6b5a45"/>
+<text x="40" y="760" font-family="Segoe UI, Arial, sans-serif" font-size="34" fill="#fff" opacity=".85">Placeholder · Desk setup</text>
+</svg>

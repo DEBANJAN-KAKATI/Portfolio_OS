@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#87b7e8"/><stop offset="1" stop-color="#e9f2fb"/></linearGradient></defs>
+<rect width="1200" height="800" fill="url(#g)"/><path d="M0 640 L300 300 L520 560 L760 240 L1200 640 L1200 800 L0 800Z" fill="#3b5b7a"/><path d="M760 240 L840 340 L700 330Z" fill="#fff"/>
+<text x="40" y="760" font-family="Segoe UI, Arial, sans-serif" font-size="34" fill="#fff" opacity=".85">Placeholder · Mountains</text>
+</svg>

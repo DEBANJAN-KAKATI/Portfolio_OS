@@ -1,0 +1,37 @@
+# Dependencies and build output
+node_modules/
+dist/
+.vercel/
+coverage/
+
+# Secrets: only the template is committed
+.env
+.env.*
+!.env.example
+
+# Editor, OS and tool files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+.claude/
+*.log
+npm-debug.log*
+
+# Personal planning notes (kept locally, not published)
+planning/
+
+# Dev Mode uploads waiting to be published (local mode)
+.devmode-staging/
+
+# Written by scripts/sync.mjs for the pull request body
+.sync-summary.md
+
+# Personal checklist with local paths
+LOCAL_PROJECTS.md
+
+# Never commit the full jstMyRB vault; only data/vault.public.json (the allow-listed export)
+data/profile_store.json
+data/resume_agent.db
+data/settings.json

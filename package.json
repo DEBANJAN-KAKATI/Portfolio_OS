@@ -1,0 +1,54 @@
+{
+  "name": "debanjan-os-portfolio",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "An interactive Windows 11-style desktop OS portfolio, built with React, Vite and Three.js and synced from the jstMyRB career vault and GitHub.",
+  "author": "Debanjan Kakati (https://github.com/DEBANJAN-KAKATI)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DEBANJAN-KAKATI/portfolio.git"
+  },
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run validate && vite build",
+    "preview": "vite preview",
+    "build:data": "node scripts/build-data.mjs",
+    "sync": "node scripts/sync.mjs",
+    "import-vault": "node scripts/import-vault.mjs",
+    "validate": "node scripts/validate-data.mjs",
+    "test": "node --test \"tests/**/*.test.mjs\"",
+    "hash-password": "node scripts/hash-password.mjs"
+  },
+  "overrides": {
+    "@vercel/cli-config": {
+      "zod": "$zod"
+    }
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
+    "@vercel/blob": "^2.8.2",
+    "dompurify": "^3.4.17",
+    "framer-motion": "^14.7.1",
+    "lucide-react": "^1.63.0",
+    "marked": "^18.1.2",
+    "pdfjs-dist": "^6.4.299",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "simple-icons": "^16.36.0",
+    "three": "^0.186.1",
+    "zod": "^4.6.7",
+    "zustand": "^5.0.16"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.2",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.5"
+  }
+}

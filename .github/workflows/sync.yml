@@ -1,0 +1,77 @@
+# Pulls GitHub data, merges it with the published jstMyRB vault and Dev Mode inbox,
+# and proposes the result as a pull request (reviewMode "pr") or commits it ("auto").
+# Merging to main deploys the site (Vercel/Netlify Git integration).
+name: sync
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - data/vault.public.json # jstMyRB "Publish to Portfolio"
+      - data/vault.inbox.json # Dev Mode edits
+      - portfolio.config.js
+  schedule:
+    - cron: '17 3 * * *' # daily, 03:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Unit tests
+        run: npm test
+
+      - name: Sync GitHub + vault
+        id: sync
+        run: node scripts/sync.mjs
+        env:
+          # The built-in token is enough for public data, GraphQL included.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Validate data
+        if: steps.sync.outputs.changed == 'true'
+        run: npm run validate
+
+      - name: Open pull request
+        if: steps.sync.outputs.changed == 'true' && steps.sync.outputs.review_mode == 'pr'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: sync/auto
+          delete-branch: true
+          commit-message: ${{ steps.sync.outputs.title }}
+          title: ${{ steps.sync.outputs.title }}
+          body-path: .sync-summary.md
+          labels: sync
+          add-paths: |
+            data/github.snapshot.json
+            src/data/generated/portfolio.json
+            src/data/generated/changelog.json
+
+      - name: Commit directly
+        if: steps.sync.outputs.changed == 'true' && steps.sync.outputs.review_mode == 'auto'
+        env:
+          TITLE: ${{ steps.sync.outputs.title }}
+        run: |
+          git config user.name "portfolio-sync[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/github.snapshot.json src/data/generated/portfolio.json src/data/generated/changelog.json
+          git commit -m "$TITLE"
+          git push

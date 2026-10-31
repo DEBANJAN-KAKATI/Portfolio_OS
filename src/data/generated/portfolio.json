@@ -1,0 +1,3149 @@
+{
+  "meta": {
+    "generatedAt": "2026-10-28T18:07:37.985Z",
+    "sample": false,
+    "sources": {
+      "vault": {
+        "status": "ok",
+        "at": "2026-10-28T15:13:26.815Z",
+        "message": null
+      },
+      "github": {
+        "status": "ok",
+        "at": "2026-10-28T16:45:33.770Z",
+        "message": null
+      },
+      "linkedin": {
+        "status": "never",
+        "at": null,
+        "message": "Imported through the jstMyRB vault"
+      }
+    }
+  },
+  "profile": {
+    "name": "DEBANJAN KAKATI",
+    "email": null,
+    "location": "Goa, India",
+    "linkedin": "https://www.linkedin.com/in/debanjan-kakati-5517891b7/",
+    "github": "https://github.com/DEBANJAN-KAKATI",
+    "avatar": "https://avatars.githubusercontent.com/u/143798457?v=4"
+  },
+  "education": [
+    {
+      "id": "edu_birla_institute_of_technology_and_science_pilani_goa_campus",
+      "institution": "Birla Institute of Technology and Science, Pilani – Goa Campus",
+      "degree": "B.E. Chemical (Hons.) | Minor: Finance",
+      "duration": "Aug 2023 – Jul 2027",
+      "gpa": null,
+      "location": "Goa, India",
+      "startDate": "2023-08",
+      "endDate": "2027-07",
+      "status": "published",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    }
+  ],
+  "coursework": [
+    {
+      "category": "quantitative",
+      "label": "Quantitative",
+      "courses": [
+        "Probability & Stochastic Processes",
+        "Statistical Methods",
+        "Computation Methods for Economics",
+        "Machine Learning / AI",
+        "Data Analytics",
+        "Big Data Analysis"
+      ]
+    },
+    {
+      "category": "finance",
+      "label": "Finance",
+      "courses": [
+        "Derivatives & Risk Management",
+        "Financial Risk Analysis & Management",
+        "Security Analysis & Portfolio Management",
+        "Business Analysis & Valuation",
+        "Financial Management",
+        "Fundamentals of Finance & Accounting"
+      ]
+    },
+    {
+      "category": "computing_ai",
+      "label": "Computing & AI",
+      "courses": [
+        "Deep Learning & Generative AI",
+        "Natural Language Processing",
+        "Computer Vision",
+        "Data Structures & Algorithms",
+        "High-Performance Computing",
+        "Retrieval-Augmented Generation (RAG)"
+      ]
+    },
+    {
+      "category": "chemical_process",
+      "label": "Chemical Process",
+      "courses": [
+        "Plant Design & Economics",
+        "Chemical Reaction Engineering",
+        "Mass & Heat Transfer Operations",
+        "Thermodynamics",
+        "Process Dynamics & Control",
+        "Catalysis & High-Throughput Experimentation"
+      ]
+    },
+    {
+      "category": "business_operations",
+      "label": "Business Operations",
+      "courses": [
+        "Logistic Chain Introduction",
+        "Corporate Finance",
+        "Operations Management",
+        "Product Management",
+        "Industry 4.0",
+        "Venture Capital & Entrepreneurship"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "programming",
+      "label": "Programming",
+      "skills": [
+        {
+          "name": "Python (NumPy, Pandas, Scikit-learn, TensorFlow, PyTorch, Matplotlib, Seaborn, OpenCV)",
+          "usage": 100,
+          "usageSource": "github",
+          "bytes": 1140104,
+          "repos": 7
+        },
+        {
+          "name": "C++",
+          "usage": 64,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "C",
+          "usage": 58,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "Java",
+          "usage": 5,
+          "usageSource": "github",
+          "bytes": 2593,
+          "repos": 2
+        },
+        {
+          "name": "SQL",
+          "usage": 46,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "JavaScript/TypeScript",
+          "usage": 100,
+          "usageSource": "github",
+          "bytes": 1432130,
+          "repos": 8
+        },
+        {
+          "name": "MATLAB/Simulink",
+          "usage": 44,
+          "usageSource": "github",
+          "bytes": 220662,
+          "repos": 1
+        },
+        {
+          "name": "Rust",
+          "usage": 28,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        }
+      ]
+    },
+    {
+      "category": "frameworks_web",
+      "label": "Frameworks & Web",
+      "skills": [
+        {
+          "name": "FastAPI",
+          "usage": 70,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "React",
+          "usage": 64,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "Node.js",
+          "usage": 58,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "Electron",
+          "usage": 52,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "HTML5/CSS3",
+          "usage": 98,
+          "usageSource": "github",
+          "bytes": 1092031,
+          "repos": 8
+        },
+        {
+          "name": "RESTful APIs",
+          "usage": 40,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "LangGraph",
+          "usage": 34,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "LangChain",
+          "usage": 28,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        }
+      ]
+    },
+    {
+      "category": "quant_methods",
+      "label": "Quant Methods",
+      "skills": [
+        {
+          "name": "Time-Series Econometrics (AR-GARCH)",
+          "usage": 70,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "Transfer Entropy Spillover Networks",
+          "usage": 64,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "Quantile Regression",
+          "usage": 58,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "Monte Carlo Simulation",
+          "usage": 52,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "CVaR / Portfolio Risk Optimization",
+          "usage": 46,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "CAPM / WACC Modeling",
+          "usage": 40,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "DCF / 3-Statement Valuation",
+          "usage": 34,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        }
+      ]
+    },
+    {
+      "category": "ai_ml",
+      "label": "AI / ML",
+      "skills": [
+        {
+          "name": "Transformer Architectures",
+          "usage": 70,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "Large Language Models (LLMs)",
+          "usage": 64,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "RAG Systems (FAISS / Vector DBs)",
+          "usage": 58,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "Convolutional Neural Networks (CNNs)",
+          "usage": 52,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "Graph Neural Networks (GNNs)",
+          "usage": 46,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "Grad-CAM / Explainable AI (XAI)",
+          "usage": 40,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "Time-Series Forecasting (LSTM, ARIMA)",
+          "usage": 34,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        }
+      ]
+    },
+    {
+      "category": "data_systems",
+      "label": "Data Systems",
+      "skills": [
+        {
+          "name": "MySQL",
+          "usage": 70,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "PostgreSQL",
+          "usage": 64,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "Apache Spark",
+          "usage": 58,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "BigQuery",
+          "usage": 52,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "Docker",
+          "usage": 46,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "Azure",
+          "usage": 40,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "AWS",
+          "usage": 34,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "Git/GitHub",
+          "usage": 28,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "MLflow",
+          "usage": 22,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "Power BI",
+          "usage": 20,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "Advanced Excel",
+          "usage": 20,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "SCADA / Industrial IoT",
+          "usage": 20,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        }
+      ]
+    },
+    {
+      "category": "chemical_engineering",
+      "label": "Chemical Engineering",
+      "skills": [
+        {
+          "name": "High-Throughput Experimentation (HTE)",
+          "usage": 70,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "Catalytic Reactor Operations",
+          "usage": 64,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "Online Gas Chromatography (GC)",
+          "usage": 58,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "Detailed Hydrocarbon Analysis (DHA)",
+          "usage": 52,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "Mass & Energy Balance Closure",
+          "usage": 46,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "Aspen Plus",
+          "usage": 40,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "ANSYS FEA",
+          "usage": 34,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        },
+        {
+          "name": "SolidWorks",
+          "usage": 28,
+          "usageSource": "vault",
+          "bytes": null,
+          "repos": 0
+        }
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "id": "exp_shell",
+      "role": "Digitalization Intern — Innovation & Learning Solutions (ILS)",
+      "company": "Shell Technology Centre (PTIN)",
+      "duration": "May 2026 – Jul 2026",
+      "location": "Bengaluru, India",
+      "tags": [
+        "chemical",
+        "full_stack",
+        "ai_ml",
+        "product"
+      ],
+      "bullets": {
+        "1": [
+          "Architected an end-to-end digital transformation platform for an 8-parallel-reactor High-Throughput Experimentation (HTE) catalyst testing unit, reducing campaign data assembly time from ~10 days to real-time."
+        ],
+        "2": [
+          "Architected an end-to-end digital transformation platform for an 8-parallel-reactor High-Throughput Experimentation (HTE) catalyst testing unit, reducing campaign data assembly time from ~10 days to real-time.",
+          "Built automated data pipelines ingesting online Gas Chromatography (GC) analysis and SCADA telemetry, engineering mass balance closure engines (GC mol% to mass, density, and flow rates)."
+        ],
+        "3": [
+          "Architected an end-to-end digital transformation platform for an 8-parallel-reactor High-Throughput Experimentation (HTE) catalyst testing unit, reducing campaign data assembly time from ~10 days to real-time.",
+          "Built automated data pipelines ingesting online Gas Chromatography (GC) analysis and SCADA telemetry, engineering mass balance closure engines (GC mol% to mass, density, and flow rates).",
+          "Developed the DHA Octane Data Merger &amp; Extraction Platform batch-processing raw analyser reports, automating RON/MON extraction and C1–C15 carbon number matrix breakdown across 8 reactors."
+        ]
+      },
+      "tech": [],
+      "thumbnail": null,
+      "startDate": "2026-05",
+      "endDate": "2026-07",
+      "status": "published",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "exp_intellipaat",
+      "role": "Business & Operations Growth Associate",
+      "company": "INTELLIPAAT",
+      "duration": "Aug 2025 – Present",
+      "location": "Remote",
+      "tags": [
+        "ai_ml",
+        "product",
+        "full_stack",
+        "quant"
+      ],
+      "bullets": {
+        "1": [
+          "Led development of 3 AI-driven operational analytics systems (multi-modal decision platform, traffic optimization model, HR automation tool), boosting process efficiency 30–45% and slashing manual workload 50%+."
+        ],
+        "2": [
+          "Led development of 3 AI-driven operational analytics systems (multi-modal decision platform, traffic optimization model, HR automation tool), boosting process efficiency 30–45% and slashing manual workload 50%+.",
+          "Engineered full end-to-end dataflow pipelines (data ingestion → model inference → interactive dashboard), outperforming peer benchmarks by ~35% on predictive accuracy and real-time execution speed."
+        ],
+        "3": [
+          "Led development of 3 AI-driven operational analytics systems (multi-modal decision platform, traffic optimization model, HR automation tool), boosting process efficiency 30–45% and slashing manual workload 50%+.",
+          "Engineered full end-to-end dataflow pipelines (data ingestion → model inference → interactive dashboard), outperforming peer benchmarks by ~35% on predictive accuracy and real-time execution speed.",
+          "Built multi-agent generative AI workflows using LangGraph and Python to automate candidate screening, performance scoring, and cross-department resource optimization."
+        ]
+      },
+      "tech": [],
+      "thumbnail": null,
+      "startDate": "2025-08",
+      "endDate": null,
+      "status": "published",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "exp_pieds",
+      "role": "Business Analytics & Industry 4.0 Intern",
+      "company": "PIEDS – BITS Pilani (Govt. of India Society)",
+      "duration": "May 2025 – Jul 2025",
+      "location": "Remote",
+      "tags": [
+        "product",
+        "finance"
+      ],
+      "bullets": {
+        "1": [
+          "Evaluated 50+ early-stage startups on commercial viability, market sizing, unit economics, and growth defensibility to drive strategic incubation and EIR investment decisions."
+        ],
+        "2": [
+          "Evaluated 50+ early-stage startups on commercial viability, market sizing, unit economics, and growth defensibility to drive strategic incubation and EIR investment decisions.",
+          "Facilitated high-stakes outreach to 20+ institutional venture capital funds, securing active funding conversations and expanding the incubator&#39;s curated investor network to 50+ mentors."
+        ],
+        "3": [
+          "Evaluated 50+ early-stage startups on commercial viability, market sizing, unit economics, and growth defensibility to drive strategic incubation and EIR investment decisions.",
+          "Facilitated high-stakes outreach to 20+ institutional venture capital funds, securing active funding conversations and expanding the incubator&#39;s curated investor network to 50+ mentors.",
+          "Conducted quantitative benchmark analysis across sector cohorts, defining KPI scorecards for milestone tracking, burn management, and Series Seed/A pipeline readiness."
+        ]
+      },
+      "tech": [],
+      "thumbnail": null,
+      "startDate": "2025-05",
+      "endDate": "2025-07",
+      "status": "published",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_shell_hte",
+      "title": "HTE Catalyst Testing Digital Transformation Platform (DGD-2026)",
+      "context": "Shell Technology Centre | Innovation & Learning Solutions",
+      "description": "ILS",
+      "tags": [
+        "chemical",
+        "full_stack",
+        "ai_ml",
+        "product"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Engineered an integrated 5-step guided web platform (Run Plan → Reactor Logs → DHA Import → Online DHA Table → Master Plots) for an 8-reactor parallel catalyst testing skid."
+        ],
+        "2": [
+          "Engineered an integrated 5-step guided web platform (Run Plan → Reactor Logs → DHA Import → Online DHA Table → Master Plots) for an 8-reactor parallel catalyst testing skid.",
+          "Automated batch processing of raw Detailed Hydrocarbon Analysis (DHA) GC reports, calculating RON, MON, TOS, and C1–C15 paraffin/aromatic family distributions."
+        ],
+        "3": [
+          "Engineered an integrated 5-step guided web platform (Run Plan → Reactor Logs → DHA Import → Online DHA Table → Master Plots) for an 8-reactor parallel catalyst testing skid.",
+          "Automated batch processing of raw Detailed Hydrocarbon Analysis (DHA) GC reports, calculating RON, MON, TOS, and C1–C15 paraffin/aromatic family distributions.",
+          "Automated elemental mass balance calculations and condition-based time-series segmentation, exporting 20-tab governed workbooks and reducing manual analysis turnaround by &gt;90%."
+        ]
+      },
+      "tech": [
+        "HTML",
+        "JavaScript",
+        "Python",
+        "CSS"
+      ],
+      "github": {
+        "url": "https://github.com/DEBANJAN-KAKATI/SHELL_platform",
+        "fullName": "DEBANJAN-KAKATI/SHELL_platform",
+        "stars": 0,
+        "forks": 0,
+        "languages": {
+          "HTML": 1540273,
+          "JavaScript": 413251,
+          "Python": 219530,
+          "CSS": 33747,
+          "Batchfile": 5515,
+          "PowerShell": 733
+        },
+        "primaryLanguage": "HTML",
+        "topics": [],
+        "homepage": null,
+        "pushedAt": "2026-10-28T10:02:23Z",
+        "readmeExcerpt": "In Reforming mode, Offline Analysis reads the reforming DHA (.XLS) folder: Table-1 is CARBONTABULAR(%WGT) with the Unknown row split by Carbon#, Table-2 lists every unknown COMPONENTLIST row with its assigned Carbon# and the reason, and Table-3 holds RON, Molecular Weight, Carbon, Hydrogen and Specific Gravity. Unknown Carbon#: - rows that carry a Carbon# (C8 Unknowns, C7-Unknowns, ...) keep…",
+        "socialImage": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/SHELL_platform",
+        "pinned": false
+      },
+      "plannedRepo": null,
+      "thumbnail": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/SHELL_platform",
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": "2026-10-28T10:02:23Z",
+      "isNew": false,
+      "status": "pending",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_advanced_rag",
+      "title": "Advanced Local RAG Knowledge Engine",
+      "context": "Production System | GitHub: advanced-rag-system",
+      "description": "An advanced, locally-hosted Retrieval-Augmented Generation (RAG) system built with FastAPI and Gemini. Features multi-format document ingestion, rate-limit handling, offline fallbacks, and a modern web UI.",
+      "tags": [
+        "ai_ml",
+        "full_stack"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Engineered an enterprise-grade, locally hosted Retrieval-Augmented Generation (RAG) platform pairing FastAPI backend with modern React interface, supporting multi-format document ingestion (PDF, DOCX, TXT, MD)."
+        ],
+        "2": [
+          "Engineered an enterprise-grade, locally hosted Retrieval-Augmented Generation (RAG) platform pairing FastAPI backend with modern React interface, supporting multi-format document ingestion (PDF, DOCX, TXT, MD).",
+          "Implemented hybrid retrieval fusing dense semantic vector search (FAISS / HuggingFace embeddings) and BM25 sparse keyword ranking with cross-encoder re-ranking for pinpoint accuracy."
+        ],
+        "3": [
+          "Engineered an enterprise-grade, locally hosted Retrieval-Augmented Generation (RAG) platform pairing FastAPI backend with modern React interface, supporting multi-format document ingestion (PDF, DOCX, TXT, MD).",
+          "Implemented hybrid retrieval fusing dense semantic vector search (FAISS / HuggingFace embeddings) and BM25 sparse keyword ranking with cross-encoder re-ranking for pinpoint accuracy.",
+          "Built resilient rate-limit governors, exponential backoff pipelines, and offline fallbacks guaranteeing 99.9% query uptime under heavy token loads."
+        ]
+      },
+      "tech": [
+        "Python",
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "github": {
+        "url": "https://github.com/DEBANJAN-KAKATI/advanced-rag-system",
+        "fullName": "DEBANJAN-KAKATI/advanced-rag-system",
+        "stars": 1,
+        "forks": 0,
+        "languages": {
+          "Python": 236756,
+          "JavaScript": 19242,
+          "CSS": 15989,
+          "HTML": 5320
+        },
+        "primaryLanguage": "Python",
+        "topics": [],
+        "homepage": null,
+        "pushedAt": "2026-10-27T12:05:52Z",
+        "readmeExcerpt": "Chat with your documents. Get grounded answers with clickable citations.",
+        "socialImage": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/advanced-rag-system",
+        "pinned": false
+      },
+      "plannedRepo": null,
+      "thumbnail": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/advanced-rag-system",
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": "2026-10-27T12:05:52Z",
+      "isNew": false,
+      "status": "published",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_gh_qr_chat",
+      "title": "CipherDrop (QR-Chat)",
+      "context": "Offline Ephemeral Messaging | GitHub: QR-Chat",
+      "description": "Anonymous, self-destructing QR chat and fast file transfer over Wi-Fi, hotspot or Bluetooth.",
+      "tags": [
+        "full_stack",
+        "sde"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Anonymous, self-destructing chat rooms opened by scanning a personalised QR code, with fast file transfer over Wi-Fi, hotspot or Bluetooth — no internet needed."
+        ],
+        "2": [
+          "Anonymous, self-destructing chat rooms opened by scanning a personalised QR code, with fast file transfer over Wi-Fi, hotspot or Bluetooth — no internet needed.",
+          "Real-time messaging over <b>WebSockets</b> on a <b>FastAPI</b> server, with optional PIN-protected rooms."
+        ],
+        "3": [
+          "Anonymous, self-destructing chat rooms opened by scanning a personalised QR code, with fast file transfer over Wi-Fi, hotspot or Bluetooth — no internet needed.",
+          "Real-time messaging over <b>WebSockets</b> on a <b>FastAPI</b> server, with optional PIN-protected rooms.",
+          "Inspired by BitChat (offline encrypted chat) and Xender-for-PC (local file transfer)."
+        ]
+      },
+      "tech": [
+        "FastAPI",
+        "JavaScript",
+        "CSS",
+        "Python",
+        "HTML"
+      ],
+      "github": {
+        "url": "https://github.com/DEBANJAN-KAKATI/QR-Chat",
+        "fullName": "DEBANJAN-KAKATI/QR-Chat",
+        "stars": 1,
+        "forks": 0,
+        "languages": {
+          "JavaScript": 77221,
+          "CSS": 33859,
+          "Python": 27494,
+          "HTML": 26613,
+          "Batchfile": 635
+        },
+        "primaryLanguage": "JavaScript",
+        "topics": [],
+        "homepage": null,
+        "pushedAt": "2026-10-19T06:29:29Z",
+        "readmeExcerpt": "Anonymous, self-destructing QR chat and fast file transfer over Wi-Fi, hotspot or Bluetooth. Inspired by BitChat (offline, encrypted, ephemeral chat) and Xender-for-PC (fast local file transfer with no internet).",
+        "socialImage": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/QR-Chat",
+        "pinned": false
+      },
+      "plannedRepo": null,
+      "thumbnail": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/QR-Chat",
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": "2026-10-19T06:29:29Z",
+      "isNew": false,
+      "status": "pending",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_gh_furo___travelswipe",
+      "title": "Furo — TravelSwipe",
+      "context": "Travel Discovery App | GitHub: Furo---TravelSwipe",
+      "description": "Swipe your next trip. Fast discovery, smart day itineraries, and offline maps.",
+      "tags": [
+        "full_stack"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Swipe-based travel discovery app: find places fast, build smart day itineraries and explore with offline maps."
+        ],
+        "2": [
+          "Swipe-based travel discovery app: find places fast, build smart day itineraries and explore with offline maps.",
+          "Built with <b>Vite</b> and <b>Leaflet</b> maps, packaged as a native Android APK with <b>Capacitor</b>."
+        ],
+        "3": [
+          "Swipe-based travel discovery app: find places fast, build smart day itineraries and explore with offline maps.",
+          "Built with <b>Vite</b> and <b>Leaflet</b> maps, packaged as a native Android APK with <b>Capacitor</b>."
+        ]
+      },
+      "tech": [
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "Java"
+      ],
+      "github": {
+        "url": "https://github.com/DEBANJAN-KAKATI/Furo---TravelSwipe",
+        "fullName": "DEBANJAN-KAKATI/Furo---TravelSwipe",
+        "stars": 1,
+        "forks": 0,
+        "languages": {
+          "JavaScript": 334656,
+          "CSS": 66726,
+          "HTML": 23619,
+          "Java": 1295
+        },
+        "primaryLanguage": "JavaScript",
+        "topics": [],
+        "homepage": null,
+        "pushedAt": "2026-10-17T20:38:35Z",
+        "readmeExcerpt": "Pre-built release APKs are packaged in this repository ready for sideloading on Android devices:",
+        "socialImage": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/Furo---TravelSwipe",
+        "pinned": false
+      },
+      "plannedRepo": null,
+      "thumbnail": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/Furo---TravelSwipe",
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": "2026-10-17T20:38:35Z",
+      "isNew": false,
+      "status": "pending",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_gh_sai___movieswipe",
+      "title": "Sai — MovieSwipe",
+      "context": "Movie & TV Discovery App | GitHub: Sai---MovieSwipe",
+      "description": "Swipe to find what to watch. A smart movie & TV discovery deck that learns your taste with every swipe, solves what to watch together in group sessions, and curates personalized watchlists.",
+      "tags": [
+        "full_stack",
+        "ai_ml"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Built a swipe-to-decide movie and TV discovery app that learns your taste with every swipe and curates personalized watchlists."
+        ],
+        "2": [
+          "Built a swipe-to-decide movie and TV discovery app that learns your taste with every swipe and curates personalized watchlists.",
+          "Group sessions match what to watch together, curing decision paralysis."
+        ],
+        "3": [
+          "Built a swipe-to-decide movie and TV discovery app that learns your taste with every swipe and curates personalized watchlists.",
+          "Group sessions match what to watch together, curing decision paralysis.",
+          "<b>FastAPI</b> backend with a <b>React</b> + <b>TypeScript</b> frontend, containerised with <b>Docker</b> and shipped as an Android app via <b>Capacitor</b>."
+        ]
+      },
+      "tech": [
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "Docker",
+        "Python",
+        "CSS",
+        "JavaScript"
+      ],
+      "github": {
+        "url": "https://github.com/DEBANJAN-KAKATI/Sai---MovieSwipe",
+        "fullName": "DEBANJAN-KAKATI/Sai---MovieSwipe",
+        "stars": 1,
+        "forks": 0,
+        "languages": {
+          "Python": 259975,
+          "TypeScript": 211525,
+          "CSS": 42104,
+          "JavaScript": 3389,
+          "Dockerfile": 2122,
+          "HTML": 1582,
+          "Java": 1298,
+          "Mako": 632
+        },
+        "primaryLanguage": "Python",
+        "topics": [],
+        "homepage": null,
+        "pushedAt": "2026-10-17T19:18:45Z",
+        "readmeExcerpt": "Run the backend and a PostgreSQL database in Docker with a single command:",
+        "socialImage": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/Sai---MovieSwipe",
+        "pinned": false
+      },
+      "plannedRepo": null,
+      "thumbnail": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/Sai---MovieSwipe",
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": "2026-10-17T19:18:45Z",
+      "isNew": false,
+      "status": "pending",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_gh_portfolio_analyser",
+      "title": "Portfolio Analyser",
+      "context": "Web-Crawling AI Agent | GitHub: portfolio_analyser",
+      "description": "AI agent that crawls developer portfolios from emmabostian/developer-portfolios, opens every project, and writes 2-point summaries per project into A–Z Markdown docs.",
+      "tags": [
+        "ai_ml"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "AI agent that crawls every developer portfolio listed in emmabostian/developer-portfolios and opens each project."
+        ],
+        "2": [
+          "AI agent that crawls every developer portfolio listed in emmabostian/developer-portfolios and opens each project.",
+          "Writes two-point summaries per project into alphabetically organised Markdown docs."
+        ],
+        "3": [
+          "AI agent that crawls every developer portfolio listed in emmabostian/developer-portfolios and opens each project.",
+          "Writes two-point summaries per project into alphabetically organised Markdown docs."
+        ]
+      },
+      "tech": [
+        "Python"
+      ],
+      "github": {
+        "url": "https://github.com/DEBANJAN-KAKATI/portfolio_analyser",
+        "fullName": "DEBANJAN-KAKATI/portfolio_analyser",
+        "stars": 0,
+        "forks": 0,
+        "languages": {
+          "Python": 56031,
+          "Batchfile": 4390
+        },
+        "primaryLanguage": "Python",
+        "topics": [],
+        "homepage": null,
+        "pushedAt": "2026-10-06T19:17:54Z",
+        "readmeExcerpt": "Scrapes every developer portfolio listed at emmabostian/developer-portfolios, visits each site, opens its projects / work section and every individual project, and writes 2 concise points per project into alphabetically organised Markdown docs.",
+        "socialImage": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/portfolio_analyser",
+        "pinned": false
+      },
+      "plannedRepo": null,
+      "thumbnail": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/portfolio_analyser",
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": "2026-10-06T19:17:54Z",
+      "isNew": false,
+      "status": "pending",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_gh_jalpraloy",
+      "title": "JalProloy — Flood Early Warning",
+      "context": "Smart India Hackathon PS 26071 | GitHub: JALPRALOY",
+      "description": "🌊 JalProloy — AI/ML heavy-rainfall early warning & hyperlocal flood prediction for Assam (SIH PS 26071, MoES/IMD). Fuses satellite, radar, NWP & river-gauge data into per-hexagon flood risk for the next 6 h–5 days, with live river watch, flood news, CAP alerts and a 4-language offline PWA.",
+      "tags": [
+        "ai_ml",
+        "full_stack"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "AI/ML heavy-rainfall early warning and hyperlocal flood prediction for Assam (SIH PS 26071, MoES/IMD)."
+        ],
+        "2": [
+          "AI/ML heavy-rainfall early warning and hyperlocal flood prediction for Assam (SIH PS 26071, MoES/IMD).",
+          "Fuses satellite, radar, <b>NWP</b> and river-gauge data into per-hexagon flood risk for the next 6 h–5 days."
+        ],
+        "3": [
+          "AI/ML heavy-rainfall early warning and hyperlocal flood prediction for Assam (SIH PS 26071, MoES/IMD).",
+          "Fuses satellite, radar, <b>NWP</b> and river-gauge data into per-hexagon flood risk for the next 6 h–5 days.",
+          "Live river watch, flood news, CAP alerts and a 4-language offline <b>PWA</b> (English, Assamese, Bengali, Hindi)."
+        ]
+      },
+      "tech": [
+        "PWA",
+        "Python",
+        "TypeScript",
+        "CSS",
+        "JavaScript"
+      ],
+      "github": {
+        "url": "https://github.com/DEBANJAN-KAKATI/JALPRALOY",
+        "fullName": "DEBANJAN-KAKATI/JALPRALOY",
+        "stars": 1,
+        "forks": 0,
+        "languages": {
+          "Python": 205840,
+          "TypeScript": 113512,
+          "CSS": 20398,
+          "JavaScript": 4119,
+          "Dockerfile": 766,
+          "HTML": 641
+        },
+        "primaryLanguage": "Python",
+        "topics": [],
+        "homepage": "https://jalproloy.vercel.app",
+        "pushedAt": "2026-09-29T19:09:29Z",
+        "readmeExcerpt": "Will it rain heavily? Where will the water collect? Who will be hurt most? JalProloy answers all three in five seconds, for a farmer on a phone or an official on a desktop, in English, Assamese, Bengali and Hindi.",
+        "socialImage": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/JALPRALOY",
+        "pinned": false
+      },
+      "plannedRepo": null,
+      "thumbnail": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/JALPRALOY",
+      "images": [],
+      "demoUrl": "https://jalproloy.vercel.app",
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": "2026-09-29T19:09:29Z",
+      "isNew": false,
+      "status": "pending",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_gh_jstmyrb",
+      "title": "jstMyRB — AI Career OS",
+      "context": "Resume Engine & Career CRM | GitHub: jstMyRB",
+      "description": "JstMyRB is an AI-powered Career OS & 1-Page Resume Engine built to typography specs. Features BM25 vault ranking, 1/2/3 pt tiers, Google XYZ bullet critic, ATS scorer, recruitment Kanban CRM, executive cover letters, and mobile touch UI—deployable serverless on Vercel.",
+      "tags": [
+        "ai_ml",
+        "full_stack",
+        "product"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Built an AI-powered <b>Career OS</b> and 1-page resume engine on <b>FastAPI</b> with a <b>multi-LLM router</b>."
+        ],
+        "2": [
+          "Built an AI-powered <b>Career OS</b> and 1-page resume engine on <b>FastAPI</b> with a <b>multi-LLM router</b>.",
+          "Ranks career-vault entries with subword <b>BM25</b> retrieval and 1/2/3-point bullet tiers, polished by a Google XYZ bullet critic."
+        ],
+        "3": [
+          "Built an AI-powered <b>Career OS</b> and 1-page resume engine on <b>FastAPI</b> with a <b>multi-LLM router</b>.",
+          "Ranks career-vault entries with subword <b>BM25</b> retrieval and 1/2/3-point bullet tiers, polished by a Google XYZ bullet critic.",
+          "Ships an ATS compliance scorer, a recruitment Kanban CRM and a cover-letter generator, deployable serverless on <b>Vercel</b>."
+        ]
+      },
+      "tech": [
+        "FastAPI",
+        "BM25",
+        "Vercel",
+        "Python",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "github": {
+        "url": "https://github.com/DEBANJAN-KAKATI/jstMyRB",
+        "fullName": "DEBANJAN-KAKATI/jstMyRB",
+        "stars": 1,
+        "forks": 0,
+        "languages": {
+          "Python": 134478,
+          "JavaScript": 124587,
+          "HTML": 61389,
+          "CSS": 30061,
+          "Batchfile": 639
+        },
+        "primaryLanguage": "Python",
+        "topics": [],
+        "homepage": "https://jst-my-rb.vercel.app",
+        "pushedAt": "2026-09-12T18:44:24Z",
+        "readmeExcerpt": "An end-to-end, high-performance Career Operating System & 1-Page Resume Engine engineered with High-Density Quantitative & Technical Specifications. Built with FastAPI, Vanilla CSS, and a Multi-LLM Router, JstMyRB delivers mathematically guaranteed 1-page document fit, subword BM25 vector retrieval, Google XYZ bullet point polishing, an ATS compliance engine, an application recruitment Kanban…",
+        "socialImage": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/jstMyRB",
+        "pinned": false
+      },
+      "plannedRepo": null,
+      "thumbnail": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/jstMyRB",
+      "images": [],
+      "demoUrl": "https://jst-my-rb.vercel.app",
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": "2026-09-12T18:44:24Z",
+      "isNew": false,
+      "status": "pending",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_xai_retinopathy",
+      "title": "Explainable AI for Diabetic Retinopathy Screening in Rural India",
+      "context": "Healthcare AI Pipeline | GitHub / MATLAB",
+      "description": "MATLAB-based Explainable AI (XAI) pipeline for automated Diabetic Retinopathy screening. Includes fundus QA, retinal structure & lesion segmentation, deep CNN ensemble grading (Levels 0-4), Grad-CAM explainability, clinical PDF report generation, and Simulink telemedicine queue simulation.",
+      "tags": [
+        "ai_ml",
+        "full_stack",
+        "product"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Developed an end-to-end Explainable AI (XAI) diagnostic pipeline comprising automated fundus image quality assurance, retinal lesion segmentation, and deep CNN ensemble classification (Grades 0–4)."
+        ],
+        "2": [
+          "Developed an end-to-end Explainable AI (XAI) diagnostic pipeline comprising automated fundus image quality assurance, retinal lesion segmentation, and deep CNN ensemble classification (Grades 0–4).",
+          "Integrated Grad-CAM saliency heatmaps highlighting microaneurysms and hemorrhages for clinician auditability, paired with automated medical PDF report generation."
+        ],
+        "3": [
+          "Developed an end-to-end Explainable AI (XAI) diagnostic pipeline comprising automated fundus image quality assurance, retinal lesion segmentation, and deep CNN ensemble classification (Grades 0–4).",
+          "Integrated Grad-CAM saliency heatmaps highlighting microaneurysms and hemorrhages for clinician auditability, paired with automated medical PDF report generation.",
+          "Built a Simulink-based telemedicine queue simulation to evaluate rural primary healthcare clinic deployment, reducing screening patient wait times by 40%."
+        ]
+      },
+      "tech": [
+        "MATLAB"
+      ],
+      "github": {
+        "url": "https://github.com/DEBANJAN-KAKATI/Explainable_AI_for_Diabetic_Retinopathy_Screening_in_Rural-India",
+        "fullName": "DEBANJAN-KAKATI/Explainable_AI_for_Diabetic_Retinopathy_Screening_in_Rural-India",
+        "stars": 1,
+        "forks": 0,
+        "languages": {
+          "MATLAB": 110331
+        },
+        "primaryLanguage": "MATLAB",
+        "topics": [],
+        "homepage": null,
+        "pushedAt": "2026-09-03T09:12:57Z",
+        "readmeExcerpt": "An end-to-end, medical-grade Explainable Artificial Intelligence (XAI) framework developed in MATLAB for automated Diabetic Retinopathy (DR) quality screening, retinal structure segmentation, 5-class severity grading, lesion-level explainability, clinical PDF report generation, and Simulink telemedicine workflow simulation.",
+        "socialImage": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/Explainable_AI_for_Diabetic_Retinopathy_Screening_in_Rural-India",
+        "pinned": false
+      },
+      "plannedRepo": null,
+      "thumbnail": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/Explainable_AI_for_Diabetic_Retinopathy_Screening_in_Rural-India",
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": "2026-09-03T09:12:57Z",
+      "isNew": false,
+      "status": "pending",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_jstpdf",
+      "title": "jstPDF — Privacy-First Desktop PDF Processing Suite",
+      "context": "Desktop App | GitHub: jstPDF",
+      "description": "Free, unlimited PDF tools desktop app — merge, split, compress, convert, rotate, watermark and more. No sign-up. Runs 100% locally.",
+      "tags": [
+        "full_stack",
+        "product"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Engineered a zero-telemetry, unlimited desktop PDF manipulation application (merge, split, compress, watermark, rotate, OCR conversion) executed entirely client-side for absolute privacy."
+        ],
+        "2": [
+          "Engineered a zero-telemetry, unlimited desktop PDF manipulation application (merge, split, compress, watermark, rotate, OCR conversion) executed entirely client-side for absolute privacy.",
+          "Optimized WebAssembly and JavaScript binary manipulation pipelines to process multi-hundred-megabyte documents with zero memory leaks and instantaneous response."
+        ],
+        "3": [
+          "Engineered a zero-telemetry, unlimited desktop PDF manipulation application (merge, split, compress, watermark, rotate, OCR conversion) executed entirely client-side for absolute privacy.",
+          "Optimized WebAssembly and JavaScript binary manipulation pipelines to process multi-hundred-megabyte documents with zero memory leaks and instantaneous response."
+        ]
+      },
+      "tech": [
+        "JavaScript",
+        "CSS",
+        "TypeScript",
+        "HTML"
+      ],
+      "github": {
+        "url": "https://github.com/DEBANJAN-KAKATI/jstPDF",
+        "fullName": "DEBANJAN-KAKATI/jstPDF",
+        "stars": 1,
+        "forks": 0,
+        "languages": {
+          "JavaScript": 127890,
+          "CSS": 19160,
+          "TypeScript": 2738,
+          "HTML": 531
+        },
+        "primaryLanguage": "JavaScript",
+        "topics": [],
+        "homepage": null,
+        "pushedAt": "2026-08-11T09:44:30Z",
+        "readmeExcerpt": "Free, unlimited PDF tools — no sign-up, no file size limits, runs locally on your machine.",
+        "socialImage": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/jstPDF",
+        "pinned": false
+      },
+      "plannedRepo": null,
+      "thumbnail": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/jstPDF",
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": "2026-08-11T09:44:30Z",
+      "isNew": false,
+      "status": "published",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_qf_algo_trading",
+      "title": "Algorithmic Trading & Technical Indicators",
+      "context": "Quant Finance | Python",
+      "description": null,
+      "tags": [
+        "quant",
+        "finance"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Automated stock screener that pulls historical prices with <b>yfinance</b> and computes the indicators quants use for trading signals."
+        ],
+        "2": [
+          "Automated stock screener that pulls historical prices with <b>yfinance</b> and computes the indicators quants use for trading signals.",
+          "Calculates Garman-Klass volatility, <b>RSI</b>, Bollinger Bands, <b>ATR</b> and <b>MACD</b> for S&amp;P 500 stocks."
+        ],
+        "3": [
+          "Automated stock screener that pulls historical prices with <b>yfinance</b> and computes the indicators quants use for trading signals.",
+          "Calculates Garman-Klass volatility, <b>RSI</b>, Bollinger Bands, <b>ATR</b> and <b>MACD</b> for S&amp;P 500 stocks."
+        ]
+      },
+      "tech": [],
+      "github": {
+        "url": "https://github.com/DEBANJAN-KAKATI/Quantitative-Finance-Portfolio/tree/main/Algorithmic_Trading",
+        "fullName": "DEBANJAN-KAKATI/Quantitative-Finance-Portfolio",
+        "stars": 1,
+        "forks": 0,
+        "languages": {
+          "Jupyter Notebook": 14423184
+        },
+        "primaryLanguage": "Jupyter Notebook",
+        "topics": [],
+        "homepage": null,
+        "pushedAt": "2026-07-30T10:07:24Z",
+        "readmeExcerpt": "Welcome to my Quantitative Finance and Machine Learning portfolio. This repository contains a collection of projects demonstrating my expertise in algorithmic trading, predictive modeling, portfolio optimization, and financial sentiment analysis.",
+        "socialImage": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/Quantitative-Finance-Portfolio",
+        "pinned": false
+      },
+      "plannedRepo": null,
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": "2026-07-30T10:07:24Z",
+      "isNew": false,
+      "status": "pending",
+      "source": "inbox",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_qf_credit_risk",
+      "title": "Credit Risk Modeling",
+      "context": "Quant Finance | Machine Learning",
+      "description": null,
+      "tags": [
+        "quant",
+        "finance",
+        "ai_ml"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "End-to-end credit scoring pipeline that predicts loan defaults with <b>Gradient Boosting</b>."
+        ],
+        "2": [
+          "End-to-end credit scoring pipeline that predicts loan defaults with <b>Gradient Boosting</b>.",
+          "Explains individual predictions with <b>SHAP</b> values and exports the trained model artifacts for reuse."
+        ],
+        "3": [
+          "End-to-end credit scoring pipeline that predicts loan defaults with <b>Gradient Boosting</b>.",
+          "Explains individual predictions with <b>SHAP</b> values and exports the trained model artifacts for reuse."
+        ]
+      },
+      "tech": [],
+      "github": {
+        "url": "https://github.com/DEBANJAN-KAKATI/Quantitative-Finance-Portfolio/tree/main/Credit_Risk_Modeling",
+        "fullName": "DEBANJAN-KAKATI/Quantitative-Finance-Portfolio",
+        "stars": 1,
+        "forks": 0,
+        "languages": {
+          "Jupyter Notebook": 14423184
+        },
+        "primaryLanguage": "Jupyter Notebook",
+        "topics": [],
+        "homepage": null,
+        "pushedAt": "2026-07-30T10:07:24Z",
+        "readmeExcerpt": "Welcome to my Quantitative Finance and Machine Learning portfolio. This repository contains a collection of projects demonstrating my expertise in algorithmic trading, predictive modeling, portfolio optimization, and financial sentiment analysis.",
+        "socialImage": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/Quantitative-Finance-Portfolio",
+        "pinned": false
+      },
+      "plannedRepo": null,
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": "2026-07-30T10:07:24Z",
+      "isNew": false,
+      "status": "pending",
+      "source": "inbox",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_qf_ipo_success",
+      "title": "IPO Success Prediction",
+      "context": "Quant Finance | Classification",
+      "description": null,
+      "tags": [
+        "quant",
+        "finance",
+        "ai_ml"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Predicts whether an upcoming IPO will list strongly from issue duration, price band and days to listing."
+        ],
+        "2": [
+          "Predicts whether an upcoming IPO will list strongly from issue duration, price band and days to listing.",
+          "Compares <b>Random Forest</b>, <b>Gradient Boosting</b>, <b>SVM</b> and logistic regression, and exports the model as a reusable predictor."
+        ],
+        "3": [
+          "Predicts whether an upcoming IPO will list strongly from issue duration, price band and days to listing.",
+          "Compares <b>Random Forest</b>, <b>Gradient Boosting</b>, <b>SVM</b> and logistic regression, and exports the model as a reusable predictor."
+        ]
+      },
+      "tech": [],
+      "github": {
+        "url": "https://github.com/DEBANJAN-KAKATI/Quantitative-Finance-Portfolio/tree/main/IPO_Success_Prediction",
+        "fullName": "DEBANJAN-KAKATI/Quantitative-Finance-Portfolio",
+        "stars": 1,
+        "forks": 0,
+        "languages": {
+          "Jupyter Notebook": 14423184
+        },
+        "primaryLanguage": "Jupyter Notebook",
+        "topics": [],
+        "homepage": null,
+        "pushedAt": "2026-07-30T10:07:24Z",
+        "readmeExcerpt": "Welcome to my Quantitative Finance and Machine Learning portfolio. This repository contains a collection of projects demonstrating my expertise in algorithmic trading, predictive modeling, portfolio optimization, and financial sentiment analysis.",
+        "socialImage": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/Quantitative-Finance-Portfolio",
+        "pinned": false
+      },
+      "plannedRepo": null,
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": "2026-07-30T10:07:24Z",
+      "isNew": false,
+      "status": "pending",
+      "source": "inbox",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_qf_portfolio_optimization",
+      "title": "Portfolio Optimization (Modern Portfolio Theory)",
+      "context": "Quant Finance | Optimization",
+      "description": null,
+      "tags": [
+        "quant",
+        "finance"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Optimizes asset weights across SPY, BND, GLD, QQQ and VTI to maximize the <b>Sharpe ratio</b>."
+        ],
+        "2": [
+          "Optimizes asset weights across SPY, BND, GLD, QQQ and VTI to maximize the <b>Sharpe ratio</b>.",
+          "Solves the constrained allocation problem with <b>SciPy</b>&#39;s SLSQP optimizer."
+        ],
+        "3": [
+          "Optimizes asset weights across SPY, BND, GLD, QQQ and VTI to maximize the <b>Sharpe ratio</b>.",
+          "Solves the constrained allocation problem with <b>SciPy</b>&#39;s SLSQP optimizer."
+        ]
+      },
+      "tech": [
+        "SciPy"
+      ],
+      "github": {
+        "url": "https://github.com/DEBANJAN-KAKATI/Quantitative-Finance-Portfolio/tree/main/Portfolio_Optimization",
+        "fullName": "DEBANJAN-KAKATI/Quantitative-Finance-Portfolio",
+        "stars": 1,
+        "forks": 0,
+        "languages": {
+          "Jupyter Notebook": 14423184
+        },
+        "primaryLanguage": "Jupyter Notebook",
+        "topics": [],
+        "homepage": null,
+        "pushedAt": "2026-07-30T10:07:24Z",
+        "readmeExcerpt": "Welcome to my Quantitative Finance and Machine Learning portfolio. This repository contains a collection of projects demonstrating my expertise in algorithmic trading, predictive modeling, portfolio optimization, and financial sentiment analysis.",
+        "socialImage": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/Quantitative-Finance-Portfolio",
+        "pinned": false
+      },
+      "plannedRepo": null,
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": "2026-07-30T10:07:24Z",
+      "isNew": false,
+      "status": "pending",
+      "source": "inbox",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_qf_bitcoin_wikipedia",
+      "title": "Bitcoin Price Prediction from Wikipedia Sentiment",
+      "context": "Quant Finance | Alternative Data",
+      "description": null,
+      "tags": [
+        "quant",
+        "finance",
+        "ai_ml"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Tests whether edit activity and sentiment on Bitcoin&#39;s Wikipedia page act as a leading signal for its price."
+        ],
+        "2": [
+          "Tests whether edit activity and sentiment on Bitcoin&#39;s Wikipedia page act as a leading signal for its price.",
+          "Merges historical BTC prices with edit-comment sentiment scores to forecast price movements."
+        ],
+        "3": [
+          "Tests whether edit activity and sentiment on Bitcoin&#39;s Wikipedia page act as a leading signal for its price.",
+          "Merges historical BTC prices with edit-comment sentiment scores to forecast price movements."
+        ]
+      },
+      "tech": [],
+      "github": {
+        "url": "https://github.com/DEBANJAN-KAKATI/Quantitative-Finance-Portfolio/tree/main/Bitcoin_Price_Prediction",
+        "fullName": "DEBANJAN-KAKATI/Quantitative-Finance-Portfolio",
+        "stars": 1,
+        "forks": 0,
+        "languages": {
+          "Jupyter Notebook": 14423184
+        },
+        "primaryLanguage": "Jupyter Notebook",
+        "topics": [],
+        "homepage": null,
+        "pushedAt": "2026-07-30T10:07:24Z",
+        "readmeExcerpt": "Welcome to my Quantitative Finance and Machine Learning portfolio. This repository contains a collection of projects demonstrating my expertise in algorithmic trading, predictive modeling, portfolio optimization, and financial sentiment analysis.",
+        "socialImage": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/Quantitative-Finance-Portfolio",
+        "pinned": false
+      },
+      "plannedRepo": null,
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": "2026-07-30T10:07:24Z",
+      "isNew": false,
+      "status": "pending",
+      "source": "inbox",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_qf_news_sentiment",
+      "title": "Financial News Sentiment Analysis",
+      "context": "Quant Finance | NLP",
+      "description": null,
+      "tags": [
+        "quant",
+        "finance",
+        "ai_ml"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "NLP pipeline that scrapes Google News RSS headlines and turns them into a quantified market mood."
+        ],
+        "2": [
+          "NLP pipeline that scrapes Google News RSS headlines and turns them into a quantified market mood.",
+          "Scores headlines with <b>VADER</b> and <b>FinBERT</b> to relate news sentiment to stock and gold prices."
+        ],
+        "3": [
+          "NLP pipeline that scrapes Google News RSS headlines and turns them into a quantified market mood.",
+          "Scores headlines with <b>VADER</b> and <b>FinBERT</b> to relate news sentiment to stock and gold prices."
+        ]
+      },
+      "tech": [],
+      "github": {
+        "url": "https://github.com/DEBANJAN-KAKATI/Quantitative-Finance-Portfolio/tree/main/Financial_Sentiment_Analysis",
+        "fullName": "DEBANJAN-KAKATI/Quantitative-Finance-Portfolio",
+        "stars": 1,
+        "forks": 0,
+        "languages": {
+          "Jupyter Notebook": 14423184
+        },
+        "primaryLanguage": "Jupyter Notebook",
+        "topics": [],
+        "homepage": null,
+        "pushedAt": "2026-07-30T10:07:24Z",
+        "readmeExcerpt": "Welcome to my Quantitative Finance and Machine Learning portfolio. This repository contains a collection of projects demonstrating my expertise in algorithmic trading, predictive modeling, portfolio optimization, and financial sentiment analysis.",
+        "socialImage": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/Quantitative-Finance-Portfolio",
+        "pinned": false
+      },
+      "plannedRepo": null,
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": "2026-07-30T10:07:24Z",
+      "isNew": false,
+      "status": "pending",
+      "source": "inbox",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_qf_lstm_forecasting",
+      "title": "Stock Price Forecasting with LSTMs",
+      "context": "Quant Finance | Deep Learning",
+      "description": null,
+      "tags": [
+        "quant",
+        "finance",
+        "ai_ml"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Forecasts stock prices from historical time series with <b>LSTM</b> networks built in <b>TensorFlow</b>/Keras."
+        ],
+        "2": [
+          "Forecasts stock prices from historical time series with <b>LSTM</b> networks built in <b>TensorFlow</b>/Keras.",
+          "Targets the noisy, non-linear patterns that classical models like ARIMA struggle to capture."
+        ],
+        "3": [
+          "Forecasts stock prices from historical time series with <b>LSTM</b> networks built in <b>TensorFlow</b>/Keras.",
+          "Targets the noisy, non-linear patterns that classical models like ARIMA struggle to capture."
+        ]
+      },
+      "tech": [
+        "TensorFlow"
+      ],
+      "github": {
+        "url": "https://github.com/DEBANJAN-KAKATI/Quantitative-Finance-Portfolio/tree/main/Stock_Price_Forecasting_LSTMs",
+        "fullName": "DEBANJAN-KAKATI/Quantitative-Finance-Portfolio",
+        "stars": 1,
+        "forks": 0,
+        "languages": {
+          "Jupyter Notebook": 14423184
+        },
+        "primaryLanguage": "Jupyter Notebook",
+        "topics": [],
+        "homepage": null,
+        "pushedAt": "2026-07-30T10:07:24Z",
+        "readmeExcerpt": "Welcome to my Quantitative Finance and Machine Learning portfolio. This repository contains a collection of projects demonstrating my expertise in algorithmic trading, predictive modeling, portfolio optimization, and financial sentiment analysis.",
+        "socialImage": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/Quantitative-Finance-Portfolio",
+        "pinned": false
+      },
+      "plannedRepo": null,
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": "2026-07-30T10:07:24Z",
+      "isNew": false,
+      "status": "pending",
+      "source": "inbox",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_qf_var_monte_carlo",
+      "title": "Value at Risk via Monte Carlo Simulation",
+      "context": "Quant Finance | Risk",
+      "description": null,
+      "tags": [
+        "quant",
+        "finance"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Estimates portfolio <b>Value at Risk</b> by <b>Monte Carlo</b> simulation of returns on market data from yfinance."
+        ],
+        "2": [
+          "Estimates portfolio <b>Value at Risk</b> by <b>Monte Carlo</b> simulation of returns on market data from yfinance.",
+          "Reports the worst expected loss over a horizon at chosen confidence levels such as 95% and 99%."
+        ],
+        "3": [
+          "Estimates portfolio <b>Value at Risk</b> by <b>Monte Carlo</b> simulation of returns on market data from yfinance.",
+          "Reports the worst expected loss over a horizon at chosen confidence levels such as 95% and 99%."
+        ]
+      },
+      "tech": [],
+      "github": {
+        "url": "https://github.com/DEBANJAN-KAKATI/Quantitative-Finance-Portfolio/tree/main/Value_at_Risk_Monte_Carlo",
+        "fullName": "DEBANJAN-KAKATI/Quantitative-Finance-Portfolio",
+        "stars": 1,
+        "forks": 0,
+        "languages": {
+          "Jupyter Notebook": 14423184
+        },
+        "primaryLanguage": "Jupyter Notebook",
+        "topics": [],
+        "homepage": null,
+        "pushedAt": "2026-07-30T10:07:24Z",
+        "readmeExcerpt": "Welcome to my Quantitative Finance and Machine Learning portfolio. This repository contains a collection of projects demonstrating my expertise in algorithmic trading, predictive modeling, portfolio optimization, and financial sentiment analysis.",
+        "socialImage": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/Quantitative-Finance-Portfolio",
+        "pinned": false
+      },
+      "plannedRepo": null,
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": "2026-07-30T10:07:24Z",
+      "isNew": false,
+      "status": "pending",
+      "source": "inbox",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_ice_melting",
+      "title": "Ice Melting Rate Prediction via ML — Patent Pending",
+      "context": "Prof. Anirban Roy | App No. IDF/H/115107",
+      "description": "\"Predictive modeling for ocean ice melting rates based on specific heat capacity (Cp).\"",
+      "tags": [
+        "chemical",
+        "ai_ml",
+        "quant"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Engineered a patent-pending machine learning model predicting ice melting dynamics from thermodynamic properties on 237+ experimental data points, attaining 96% accuracy (RMSE: 46.8, MAE: 36.4)."
+        ],
+        "2": [
+          "Engineered a patent-pending machine learning model predicting ice melting dynamics from thermodynamic properties on 237+ experimental data points, attaining 96% accuracy (RMSE: 46.8, MAE: 36.4).",
+          "Discovered perfect heat capacity correlation (r = 1.0) and benchmarked 12+ regression and deep learning architectures, tuning a TensorFlow/Keras neural network that slashed required training data by ~40%."
+        ],
+        "3": [
+          "Engineered a patent-pending machine learning model predicting ice melting dynamics from thermodynamic properties on 237+ experimental data points, attaining 96% accuracy (RMSE: 46.8, MAE: 36.4).",
+          "Discovered perfect heat capacity correlation (r = 1.0) and benchmarked 12+ regression and deep learning architectures, tuning a TensorFlow/Keras neural network that slashed required training data by ~40%."
+        ]
+      },
+      "tech": [
+        "Jupyter Notebook"
+      ],
+      "github": {
+        "url": "https://github.com/DEBANJAN-KAKATI/ice-melting-rate-prediction",
+        "fullName": "DEBANJAN-KAKATI/ice-melting-rate-prediction",
+        "stars": 1,
+        "forks": 0,
+        "languages": {
+          "Jupyter Notebook": 21112898
+        },
+        "primaryLanguage": "Jupyter Notebook",
+        "topics": [],
+        "homepage": null,
+        "pushedAt": "2026-07-28T17:49:05Z",
+        "readmeExcerpt": "This project aims to predict the ice melting rate in oceanic waters (specifically the Indian Ocean) using the specific heat capacity (Cp) of the water. This repository contains the code, data, and models developed to create a predictive device that does not require real-time temperature or date inputs.",
+        "socialImage": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/ice-melting-rate-prediction",
+        "pinned": false
+      },
+      "plannedRepo": null,
+      "thumbnail": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/ice-melting-rate-prediction",
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": "2026-07-28T17:49:05Z",
+      "isNew": false,
+      "status": "pending",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_13",
+      "title": "High-Frequency Market Maker Engine",
+      "context": "Quant Systems | Rust + C++",
+      "description": null,
+      "tags": [
+        "quant",
+        "systems"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Engineered low-latency L2 orderbook parser processing 500k ticks/sec with P99 &lt; 15 microseconds."
+        ],
+        "2": [
+          "Engineered low-latency L2 orderbook parser processing 500k ticks/sec with P99 &lt; 15 microseconds."
+        ],
+        "3": [
+          "Engineered low-latency L2 orderbook parser processing 500k ticks/sec with P99 &lt; 15 microseconds."
+        ]
+      },
+      "tech": [],
+      "github": null,
+      "plannedRepo": null,
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": null,
+      "isNew": false,
+      "status": "published",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_systemic_risk",
+      "title": "Systemic Risk in the Cryptocurrency Ecosystem",
+      "context": "Financial Risk & Management | Prof. Ashwini Kumar",
+      "description": null,
+      "tags": [
+        "quant",
+        "finance",
+        "ai_ml"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Engineered a multi-stage econometric framework combining AR-GARCH(1,1), Transfer Entropy spillover networks, and leave-one-out systemic indices across 8 digital assets over 10 years (stationary ADF: -22.15, p &lt; 0.001)."
+        ],
+        "2": [
+          "Engineered a multi-stage econometric framework combining AR-GARCH(1,1), Transfer Entropy spillover networks, and leave-one-out systemic indices across 8 digital assets over 10 years (stationary ADF: -22.15, p &lt; 0.001).",
+          "Discovered stablecoins USDT (SI: 0.1316) and USDC (SI: 0.1222) transmit greater systemic contagion than BTC (0.0754) and ETH (0.0623), with the dominant spillover channel running USDC → USDT (TE: 0.0333)."
+        ],
+        "3": [
+          "Engineered a multi-stage econometric framework combining AR-GARCH(1,1), Transfer Entropy spillover networks, and leave-one-out systemic indices across 8 digital assets over 10 years (stationary ADF: -22.15, p &lt; 0.001).",
+          "Discovered stablecoins USDT (SI: 0.1316) and USDC (SI: 0.1222) transmit greater systemic contagion than BTC (0.0754) and ETH (0.0623), with the dominant spillover channel running USDC → USDT (TE: 0.0333).",
+          "Applied quantile regression (τ = 0.1, 0.5, 0.9) capturing regulatory shock asymmetry, and modeled tail risk showing USDT kurtosis of 45.10 vs BTC at 12.45."
+        ]
+      },
+      "tech": [],
+      "github": null,
+      "plannedRepo": null,
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": null,
+      "isNew": false,
+      "status": "published",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_bitslens",
+      "title": "BitsLens — Quantitative Portfolio Engine",
+      "context": "Prof. Ashwini Kumar | BITS Pilani",
+      "description": null,
+      "tags": [
+        "quant",
+        "finance",
+        "ai_ml",
+        "full_stack"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Architected an algorithmic portfolio optimization engine coupling Transformer return forecasting with CVaR optimization."
+        ],
+        "2": [
+          "Architected an algorithmic portfolio optimization engine.",
+          "Engineered time-series volatility and momentum features."
+        ],
+        "3": [
+          "Architected an algorithmic portfolio optimization engine.",
+          "Engineered time-series features.",
+          "Shipped production microservices."
+        ]
+      },
+      "tech": [],
+      "github": null,
+      "plannedRepo": null,
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": null,
+      "isNew": false,
+      "status": "published",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_paints_valuation",
+      "title": "Paints Industry Equity Valuation & 3-Statement Modeling",
+      "context": "Prof. Mohit Kumar | Corporate Finance",
+      "description": null,
+      "tags": [
+        "finance",
+        "quant"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Constructed integrated 3-statement financial models for Asian Paints, Berger Paints, and Kansai Nerolac projecting 5-year Free Cash Flows to Firm (FCFF) with terminal value assumptions."
+        ],
+        "2": [
+          "Constructed integrated 3-statement financial models for Asian Paints, Berger Paints, and Kansai Nerolac projecting 5-year Free Cash Flows to Firm (FCFF) with terminal value assumptions.",
+          "Estimated Cost of Equity at 13.21% via CAPM and derived WACC range of 11.8%–12.4% incorporating synthetic rating Cost of Debt (7.47%); conducted ±100 bps WACC sensitivity analysis and EV/EBITDA trading comps (35.44x)."
+        ],
+        "3": [
+          "Constructed integrated 3-statement financial models for Asian Paints, Berger Paints, and Kansai Nerolac projecting 5-year Free Cash Flows to Firm (FCFF) with terminal value assumptions.",
+          "Estimated Cost of Equity at 13.21% via CAPM and derived WACC range of 11.8%–12.4% incorporating synthetic rating Cost of Debt (7.47%); conducted ±100 bps WACC sensitivity analysis and EV/EBITDA trading comps (35.44x)."
+        ]
+      },
+      "tech": [],
+      "github": null,
+      "plannedRepo": null,
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": null,
+      "isNew": false,
+      "status": "published",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_powergrid_corp",
+      "title": "Corporate Finance & Capital Structure Analysis — Power Grid Corp",
+      "context": "Financial Analysis | Prof. Mohit Kumar",
+      "description": null,
+      "tags": [
+        "finance",
+        "quant"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Estimated FY25 WACC of 8.03% (Beta = 0.541) and evaluated a ₹2.5 Cr lease vs. buy decision using DCF methodology incorporating tax shields and depreciation benefits to maximize Net Present Value."
+        ],
+        "2": [
+          "Estimated FY25 WACC of 8.03% (Beta = 0.541) and evaluated a ₹2.5 Cr lease vs. buy decision using DCF methodology incorporating tax shields and depreciation benefits to maximize Net Present Value.",
+          "Modeled a ₹1,200 Cr rights issue deriving Theoretical Ex-Rights Price (TERP) of ₹269.70 with 20% EPS dilution, proving debt-to-equity de-leveraging from 1.59 to 0.94."
+        ],
+        "3": [
+          "Estimated FY25 WACC of 8.03% (Beta = 0.541) and evaluated a ₹2.5 Cr lease vs. buy decision using DCF methodology incorporating tax shields and depreciation benefits to maximize Net Present Value.",
+          "Modeled a ₹1,200 Cr rights issue deriving Theoretical Ex-Rights Price (TERP) of ₹269.70 with 20% EPS dilution, proving debt-to-equity de-leveraging from 1.59 to 0.94."
+        ]
+      },
+      "tech": [],
+      "github": null,
+      "plannedRepo": null,
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": null,
+      "isNew": false,
+      "status": "published",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_freewind_aqi",
+      "title": "FreeWind — Spatiotemporal AQI Forecasting Platform",
+      "context": "Smart India Hackathon | National Top 1%",
+      "description": null,
+      "tags": [
+        "ai_ml",
+        "full_stack",
+        "product"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Designed a spatiotemporal air quality forecasting engine fusing Graph Neural Networks (GNNs) and bidirectional LSTMs across 300,000+ multi-city sensor records, achieving 32% lower MAE than traditional baselines."
+        ],
+        "2": [
+          "Designed a spatiotemporal air quality forecasting engine fusing Graph Neural Networks (GNNs) and bidirectional LSTMs across 300,000+ multi-city sensor records, achieving 32% lower MAE than traditional baselines.",
+          "Engineered real-time pollution source attribution fusing satellite imagery, traffic heatmaps, and meteorological telemetry; recognized in the Top 1% nationwide at SIH."
+        ],
+        "3": [
+          "Designed a spatiotemporal air quality forecasting engine fusing Graph Neural Networks (GNNs) and bidirectional LSTMs across 300,000+ multi-city sensor records, achieving 32% lower MAE than traditional baselines.",
+          "Engineered real-time pollution source attribution fusing satellite imagery, traffic heatmaps, and meteorological telemetry; recognized in the Top 1% nationwide at SIH."
+        ]
+      },
+      "tech": [],
+      "github": null,
+      "plannedRepo": null,
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": null,
+      "isNew": false,
+      "status": "published",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_kalpana_dashboard",
+      "title": "Sales & Market Analytics Dashboard — Kalpana Furniture Ltd.",
+      "context": "Product Analytics & BI Solution",
+      "description": null,
+      "tags": [
+        "product",
+        "finance",
+        "full_stack"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Engineered a Power BI executive suite analyzing 3+ years of transactional data over 8 categories; discovered seasonal demand triggers yielding a 13% gross margin uplift and ₹1.2L annual inventory cost savings."
+        ],
+        "2": [
+          "Engineered a Power BI executive suite analyzing 3+ years of transactional data over 8 categories; discovered seasonal demand triggers yielding a 13% gross margin uplift and ₹1.2L annual inventory cost savings.",
+          "Segmented 500+ B2B customer accounts by recency, frequency, and monetary value, proving 3 core segments drove 67% of revenue and guiding targeted tier-pricing strategies."
+        ],
+        "3": [
+          "Engineered a Power BI executive suite analyzing 3+ years of transactional data over 8 categories; discovered seasonal demand triggers yielding a 13% gross margin uplift and ₹1.2L annual inventory cost savings.",
+          "Segmented 500+ B2B customer accounts by recency, frequency, and monetary value, proving 3 core segments drove 67% of revenue and guiding targeted tier-pricing strategies."
+        ]
+      },
+      "tech": [],
+      "github": null,
+      "plannedRepo": null,
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": null,
+      "isNew": false,
+      "status": "published",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_algae_manthan",
+      "title": "Computer Vision Microalgae Growth Prediction Platform",
+      "context": "MANTHAN Bio-Innovation Application | Prof. Anirban Roy",
+      "description": null,
+      "tags": [
+        "chemical",
+        "ai_ml"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Built a computer vision and deep learning monitoring pipeline tracking microalgae biomass density in photobioreactors from microscope optical telemetry, achieving 94% biomass estimation accuracy."
+        ],
+        "2": [
+          "Built a computer vision and deep learning monitoring pipeline tracking microalgae biomass density in photobioreactors from microscope optical telemetry, achieving 94% biomass estimation accuracy.",
+          "Automated kinetic growth rate modeling across varying CO2 injection and irradiance regimes, optimizing harvest cycles by 2.5 days."
+        ],
+        "3": [
+          "Built a computer vision and deep learning monitoring pipeline tracking microalgae biomass density in photobioreactors from microscope optical telemetry, achieving 94% biomass estimation accuracy.",
+          "Automated kinetic growth rate modeling across varying CO2 injection and irradiance regimes, optimizing harvest cycles by 2.5 days."
+        ]
+      },
+      "tech": [],
+      "github": null,
+      "plannedRepo": null,
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": null,
+      "isNew": false,
+      "status": "published",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_local_livesubs",
+      "title": "LiveSubs — Live Subtitles & Translation",
+      "context": "Chrome Extension + Windows App",
+      "description": null,
+      "tags": [
+        "ai_ml",
+        "full_stack",
+        "product"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Live subtitles for any audio: a Chrome extension for browser tabs and an <b>Electron</b> Windows app that captures everything playing on the PC."
+        ],
+        "2": [
+          "Live subtitles for any audio: a Chrome extension for browser tabs and an <b>Electron</b> Windows app that captures everything playing on the PC.",
+          "Speech-to-text with <b>Whisper</b> large-v3 plus context-aware AI translation into any language, with dual subtitles."
+        ],
+        "3": [
+          "Live subtitles for any audio: a Chrome extension for browser tabs and an <b>Electron</b> Windows app that captures everything playing on the PC.",
+          "Speech-to-text with <b>Whisper</b> large-v3 plus context-aware AI translation into any language, with dual subtitles.",
+          "Cuts audio at pauses, passes earlier sentences as context, filters hallucinations and exports timestamped .srt transcripts."
+        ]
+      },
+      "tech": [
+        "Electron"
+      ],
+      "github": null,
+      "plannedRepo": "LiveSubs",
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": null,
+      "isNew": false,
+      "status": "pending",
+      "source": "inbox",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_local_voicecue_dj",
+      "title": "VoiceCue DJ Studio",
+      "context": "Audio AI Web App",
+      "description": null,
+      "tags": [
+        "ai_ml",
+        "full_stack"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Extended the VoiceCue app with musical instrument identification across 8 families using a spectral classifier on the <b>Web Audio API</b>."
+        ],
+        "2": [
+          "Extended the VoiceCue app with musical instrument identification across 8 families using a spectral classifier on the <b>Web Audio API</b>.",
+          "Added a DJ deck (hot cues, sweep filter, stem EQ kills, beat looper) and a 64-band FFT visualizer in <b>React</b>."
+        ],
+        "3": [
+          "Extended the VoiceCue app with musical instrument identification across 8 families using a spectral classifier on the <b>Web Audio API</b>.",
+          "Added a DJ deck (hot cues, sweep filter, stem EQ kills, beat looper) and a 64-band FFT visualizer in <b>React</b>.",
+          "Transcript NLP with AFINN sentiment and named-entity recognition, plus cue-sheet export for Rekordbox, Traktor and Serato."
+        ]
+      },
+      "tech": [
+        "React"
+      ],
+      "github": null,
+      "plannedRepo": "VoiceCue-DJ-Studio",
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": null,
+      "isNew": false,
+      "status": "pending",
+      "source": "inbox",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_local_face_age",
+      "title": "Live Face Age Range Estimator",
+      "context": "Computer Vision Demo",
+      "description": null,
+      "tags": [
+        "ai_ml"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Real-time webcam demo in <b>Python</b> and <b>OpenCV</b> that detects faces and predicts one of eight broad age ranges."
+        ],
+        "2": [
+          "Real-time webcam demo in <b>Python</b> and <b>OpenCV</b> that detects faces and predicts one of eight broad age ranges.",
+          "Runs a pretrained Caffe age classifier through OpenCV&#39;s DNN module, downloading the model files on first run."
+        ],
+        "3": [
+          "Real-time webcam demo in <b>Python</b> and <b>OpenCV</b> that detects faces and predicts one of eight broad age ranges.",
+          "Runs a pretrained Caffe age classifier through OpenCV&#39;s DNN module, downloading the model files on first run."
+        ]
+      },
+      "tech": [
+        "Python",
+        "OpenCV"
+      ],
+      "github": null,
+      "plannedRepo": "face-age-camera",
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": null,
+      "isNew": false,
+      "status": "pending",
+      "source": "inbox",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_local_algae_classifier",
+      "title": "Algae Stress Classifier",
+      "context": "Computer Vision · Bioprocess Monitoring",
+      "description": null,
+      "tags": [
+        "chemical",
+        "ai_ml"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Classifies microalgae images as healthy or stressed from resized pixels, colour histograms and texture statistics extracted with <b>OpenCV</b>."
+        ],
+        "2": [
+          "Classifies microalgae images as healthy or stressed from resized pixels, colour histograms and texture statistics extracted with <b>OpenCV</b>.",
+          "Benchmarks <b>Random Forest</b>, Gradient Boosting, <b>XGBoost</b>, SVM and logistic regression against a <b>CNN</b>, tuned with grid search and stratified k-fold CV."
+        ],
+        "3": [
+          "Classifies microalgae images as healthy or stressed from resized pixels, colour histograms and texture statistics extracted with <b>OpenCV</b>.",
+          "Benchmarks <b>Random Forest</b>, Gradient Boosting, <b>XGBoost</b>, SVM and logistic regression against a <b>CNN</b>, tuned with grid search and stratified k-fold CV."
+        ]
+      },
+      "tech": [
+        "OpenCV",
+        "XGBoost",
+        "CNN"
+      ],
+      "github": null,
+      "plannedRepo": "algae-stress-classifier",
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": null,
+      "isNew": false,
+      "status": "pending",
+      "source": "inbox",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_local_algae_analyzer",
+      "title": "Algae Image Analyzer (RGB & Optical Density)",
+      "context": "Desktop Research Tool",
+      "description": null,
+      "tags": [
+        "chemical"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Desktop tool for algae life-cycle research: drag to select a region of a photo and get its RGB statistics and optical density."
+        ],
+        "2": [
+          "Desktop tool for algae life-cycle research: drag to select a region of a photo and get its RGB statistics and optical density.",
+          "Computes channel-specific optical density for red, green and blue, and exports results for analysis; built with <b>Python</b> and Tkinter."
+        ],
+        "3": [
+          "Desktop tool for algae life-cycle research: drag to select a region of a photo and get its RGB statistics and optical density.",
+          "Computes channel-specific optical density for red, green and blue, and exports results for analysis; built with <b>Python</b> and Tkinter."
+        ]
+      },
+      "tech": [
+        "Python"
+      ],
+      "github": null,
+      "plannedRepo": "algae-image-analyzer",
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": null,
+      "isNew": false,
+      "status": "pending",
+      "source": "inbox",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_local_voice_sales_agent",
+      "title": "Voice AI Sales Agent",
+      "context": "LiveKit Agents",
+      "description": null,
+      "tags": [
+        "ai_ml"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Real-time voice sales agent built on <b>LiveKit Agents</b> that answers customer questions from a product catalogue."
+        ],
+        "2": [
+          "Real-time voice sales agent built on <b>LiveKit Agents</b> that answers customer questions from a product catalogue.",
+          "Voice pipeline with Cartesia speech, Silero voice-activity detection and <b>Llama 3.3 70B</b> served through Cerebras."
+        ],
+        "3": [
+          "Real-time voice sales agent built on <b>LiveKit Agents</b> that answers customer questions from a product catalogue.",
+          "Voice pipeline with Cartesia speech, Silero voice-activity detection and <b>Llama 3.3 70B</b> served through Cerebras."
+        ]
+      },
+      "tech": [],
+      "github": null,
+      "plannedRepo": "voice-sales-agent",
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": null,
+      "isNew": false,
+      "status": "pending",
+      "source": "inbox",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_local_indoml",
+      "title": "IndoML — Tutor Response Classification",
+      "context": "NLP · MRBench v3",
+      "description": null,
+      "tags": [
+        "ai_ml"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Classifies tutor responses from the MRBench v3 dataset, starting with a <b>TF-IDF</b> + logistic-regression baseline and error analysis."
+        ],
+        "2": [
+          "Classifies tutor responses from the MRBench v3 dataset, starting with a <b>TF-IDF</b> + logistic-regression baseline and error analysis.",
+          "Fine-tunes <b>BERT</b> (bert-base-uncased) with <b>PyTorch</b> and Hugging Face Transformers."
+        ],
+        "3": [
+          "Classifies tutor responses from the MRBench v3 dataset, starting with a <b>TF-IDF</b> + logistic-regression baseline and error analysis.",
+          "Fine-tunes <b>BERT</b> (bert-base-uncased) with <b>PyTorch</b> and Hugging Face Transformers."
+        ]
+      },
+      "tech": [
+        "PyTorch"
+      ],
+      "github": null,
+      "plannedRepo": "indoml-tutor-response-classification",
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": null,
+      "isNew": false,
+      "status": "pending",
+      "source": "inbox",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_local_meesho",
+      "title": "Meesho Data Science Competition",
+      "context": "Team entry with Anurav Satyaraj · BITS Pilani Goa",
+      "description": null,
+      "tags": [
+        "ai_ml"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Competition entry built with teammate Anurav Satyaraj, prototyping on a representative subset of the data to manage compute."
+        ],
+        "2": [
+          "Competition entry built with teammate Anurav Satyaraj, prototyping on a representative subset of the data to manage compute.",
+          "Random Forest baseline followed by a <b>CNN</b> image model in <b>TensorFlow</b>."
+        ],
+        "3": [
+          "Competition entry built with teammate Anurav Satyaraj, prototyping on a representative subset of the data to manage compute.",
+          "Random Forest baseline followed by a <b>CNN</b> image model in <b>TensorFlow</b>."
+        ]
+      },
+      "tech": [
+        "CNN",
+        "TensorFlow"
+      ],
+      "github": null,
+      "plannedRepo": "meesho-data-science-competition",
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": null,
+      "isNew": false,
+      "status": "pending",
+      "source": "inbox",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_local_robot_vision",
+      "title": "Object Detection for Robotics Vision",
+      "context": "Robotics · Deep Learning",
+      "description": null,
+      "tags": [
+        "ai_ml"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "<b>CNN</b> image classifier on CIFAR-10 as the vision module for a robot, built with <b>TensorFlow</b>/Keras."
+        ],
+        "2": [
+          "<b>CNN</b> image classifier on CIFAR-10 as the vision module for a robot, built with <b>TensorFlow</b>/Keras.",
+          "Tracks parameters and metrics with <b>Neptune</b> experiment logging."
+        ],
+        "3": [
+          "<b>CNN</b> image classifier on CIFAR-10 as the vision module for a robot, built with <b>TensorFlow</b>/Keras.",
+          "Tracks parameters and metrics with <b>Neptune</b> experiment logging.",
+          "Companion simulation of a line-following, obstacle-avoiding robot."
+        ]
+      },
+      "tech": [
+        "CNN",
+        "TensorFlow"
+      ],
+      "github": null,
+      "plannedRepo": "robotics-vision-cnn",
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": null,
+      "isNew": false,
+      "status": "pending",
+      "source": "inbox",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_local_satellite_land",
+      "title": "Satellite Multispectral Land Analysis",
+      "context": "Indian Space Academy · Remote Sensing",
+      "description": null,
+      "tags": [
+        "ai_ml"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Processes large multiband satellite GeoTIFFs window by window with <b>rasterio</b> and computes <b>NDVI</b> from red and NIR bands."
+        ],
+        "2": [
+          "Processes large multiband satellite GeoTIFFs window by window with <b>rasterio</b> and computes <b>NDVI</b> from red and NIR bands.",
+          "Clusters land cover with <b>K-Means</b> and classifies it with a Random Forest."
+        ],
+        "3": [
+          "Processes large multiband satellite GeoTIFFs window by window with <b>rasterio</b> and computes <b>NDVI</b> from red and NIR bands.",
+          "Clusters land cover with <b>K-Means</b> and classifies it with a Random Forest."
+        ]
+      },
+      "tech": [],
+      "github": null,
+      "plannedRepo": "satellite-land-analysis",
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": null,
+      "isNew": false,
+      "status": "pending",
+      "source": "inbox",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_local_sms_spam",
+      "title": "SMS Spam Classifier",
+      "context": "NLP · Streamlit App",
+      "description": null,
+      "tags": [
+        "ai_ml"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Detects spam SMS with <b>NLTK</b> preprocessing (stop-word removal, Porter stemming) and <b>TF-IDF</b> features on an imbalanced dataset."
+        ],
+        "2": [
+          "Detects spam SMS with <b>NLTK</b> preprocessing (stop-word removal, Porter stemming) and <b>TF-IDF</b> features on an imbalanced dataset.",
+          "Compared Naive Bayes variants, SVM, KNN, decision trees, Random Forest, AdaBoost, Gradient Boosting and <b>XGBoost</b>."
+        ],
+        "3": [
+          "Detects spam SMS with <b>NLTK</b> preprocessing (stop-word removal, Porter stemming) and <b>TF-IDF</b> features on an imbalanced dataset.",
+          "Compared Naive Bayes variants, SVM, KNN, decision trees, Random Forest, AdaBoost, Gradient Boosting and <b>XGBoost</b>.",
+          "Serves the trained model and vectorizer through a <b>Streamlit</b> web app."
+        ]
+      },
+      "tech": [
+        "XGBoost"
+      ],
+      "github": null,
+      "plannedRepo": "sms-spam-classifier",
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": null,
+      "isNew": false,
+      "status": "pending",
+      "source": "inbox",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_local_csgo",
+      "title": "CS:GO Round Winner Prediction",
+      "context": "Supervised Learning",
+      "description": null,
+      "tags": [
+        "ai_ml"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Predicts which team wins a Counter-Strike: GO round from in-game round snapshots."
+        ],
+        "2": [
+          "Predicts which team wins a Counter-Strike: GO round from in-game round snapshots.",
+          "Feature analysis and model comparison with <b>PyCaret</b>, logistic regression, decision trees and <b>Random Forest</b>."
+        ],
+        "3": [
+          "Predicts which team wins a Counter-Strike: GO round from in-game round snapshots.",
+          "Feature analysis and model comparison with <b>PyCaret</b>, logistic regression, decision trees and <b>Random Forest</b>."
+        ]
+      },
+      "tech": [],
+      "github": null,
+      "plannedRepo": "csgo-round-winner-prediction",
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": null,
+      "isNew": false,
+      "status": "pending",
+      "source": "inbox",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_local_customer_churn",
+      "title": "Customer Churn Prediction",
+      "context": "Supervised Learning",
+      "description": null,
+      "tags": [
+        "ai_ml"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Predicts which customers will churn using logistic regression, decision trees and <b>Random Forest</b> in <b>scikit-learn</b>."
+        ],
+        "2": [
+          "Predicts which customers will churn using logistic regression, decision trees and <b>Random Forest</b> in <b>scikit-learn</b>."
+        ],
+        "3": [
+          "Predicts which customers will churn using logistic regression, decision trees and <b>Random Forest</b> in <b>scikit-learn</b>."
+        ]
+      },
+      "tech": [
+        "scikit-learn"
+      ],
+      "github": null,
+      "plannedRepo": "customer-churn-prediction",
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": null,
+      "isNew": false,
+      "status": "pending",
+      "source": "inbox",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_local_census_income",
+      "title": "Census Income Classification",
+      "context": "Supervised Learning",
+      "description": null,
+      "tags": [
+        "ai_ml"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Binary classification of income bracket from census records after data cleaning and EDA."
+        ],
+        "2": [
+          "Binary classification of income bracket from census records after data cleaning and EDA.",
+          "Compares logistic regression, decision tree and <b>Random Forest</b> models."
+        ],
+        "3": [
+          "Binary classification of income bracket from census records after data cleaning and EDA.",
+          "Compares logistic regression, decision tree and <b>Random Forest</b> models."
+        ]
+      },
+      "tech": [],
+      "github": null,
+      "plannedRepo": "census-income-classification",
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": null,
+      "isNew": false,
+      "status": "pending",
+      "source": "inbox",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_local_flight_price",
+      "title": "Flight Price Prediction",
+      "context": "Regression",
+      "description": null,
+      "tags": [
+        "ai_ml"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Predicts flight booking prices with linear regression, decision tree and <b>Random Forest</b> regressors."
+        ],
+        "2": [
+          "Predicts flight booking prices with linear regression, decision tree and <b>Random Forest</b> regressors.",
+          "Feature selection guided by correlation analysis and <b>statsmodels</b>."
+        ],
+        "3": [
+          "Predicts flight booking prices with linear regression, decision tree and <b>Random Forest</b> regressors.",
+          "Feature selection guided by correlation analysis and <b>statsmodels</b>."
+        ]
+      },
+      "tech": [],
+      "github": null,
+      "plannedRepo": "flight-price-prediction",
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": null,
+      "isNew": false,
+      "status": "pending",
+      "source": "inbox",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_local_movie_recommender",
+      "title": "Movie Recommendation System",
+      "context": "Content-Based Recommender",
+      "description": null,
+      "tags": [
+        "ai_ml"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Content-based movie recommender built from the TMDB 5000 movies and credits metadata with <b>Pandas</b>."
+        ],
+        "2": [
+          "Content-based movie recommender built from the TMDB 5000 movies and credits metadata with <b>Pandas</b>."
+        ],
+        "3": [
+          "Content-based movie recommender built from the TMDB 5000 movies and credits metadata with <b>Pandas</b>."
+        ]
+      },
+      "tech": [
+        "Pandas"
+      ],
+      "github": null,
+      "plannedRepo": "movie-recommendation-system",
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": null,
+      "isNew": false,
+      "status": "pending",
+      "source": "inbox",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_local_netflix_svd",
+      "title": "Netflix Prize Recommendation Engine",
+      "context": "Collaborative Filtering",
+      "description": null,
+      "tags": [
+        "ai_ml"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Collaborative-filtering recommender on the Netflix Prize ratings data using <b>SVD</b> from the Surprise library."
+        ],
+        "2": [
+          "Collaborative-filtering recommender on the Netflix Prize ratings data using <b>SVD</b> from the Surprise library."
+        ],
+        "3": [
+          "Collaborative-filtering recommender on the Netflix Prize ratings data using <b>SVD</b> from the Surprise library."
+        ]
+      },
+      "tech": [],
+      "github": null,
+      "plannedRepo": "netflix-recommendation-engine",
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": null,
+      "isNew": false,
+      "status": "pending",
+      "source": "inbox",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_local_walmart_forecast",
+      "title": "Walmart Sales Forecasting",
+      "context": "Time Series",
+      "description": null,
+      "tags": [
+        "ai_ml",
+        "finance"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Forecasts Walmart sales with <b>SARIMAX</b> time-series models in <b>statsmodels</b>."
+        ],
+        "2": [
+          "Forecasts Walmart sales with <b>SARIMAX</b> time-series models in <b>statsmodels</b>."
+        ],
+        "3": [
+          "Forecasts Walmart sales with <b>SARIMAX</b> time-series models in <b>statsmodels</b>."
+        ]
+      },
+      "tech": [],
+      "github": null,
+      "plannedRepo": "walmart-sales-forecasting",
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": null,
+      "isNew": false,
+      "status": "pending",
+      "source": "inbox",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_local_potato_price",
+      "title": "Potato Price Forecasting (India)",
+      "context": "Regression",
+      "description": null,
+      "tags": [
+        "ai_ml",
+        "finance"
+      ],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Models Indian potato prices from 1997–2015 with <b>Random Forest</b> and Gradient Boosting regressors after exploratory visualisation."
+        ],
+        "2": [
+          "Models Indian potato prices from 1997–2015 with <b>Random Forest</b> and Gradient Boosting regressors after exploratory visualisation."
+        ],
+        "3": [
+          "Models Indian potato prices from 1997–2015 with <b>Random Forest</b> and Gradient Boosting regressors after exploratory visualisation."
+        ]
+      },
+      "tech": [],
+      "github": null,
+      "plannedRepo": "potato-price-forecasting",
+      "thumbnail": null,
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": null,
+      "endDate": null,
+      "updatedAt": null,
+      "isNew": false,
+      "status": "pending",
+      "source": "inbox",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "proj_gh_22aiml_projects",
+      "title": "22AIML Projects",
+      "context": "GitHub repository",
+      "description": "Al ML projects did",
+      "tags": [],
+      "category": null,
+      "bullets": {
+        "1": [
+          "Al ML projects did"
+        ],
+        "2": [
+          "Al ML projects did"
+        ],
+        "3": [
+          "Al ML projects did"
+        ]
+      },
+      "tech": [
+        "Jupyter Notebook"
+      ],
+      "github": {
+        "url": "https://github.com/DEBANJAN-KAKATI/22AIML_projects",
+        "fullName": "DEBANJAN-KAKATI/22AIML_projects",
+        "stars": 0,
+        "forks": 0,
+        "languages": {
+          "Jupyter Notebook": 7966435
+        },
+        "primaryLanguage": "Jupyter Notebook",
+        "topics": [],
+        "homepage": null,
+        "pushedAt": "2025-04-12T08:53:24Z",
+        "readmeExcerpt": null,
+        "socialImage": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/22AIML_projects",
+        "pinned": false
+      },
+      "plannedRepo": null,
+      "thumbnail": "https://opengraph.githubassets.com/1/DEBANJAN-KAKATI/22AIML_projects",
+      "images": [],
+      "demoUrl": null,
+      "videoUrl": null,
+      "modelUrl": null,
+      "startDate": "2025-04",
+      "endDate": null,
+      "updatedAt": "2025-04-12T08:53:24Z",
+      "isNew": false,
+      "status": "draft",
+      "source": "github",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    }
+  ],
+  "achievements": [
+    {
+      "id": "patent_ice_melting_rate_prediction_model",
+      "kind": "patent",
+      "label": "Patent",
+      "title": "Ice Melting Rate Prediction Model",
+      "details": "Filed: Jan 27, 2025 | Issued: Nov 5, 2025 | App No. IDF/H/115107 | Patent Office: India",
+      "url": null,
+      "image": null,
+      "date": null,
+      "status": "published",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "certification_advanced_data_science_artificial_intelligence",
+      "kind": "certification",
+      "label": "Certification",
+      "title": "Advanced Data Science & Artificial Intelligence",
+      "details": "Intellipaat (2023) — Comprehensive Master&#39;s certification in ML/DL pipelines",
+      "url": null,
+      "image": null,
+      "date": null,
+      "status": "published",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "certification_advanced_artificial_intelligence_robotics",
+      "kind": "certification",
+      "label": "Certification",
+      "title": "Advanced Artificial Intelligence & Robotics",
+      "details": "myEquation – ROBO AI (2024) — Neural controllers and autonomous state machines",
+      "url": null,
+      "image": null,
+      "date": null,
+      "status": "published",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "por_sae_formula_bharat_chassis_development_engineer",
+      "kind": "por",
+      "label": "Position of Responsibility",
+      "title": "SAE Formula Bharat — Chassis Development Engineer",
+      "details": "Secured Top 25 national finalist placement among 80+ engineering teams; engineered 7+ optimized CAD/FEA designs (ANSYS, SolidWorks) and accelerated vehicle assembly by 2+ weeks through early FEA validation.",
+      "url": null,
+      "image": null,
+      "date": null,
+      "status": "published",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "por_smart_india_hackathon_sih_national_top_1_finalist",
+      "kind": "por",
+      "label": "Position of Responsibility",
+      "title": "Smart India Hackathon (SIH) — National Top 1% Finalist",
+      "details": "Ranked in the top 1% nationwide out of thousands of teams for FreeWind AI pollution analytics platform.",
+      "url": null,
+      "image": null,
+      "date": null,
+      "status": "published",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "por_indian_space_academy_remote_sensing_gis_training",
+      "kind": "por",
+      "label": "Position of Responsibility",
+      "title": "Indian Space Academy — Remote Sensing & GIS Training",
+      "details": "Certified in satellite geospatial analysis, multi-spectral band interpretation, and spatial GIS modeling.",
+      "url": null,
+      "image": null,
+      "date": null,
+      "status": "published",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "award_national_mathematics_olympiad_gold_medal",
+      "kind": "award",
+      "label": "Award",
+      "title": "National Mathematics Olympiad Gold Medal",
+      "details": "Ranked 1st nationwide for advanced combinatorial proofs",
+      "url": null,
+      "image": null,
+      "date": null,
+      "status": "published",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "award_smart_india_hackathon_sih",
+      "kind": "award",
+      "label": "Award",
+      "title": "Smart India Hackathon (SIH)",
+      "details": "National Top 1% Finalist among 50,000+ national participants",
+      "url": null,
+      "image": null,
+      "date": null,
+      "status": "published",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "award_formula_bharat_motorsports_design",
+      "kind": "award",
+      "label": "Award",
+      "title": "Formula Bharat Motorsports Design",
+      "details": "National Top 25 Finalist for lightweight chassis optimization",
+      "url": null,
+      "image": null,
+      "date": null,
+      "status": "published",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "award_academic_excellence_award",
+      "kind": "award",
+      "label": "Award",
+      "title": "Academic Excellence Award",
+      "details": "Merit Scholarship &amp; Recognition, BITS Pilani",
+      "url": null,
+      "image": null,
+      "date": null,
+      "status": "published",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    }
+  ],
+  "testimonials": [],
+  "github": {
+    "login": "DEBANJAN-KAKATI",
+    "name": null,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/143798457?v=4",
+    "url": "https://github.com/DEBANJAN-KAKATI",
+    "bio": null,
+    "publicRepos": 16,
+    "followers": 2,
+    "totalStars": 10,
+    "languageTotals": {
+      "HTML": 829987,
+      "JavaScript": 1104355,
+      "Python": 1140104,
+      "CSS": 262044,
+      "Batchfile": 11179,
+      "PowerShell": 733,
+      "Java": 2593,
+      "TypeScript": 327775,
+      "Dockerfile": 2888,
+      "Mako": 632,
+      "MATLAB": 110331,
+      "Jupyter Notebook": 870051
+    },
+    "knownRepos": [
+      "DEBANJAN-KAKATI/SHELL_platform",
+      "DEBANJAN-KAKATI/advanced-rag-system",
+      "DEBANJAN-KAKATI/QR-Chat",
+      "DEBANJAN-KAKATI/Furo---TravelSwipe",
+      "DEBANJAN-KAKATI/Sai---MovieSwipe",
+      "DEBANJAN-KAKATI/developer-portfolios",
+      "DEBANJAN-KAKATI/portfolio_analyser",
+      "DEBANJAN-KAKATI/JALPRALOY",
+      "DEBANJAN-KAKATI/jstMyRB",
+      "DEBANJAN-KAKATI/Explainable_AI_for_Diabetic_Retinopathy_Screening_in_Rural-India",
+      "DEBANJAN-KAKATI/jstPDF",
+      "DEBANJAN-KAKATI/Quantitative-Finance-Portfolio",
+      "DEBANJAN-KAKATI/ice-melting-rate-prediction",
+      "DEBANJAN-KAKATI/22AIML_projects",
+      "DEBANJAN-KAKATI/Files",
+      "DEBANJAN-KAKATI/DEBANJAN-KAKATI"
+    ],
+    "contributions": null
+  }
+}

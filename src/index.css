@@ -1,0 +1,286 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
+
+@theme {
+  --font-sans: 'Segoe UI Variable Text', 'Segoe UI Variable', 'Segoe UI', Inter, system-ui, sans-serif;
+  --font-display: 'Segoe UI Variable Display', 'Segoe UI Variable', 'Segoe UI', Inter, system-ui, sans-serif;
+  --font-mono: 'Cascadia Mono', Consolas, ui-monospace, monospace;
+}
+
+/*
+ * Fluent-style design tokens. --accent is set at runtime from Settings /
+ * content/extras.json; everything else switches with [data-theme].
+ */
+:root {
+  --accent: #0078d4;
+  --accent-text: #ffffff;
+  --taskbar-h: 48px;
+
+  --bg: #f3f3f3;
+  --text: #1b1b1b;
+  --text-dim: #5d5d5d;
+  --surface: rgb(249 249 249 / 0.78); /* mica-like window surface */
+  --surface-solid: #f9f9f9;
+  --surface-alt: rgb(255 255 255 / 0.6);
+  --surface-hover: rgb(0 0 0 / 0.05);
+  --surface-press: rgb(0 0 0 / 0.08);
+  --acrylic: rgb(243 243 243 / 0.72);
+  --border: rgb(0 0 0 / 0.09);
+  --border-strong: rgb(0 0 0 / 0.16);
+  --shadow-window: 0 0 0 1px rgb(0 0 0 / 0.06), 0 8px 16px rgb(0 0 0 / 0.14), 0 32px 64px rgb(0 0 0 / 0.18);
+  --shadow-flyout: 0 0 0 1px rgb(0 0 0 / 0.06), 0 8px 16px rgb(0 0 0 / 0.14);
+  --titlebar-inactive: 0.55;
+  color-scheme: light;
+}
+
+[data-theme='dark'] {
+  --bg: #202020;
+  --text: #ffffff;
+  --text-dim: #c5c5c5;
+  --surface: rgb(32 32 32 / 0.82);
+  --surface-solid: #202020;
+  --surface-alt: rgb(255 255 255 / 0.05);
+  --surface-hover: rgb(255 255 255 / 0.06);
+  --surface-press: rgb(255 255 255 / 0.09);
+  --acrylic: rgb(32 32 32 / 0.74);
+  --border: rgb(255 255 255 / 0.08);
+  --border-strong: rgb(255 255 255 / 0.16);
+  --shadow-window: 0 0 0 1px rgb(0 0 0 / 0.4), 0 8px 16px rgb(0 0 0 / 0.3), 0 32px 64px rgb(0 0 0 / 0.42);
+  --shadow-flyout: 0 0 0 1px rgb(0 0 0 / 0.4), 0 8px 16px rgb(0 0 0 / 0.36);
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  background: #000;
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+}
+
+/* Text the visitor may want to copy stays selectable. */
+.selectable,
+input,
+textarea {
+  user-select: text;
+}
+
+.acrylic {
+  background: var(--acrylic);
+  backdrop-filter: blur(40px) saturate(160%);
+  -webkit-backdrop-filter: blur(40px) saturate(160%);
+}
+
+.mica {
+  background: var(--surface);
+  backdrop-filter: blur(60px) saturate(180%);
+  -webkit-backdrop-filter: blur(60px) saturate(180%);
+}
+
+/* Visible focus ring everywhere, in the accent colour (in the base layer so
+   utilities like outline-none can still override it). */
+@layer base {
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(128 128 128 / 0.45);
+  border: 3px solid transparent;
+  background-clip: padding-box;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(128 128 128 / 0.7);
+}
+
+/* ------------------------------------------------------------------ *
+ * Retro mode (Settings → Personalization). Recreated looks, no
+ * original Microsoft assets: just colours, bevels and gradients.
+ * Inline window styles (radius, shadow) need !important to override.
+ * ------------------------------------------------------------------ */
+[data-retro] {
+  --titlebar-inactive: 1;
+}
+[data-retro] .acrylic,
+[data-retro] .mica {
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+/* ---- Windows 95 ---- */
+[data-retro='95'] {
+  --bg: #008080;
+  --text: #000000;
+  --text-dim: #404040;
+  --surface: #c0c0c0;
+  --surface-solid: #ffffff;
+  --surface-alt: #c0c0c0;
+  --surface-hover: #d4d0c8;
+  --surface-press: #b8b4ac;
+  --acrylic: #c0c0c0;
+  --border: #808080;
+  --border-strong: #404040;
+  --font-sans: 'Microsoft Sans Serif', 'MS Sans Serif', Tahoma, Arial, sans-serif;
+  --font-display: 'Microsoft Sans Serif', 'MS Sans Serif', Tahoma, Arial, sans-serif;
+  --bevel-out: inset -1px -1px #0a0a0a, inset 1px 1px #ffffff, inset -2px -2px #808080, inset 2px 2px #dfdfdf;
+  --bevel-in: inset -1px -1px #ffffff, inset 1px 1px #0a0a0a, inset -2px -2px #dfdfdf, inset 2px 2px #808080;
+}
+[data-retro='95'] * {
+  border-radius: 0 !important;
+}
+[data-retro='95'] .os-wallpaper {
+  background: #008080 !important;
+}
+[data-retro='95'] .os-window {
+  background: #c0c0c0;
+  border: none;
+  padding: 3px;
+  box-shadow: var(--bevel-out) !important;
+}
+[data-retro='95'] .os-titlebar {
+  height: 22px;
+  margin-bottom: 2px;
+  color: #ffffff;
+  font-weight: 700;
+  background: linear-gradient(90deg, #808080, #b5b5b5);
+}
+[data-retro='95'] .os-window[data-focused] .os-titlebar {
+  background: linear-gradient(90deg, #000080, #1084d0);
+}
+[data-retro='95'] .os-captions {
+  gap: 2px;
+  padding: 2px;
+}
+[data-retro='95'] .os-captions button {
+  width: 18px;
+  height: 16px;
+  color: #000;
+  background: #c0c0c0;
+  box-shadow: var(--bevel-out);
+}
+[data-retro='95'] .os-captions button:active {
+  box-shadow: var(--bevel-in);
+}
+[data-retro='95'] .os-taskbar {
+  background: #c0c0c0;
+  border-top: 2px solid #ffffff;
+}
+
+/* ---- Windows XP (Luna-inspired) ---- */
+[data-retro='xp'] {
+  --bg: #3a6ea5;
+  --text: #000000;
+  --text-dim: #4d4d4d;
+  --surface: #ece9d8;
+  --surface-solid: #ffffff;
+  --surface-alt: #ece9d8;
+  --surface-hover: rgb(49 106 197 / 0.15);
+  --surface-press: rgb(49 106 197 / 0.25);
+  --acrylic: #ece9d8;
+  --border: #aca899;
+  --border-strong: #7f9db9;
+  --font-sans: Tahoma, Verdana, 'Segoe UI', sans-serif;
+  --font-display: 'Trebuchet MS', Tahoma, sans-serif;
+}
+[data-retro='xp'] .os-wallpaper {
+  /* Original rolling-hill scene in CSS, in the spirit of XP's defaults. */
+  background:
+    radial-gradient(140% 60% at 30% 105%, #4c9a2a 0 45%, transparent 46%),
+    radial-gradient(120% 55% at 85% 110%, #3f8a22 0 45%, transparent 46%),
+    radial-gradient(60% 20% at 25% 25%, rgb(255 255 255 / 0.85), transparent 70%),
+    radial-gradient(50% 16% at 70% 18%, rgb(255 255 255 / 0.7), transparent 70%),
+    linear-gradient(#2a64c9, #6fa8ef 55%, #b9d8f7) !important;
+}
+[data-retro='xp'] .os-window {
+  border: 3px solid #0831d9;
+  border-top: none;
+  border-radius: 8px 8px 0 0 !important;
+  background: #ece9d8;
+}
+[data-retro='xp'] .os-window:not([data-focused]) {
+  border-color: #7a96df;
+}
+[data-retro='xp'] .os-titlebar {
+  height: 30px;
+  color: #ffffff;
+  font-weight: 700;
+  text-shadow: 1px 1px #0f1089;
+  background: linear-gradient(#0058ee, #3a93ff 8%, #0050e6 40%, #0047d6 88%, #003dd7);
+}
+[data-retro='xp'] .os-window:not([data-focused]) .os-titlebar {
+  background: linear-gradient(#7b9fe6, #9db9eb 10%, #7b9fe6);
+}
+[data-retro='xp'] .os-captions {
+  gap: 2px;
+  align-items: center;
+  padding-right: 4px;
+}
+[data-retro='xp'] .os-captions button {
+  width: 22px;
+  height: 22px;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  color: #ffffff;
+  background: linear-gradient(135deg, #3c81f3, #1c55d6);
+}
+[data-retro='xp'] .os-captions .os-close {
+  background: linear-gradient(135deg, #e5754a, #c13a19);
+}
+[data-retro='xp'] .os-taskbar {
+  border-top: 1px solid #0c59b9;
+  background: linear-gradient(#1f2f86, #3168d5 3%, #4993e6 6%, #2157d7 10%, #2663e0 90%, #1941a5);
+  color: #ffffff;
+  --text: #ffffff;
+  --text-dim: #dbe7ff;
+  --surface-hover: rgb(255 255 255 / 0.15);
+}
+
+/* Recruiter Mode prints as a plain document. */
+@media print {
+  html,
+  body {
+    height: auto !important;
+    overflow: visible !important;
+    background: #fff !important;
+  }
+  body:has(#recruiter-overlay) > #root {
+    display: none !important;
+  }
+  #recruiter-overlay {
+    position: static !important;
+  }
+  @page {
+    margin: 14mm;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Dev Mode: accent line along the taskbar so it's obvious edits are live-staged. */
+[data-devmode] .os-taskbar {
+  border-top: 2px solid var(--accent);
+}
