@@ -3,89 +3,81 @@
   Source of public/resume.pdf. Edit this file, then run:  npm run resume
   Format follows my BITS internship resume: one US Letter page, Times, ruled section headings.
   The phone number is left out on purpose because this PDF is public.
+  ATS notes: single column, standard headings, left-aligned text (justified text
+  makes parsers glue words together), and links written out in full.
 -->
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <title>Debanjan Kakati · Resume</title>
 <style>
-  @page { size: Letter; margin: 0.32in 0.38in 0.26in; }
+  @page { size: Letter; margin: 0.42in 0.5in 0.36in; }
   * { box-sizing: border-box; }
   html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-  body { margin: 0; font-family: "Times New Roman", Times, serif; font-size: 10pt; line-height: 1.08; color: #000; }
-  h1 { margin: 0; text-align: center; font-size: 16.5pt; letter-spacing: 0.02em; }
-  .contact { text-align: center; font-size: 10pt; margin: 1pt 0 3pt; }
-  .contact a { color: #0b3fc8; }
-  h2 { margin: 3.5pt 0 1.5pt; padding-bottom: 0.3pt; font-size: 10.8pt; text-transform: uppercase; border-bottom: 0.7pt solid #000; }
-  .row { display: flex; justify-content: space-between; gap: 8pt; }
+  body { margin: 0; font-family: "Times New Roman", Times, serif; font-size: 10.5pt; line-height: 1.22; color: #000; }
+  h1 { margin: 0; text-align: center; font-size: 18pt; letter-spacing: 0.03em; }
+  .contact { text-align: center; font-size: 10pt; margin: 2pt 0 4pt; }
+  .contact a { color: #0b3fc8; text-decoration: none; }
+  h2 { margin: 8pt 0 3pt; padding-bottom: 1pt; font-size: 11pt; text-transform: uppercase; letter-spacing: 0.03em; border-bottom: 0.8pt solid #000; }
+  .row { display: flex; justify-content: space-between; gap: 10pt; }
   .row > :last-child { flex-shrink: 0; text-align: right; }
-  .entry { margin-top: 1pt; }
+  .entry { margin-top: 3.5pt; }
   .title { font-weight: bold; }
   .sub { font-style: italic; }
-  ul { margin: 0.5pt 0 0; padding-left: 14pt; }
-  li { margin: 0; text-align: justify; }
+  ul { margin: 1.5pt 0 0; padding-left: 15pt; }
+  li { margin: 1pt 0; }
   .flag { color: #c00000; }
-  .plain li { list-style: disc; }
-  .cert { padding-left: 14pt; }
-  .cert b { font-weight: bold; }
+  .line { margin: 1.5pt 0 0; }
 </style>
 </head>
 <body>
   <h1>DEBANJAN KAKATI</h1>
   <p class="contact">
     <a href="mailto:f20230093@goa.bits-pilani.ac.in">f20230093@goa.bits-pilani.ac.in</a> |
-    <a href="https://www.linkedin.com/in/debanjan-kakati-5517891b7/">LinkedIn</a> |
-    <a href="https://github.com/DEBANJAN-KAKATI">GitHub</a> |
-    <a href="https://github.com/DEBANJAN-KAKATI/Portfolio_OS">Portfolio</a>
+    <a href="https://www.linkedin.com/in/debanjan-kakati-5517891b7/">linkedin.com/in/debanjan-kakati-5517891b7</a> |
+    <a href="https://github.com/DEBANJAN-KAKATI">github.com/DEBANJAN-KAKATI</a>
   </p>
 
   <h2>Education</h2>
   <div class="entry">
     <div class="row"><span class="title">Birla Institute of Technology and Science, Pilani - Goa Campus</span><span>Aug 2023 - Jul 2027</span></div>
-    <div class="row"><span class="sub">B.E. Chemical (Hons.) | Minor: Finance</span><span></span></div>
+    <div class="sub">B.E. Chemical (Hons.) | Minor: Finance</div>
+    <div class="line"><b>Coursework:</b> Portfolio Management, Derivatives &amp; Risk, Valuation, Machine Learning, Deep Learning, Stochastic Processes</div>
   </div>
   <div class="entry">
     <div class="row"><span class="title">Gurukul Grammar Senior Secondary School</span><span>2010 - 2023</span></div>
-    <div class="row"><span class="sub">Class XII (CBSE): 90% | Class X: 91.6%</span><span></span></div>
+    <div class="sub">Class XII (CBSE): 90% | Class X: 91.6%</div>
   </div>
 
   <h2>Skills</h2>
-  <ul class="plain">
-    <li><b>Languages:</b> Python (Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch, OpenCV), SQL, C++, JavaScript, Java, MATLAB</li>
-    <li><b>AI &amp; Quant:</b> LLMs &amp; RAG, Transformers, CNNs, GNNs, LSTM/ARIMA, Explainable AI, AR-GARCH, Monte Carlo, DCF/WACC</li>
-    <li><b>Tools:</b> FastAPI, React, LangGraph, Docker, Azure, AWS, <b>Power BI, Advanced Excel, PostgreSQL, Git, ANSYS, SolidWorks</b></li>
-  </ul>
-
-  <h2>Relevant Coursework</h2>
-  <ul class="plain">
-    <li>Security Analysis &amp; Portfolio Management, Derivatives &amp; Risk Management, Business Analysis &amp; Valuation, Financial Management</li>
-    <li>Machine Learning / AI, Deep Learning &amp; Generative AI, Data Analytics, Probability &amp; Stochastic Processes, Plant Design</li>
-  </ul>
+  <div class="line"><b>Languages:</b> Python (Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch, OpenCV), SQL, C++, JavaScript, MATLAB</div>
+  <div class="line"><b>AI &amp; Quant:</b> LLMs, RAG, Transformers, CNNs, GNNs, LSTM, Time-Series Forecasting, AR-GARCH, Monte Carlo, DCF</div>
+  <div class="line"><b>Tools:</b> FastAPI, React, LangGraph, Docker, Azure, AWS, Power BI, Advanced Excel, PostgreSQL, Git, ANSYS, SolidWorks</div>
 
   <h2>Experience</h2>
   <div class="entry">
     <div class="row"><span class="title">Digitalization Intern - Innovation &amp; Learning Solutions</span><span>May 2026 - Dec 2026</span></div>
     <div class="row"><span class="sub">Shell India Markets Pvt. Ltd.</span><span class="sub">Bengaluru, India</span></div>
     <ul>
-      <li>Architected an end-to-end digital transformation platform for an <b>8-parallel-reactor</b> High-Throughput Experimentation (HTE) catalyst testing unit, cutting campaign data assembly from <b>~10 days to real time</b>.</li>
-      <li>Built automated pipelines ingesting online <b>Gas Chromatography (GC)</b> and <b>SCADA</b> telemetry, with mass balance closure engines.</li>
-      <li>Developed the <b>DHA Octane Data Merger</b>, batch-processing analyser reports to automate <b>RON/MON</b> and C1–C15 breakdowns.</li>
+      <li>Architected a digital platform for an <b>8-reactor</b> High-Throughput Experimentation (HTE) catalyst testing unit, cutting campaign data assembly from <b>~10 days to real time</b>.</li>
+      <li>Built pipelines ingesting online <b>Gas Chromatography</b> and <b>SCADA</b> data, with mass balance closure.</li>
+      <li>Automated <b>RON/MON</b> octane extraction and C1–C15 breakdowns from detailed hydrocarbon analysis reports.</li>
     </ul>
   </div>
   <div class="entry">
     <div class="row"><span class="title">Business Analytics &amp; Industry 4.0 Intern</span><span>May 2025 - Jul 2025</span></div>
-    <div class="row"><span class="sub">PIEDS - BITS Pilani (Entrepreneurship Development Society, Govt. of India)</span><span class="sub">Remote</span></div>
+    <div class="row"><span class="sub">PIEDS - BITS Pilani (Govt. of India Society)</span><span class="sub">Remote</span></div>
     <ul>
-      <li>Evaluated <b>50+ early-stage startups</b> on commercial viability, market sizing, unit economics and growth defensibility to guide incubation and <b>Entrepreneur-in-Residence</b> decisions.</li>
-      <li>Facilitated outreach to <b>20+ venture capital funds</b>, securing funding conversations and a network of <b>50+ mentors</b>.</li>
+      <li>Evaluated <b>50+ early-stage startups</b> on market size, unit economics and growth potential to guide incubation decisions.</li>
+      <li>Led outreach to <b>20+ venture capital funds</b>, building an investor and mentor network of <b>50+</b>.</li>
     </ul>
   </div>
   <div class="entry">
     <div class="row"><span class="title">Business &amp; Operations Growth Associate</span><span>Aug 2023 - Jul 2024</span></div>
-    <div class="row"><span class="sub">INTELLIPAAT</span><span class="sub">Remote</span></div>
+    <div class="row"><span class="sub">Intellipaat</span><span class="sub">Remote</span></div>
     <ul>
-      <li>Led development of <b>3 AI-driven operational analytics systems</b> (multi-modal decision platform, traffic optimization model, HR automation tool), improving process <b>efficiency by 30–45%</b> and cutting manual workload by <b>50%+</b>.</li>
-      <li>Built end-to-end dataflow pipelines (ingestion → inference → dashboards), <b>outperforming peer benchmarks by ~35%</b>.</li>
+      <li>Built <b>3 AI analytics systems</b> (decision platform, traffic optimization, HR automation), improving efficiency <b>30–45%</b>.</li>
+      <li>Developed end-to-end data pipelines that <b>outperformed peer benchmarks by ~35%</b> in predictive accuracy.</li>
     </ul>
   </div>
 
@@ -93,51 +85,37 @@
   <div class="entry">
     <div class="title">Ice Melting Rate Prediction via ML - <span class="flag">Patent Filed</span> | Prof. Anirban Roy</div>
     <ul>
-      <li>Engineered a patent-pending ML model predicting ice melting dynamics from thermodynamic properties on <b>237+ experimental data points</b>, reaching <b>96% accuracy</b> (RMSE: 46.8, MAE: 36.4).</li>
-      <li>Found a perfect heat-capacity correlation (<b>r = 1.0</b>) and benchmarked <b>12+ regression and deep learning models</b>, tuning a TensorFlow/Keras network that needed <b>~40% less training data</b>.</li>
+      <li>Built a patent-pending ML model predicting ice melting rates with <b>96% accuracy</b> on <b>237+ experimental data points</b>.</li>
+      <li>Benchmarked <b>12+ regression and deep learning models</b>; the tuned TensorFlow network needed <b>~40% less training data</b>.</li>
     </ul>
   </div>
   <div class="entry">
     <div class="title">Systemic Risk in the Cryptocurrency Ecosystem | Prof. Ashwini Kumar</div>
     <ul>
-      <li>Built a multi-stage econometric framework combining <b>AR-GARCH(1,1)</b>, <b>Transfer Entropy</b> spillover networks and leave-one-out systemic indices across <b>8 digital assets over 10 years</b>.</li>
-      <li>Showed stablecoins USDT (SI 0.1316) and USDC (SI 0.1222) transmit <b>more systemic contagion than BTC and ETH</b>, and modelled tail risk with quantile regression (τ = 0.1, 0.5, 0.9).</li>
+      <li>Combined <b>AR-GARCH</b>, <b>Transfer Entropy</b> networks and systemic risk indices across <b>8 digital assets over 10 years</b>.</li>
+      <li>Showed stablecoins (USDT, USDC) <b>spread more systemic risk than BTC and ETH</b>, with quantile tail-risk models.</li>
     </ul>
   </div>
   <div class="entry">
-    <div class="title">FreeWind - Spatiotemporal AQI Forecasting | Smart India Hackathon (National Top 1%)</div>
+    <div class="title">FreeWind - Air Quality Forecasting | Smart India Hackathon, National Top 1%</div>
     <ul>
-      <li>Designed an air-quality forecasting engine fusing <b>Graph Neural Networks</b> and <b>bidirectional LSTMs</b> across <b>300,000+ multi-city sensor records</b>, achieving <b>32% lower MAE</b> than traditional baselines.</li>
-      <li>Engineered real-time pollution source attribution fusing satellite imagery, traffic heatmaps and meteorological telemetry.</li>
-    </ul>
-  </div>
-  <div class="entry">
-    <div class="title">Paints Industry Equity Valuation &amp; Financial Modelling | Prof. Mohit Kumar</div>
-    <ul>
-      <li>Built <b>3-statement models</b> for Asian Paints, Berger Paints and Kansai Nerolac, projecting 5-year FCFF with terminal value.</li>
-      <li>Estimated Cost of Equity at <b>13.21%</b> (CAPM), <b>WACC of 11.8%–12.4%</b>, ±100 bps sensitivity and EV/EBITDA comps (<b>35.44x</b>).</li>
+      <li>Fused <b>Graph Neural Networks</b> and <b>LSTMs</b> over <b>300,000+ sensor records</b>, achieving <b>32% lower error</b> than baselines.</li>
     </ul>
   </div>
 
-  <h2>Position of Responsibility</h2>
+  <h2>Leadership</h2>
   <div class="entry">
     <div class="title">SAE Formula Bharat - Chassis Development Engineer</div>
     <ul>
-      <li>Engineered <b>7+ optimized CAD/FEA designs</b> (ANSYS, SolidWorks), contributing to a <b>Top 25 national placement among 80+ teams</b>.</li>
-      <li>Accelerated vehicle completion by <b>2+ weeks through early FEA validation</b> while leading chassis integration.</li>
+      <li>Delivered <b>7+ CAD/FEA designs</b> (ANSYS, SolidWorks) for a <b>Top 25 finish among 80+ teams</b>; early FEA saved <b>2+ weeks</b>.</li>
     </ul>
   </div>
 
-  <h2>Patent &amp; Certifications</h2>
-  <div class="cert">
-    <div class="row"><span><b>PATENT:</b> Ice Melting Rate Prediction Model</span><span>Filed: Jan 27, 2025 | Issued: Nov 5, 2025 | App No. IDF/H/115107 | India</span></div>
-    <div class="row"><span><b>CERTIFICATION: Advanced Data Science &amp; Artificial Intelligence | Intellipaat</b></span><span><b>2023</b></span></div>
-    <div class="row"><span><b>CERTIFICATION: Advanced Artificial Intelligence &amp; Robotics | myEquation - ROBO AI</b></span><span><b>2024</b></span></div>
-  </div>
-
-  <h2>Achievements</h2>
-  <ul class="plain">
-    <li><b>Indian Space Academy</b> - Remote Sensing &amp; GIS (Winter Training): certified in geospatial analysis and satellite data interpretation.</li>
+  <h2>Patent, Certifications &amp; Achievements</h2>
+  <ul>
+    <li><b>Patent:</b> Ice Melting Rate Prediction Model, Indian Patent Office, App. No. IDF/H/115107 (filed Jan 2025, issued Nov 2025)</li>
+    <li><b>Certifications:</b> Advanced Data Science &amp; AI, Intellipaat (2023); Advanced AI &amp; Robotics, myEquation (2024)</li>
+    <li><b>Indian Space Academy:</b> Remote Sensing &amp; GIS winter training</li>
   </ul>
 </body>
 </html>
