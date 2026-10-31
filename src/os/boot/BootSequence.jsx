@@ -4,7 +4,7 @@
  */
 import { useEffect, useRef, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
-import { ArrowRight, ChevronsRight } from 'lucide-react';
+import { ArrowRight, ChevronsRight, Wrench } from 'lucide-react';
 import { useData, selectProjects } from '@/data/store.js';
 import { useSystem } from '../store/system.js';
 import { useClock, useTransition } from '../lib/hooks.js';
@@ -12,6 +12,7 @@ import { useWallpaper } from '../lib/wallpaper.js';
 import { displayName } from '../lib/format.js';
 import Monogram from '../ui/Monogram.jsx';
 import Spinner from '../ui/Spinner.jsx';
+import { devLogin } from '../devmode.js';
 
 function useTimer(ms, fn) {
   const fnRef = useRef(fn);
@@ -127,48 +128,126 @@ function LockScreen() {
   );
 }
 
+/** Lock-screen accounts: Guest (any password, for visitors) and Developer (real Dev Mode password). */
+const ACCOUNTS = [
+  { id: 'guest', label: 'Guest' },
+  { id: 'developer', label: 'Developer' },
+];
+
+function DeveloperAvatar({ size }) {
+  return (
+    <span className="flex shrink-0 items-center justify-center rounded-full text-white shadow-xl" style={{ width: size, height: size, background: 'linear-gradient(145deg,#6ee7b7,#0f766e)' }}>
+      <Wrench size={size * 0.42} />
+    </span>
+  );
+}
+
+const LOGIN_ERRORS = {
+  wrong: 'The password is incorrect. Try again.',
+  locked: 'Too many attempts. Try again in 15 minutes.',
+  unavailable: "Developer sign-in isn't set up on this server.",
+};
+
 function Login() {
   const setPhase = useSystem((s) => s.setPhase);
   const profile = useData((s) => s.portfolio.profile);
   const transition = useTransition();
+  const [account, setAccount] = useState('guest');
   const [pw, setPw] = useState('');
-  const signIn = (e) => {
-    e?.preventDefault();
-    setPhase('welcome');
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState(null);
+  const inputRef = useRef(null);
+  const dev = account === 'developer';
+
+  const choose = (id) => {
+    setAccount(id);
+    setPw('');
+    setError(null);
+    setTimeout(() => inputRef.current?.focus(), 0);
   };
+
+  const signIn = async (e) => {
+    e?.preventDefault();
+    if (!dev) return setPhase('welcome');
+    if (!pw || busy) return;
+    setBusy(true);
+    setError(null);
+    const r = await devLogin(pw);
+    setBusy(false);
+    if (r.ok) return setPhase('welcome');
+    setPw('');
+    setError(r.reason === 'wrong' && r.attemptsLeft != null ? `${LOGIN_ERRORS.wrong} ${r.attemptsLeft} attempt${r.attemptsLeft === 1 ? '' : 's'} left.` : LOGIN_ERRORS[r.reason]);
+    inputRef.current?.focus();
+  };
+
   return (
     <motion.div className="absolute inset-0 text-white" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={transition(0.3)}>
       <WallpaperBackdrop blur={40} />
       <form onSubmit={signIn} className="relative flex h-full flex-col items-center justify-center gap-4">
-        {profile.avatar ? (
+        {dev ? (
+          <DeveloperAvatar size={160} />
+        ) : profile.avatar ? (
           <img src={profile.avatar} alt="" className="h-40 w-40 rounded-full border-4 border-white/20 object-cover shadow-xl" />
         ) : (
           <Monogram size={160} />
         )}
-        <h1 className="text-3xl font-semibold">{displayName(profile.name)}</h1>
+        <h1 className="text-3xl font-semibold">{dev ? 'Developer' : displayName(profile.name)}</h1>
         <div className="flex h-9 w-72 items-center overflow-hidden rounded-md border-b-2 border-b-[var(--accent)] bg-black/35 backdrop-blur">
           <input
+            ref={inputRef}
+            key={account}
             type="password"
             autoFocus
+            autoComplete={dev ? 'current-password' : 'off'}
             value={pw}
             onChange={(e) => setPw(e.target.value)}
-            placeholder="Password"
-            aria-label="Password (any password works)"
+            placeholder={dev ? 'Developer password' : 'Password'}
+            aria-label={dev ? 'Developer password' : 'Password (any password works)'}
+            aria-invalid={Boolean(error)}
+            disabled={busy}
             className="h-full flex-1 bg-transparent px-3 text-sm text-white outline-none placeholder:text-white/60"
           />
-          <button type="submit" aria-label="Sign in" className="flex h-full w-9 items-center justify-center hover:bg-white/15">
-            <ArrowRight size={16} />
+          <button type="submit" aria-label="Sign in" disabled={busy} className="flex h-full w-9 items-center justify-center hover:bg-white/15">
+            {busy ? <Spinner size={16} /> : <ArrowRight size={16} />}
           </button>
         </div>
-        <p className="text-xs text-white/70">Any password works</p>
-        <button
-          type="button"
-          onClick={signIn}
-          className="mt-2 rounded-md bg-white/15 px-5 py-2 text-sm backdrop-blur transition hover:bg-white/25 active:scale-95"
-        >
-          Sign in as Guest
-        </button>
+        {error ? (
+          <p role="alert" className="max-w-xs text-center text-xs text-red-200">{error}</p>
+        ) : (
+          <p className="text-xs text-white/70">{dev ? 'Owner sign-in · turns on Dev Mode' : 'Any password works'}</p>
+        )}
+        {!dev && (
+          <button
+            type="button"
+            onClick={signIn}
+            className="mt-2 rounded-md bg-white/15 px-5 py-2 text-sm backdrop-blur transition hover:bg-white/25 active:scale-95"
+          >
+            Sign in as Guest
+          </button>
+        )}
       </form>
+
+      {/* Account switcher, bottom left like Windows */}
+      <nav aria-label="Accounts" className="absolute bottom-8 left-6 flex flex-col gap-1">
+        {ACCOUNTS.map((a) => (
+          <button
+            key={a.id}
+            type="button"
+            onClick={() => choose(a.id)}
+            aria-current={account === a.id ? 'true' : undefined}
+            className={`flex items-center gap-3 rounded-md px-3 py-2 text-left text-sm backdrop-blur transition hover:bg-white/15 ${account === a.id ? 'bg-white/20' : ''}`}
+          >
+            {a.id === 'developer' ? (
+              <DeveloperAvatar size={36} />
+            ) : profile.avatar ? (
+              <img src={profile.avatar} alt="" className="h-9 w-9 rounded-full object-cover" />
+            ) : (
+              <Monogram size={36} />
+            )}
+            {a.label}
+          </button>
+        ))}
+      </nav>
     </motion.div>
   );
 }

@@ -106,7 +106,7 @@ Open http://localhost:5173.
 
 ### Dev Mode
 
-Run `npm run hash-password -- --env-local` and restart the dev server. Then open **Command Prompt** on the desktop and type `sudo devmode`. Locally, publishing writes into the project folder. The full guide, including the Vercel environment variables, is in [docs/DEV_MODE.md](docs/DEV_MODE.md).
+Run `npm run hash-password -- --env-local` and restart the dev server. Then pick the **Developer** account on the lock screen (or type `sudo devmode` in Command Prompt). Locally, publishing writes into the project folder. The full guide, including the Vercel environment variables, is in [docs/DEV_MODE.md](docs/DEV_MODE.md).
 
 ## Deployment
 

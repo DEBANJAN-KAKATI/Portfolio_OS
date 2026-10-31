@@ -58,6 +58,28 @@ if (typeof window !== 'undefined') {
 
 export const useDevActive = () => useDev((s) => s.active);
 
+/**
+ * Dev Mode sign-in, used by the lock screen and `sudo devmode`. Only the server
+ * checks the password. Resolves to { ok: true } or { ok: false, reason, attemptsLeft? }
+ * with reason 'wrong' | 'locked' | 'unavailable'.
+ */
+export async function devLogin(password) {
+  let res;
+  try {
+    res = await fetch('/api/auth/login', { method: 'POST', headers: { 'Content-Type': 'application/json' }, credentials: 'same-origin', body: JSON.stringify({ password }) });
+  } catch {
+    return { ok: false, reason: 'unavailable' };
+  }
+  if ([404, 405, 503].includes(res.status)) return { ok: false, reason: 'unavailable' };
+  if (res.status === 429) return { ok: false, reason: 'locked' };
+  if (!res.ok) {
+    const body = await res.json().catch(() => ({}));
+    return { ok: false, reason: 'wrong', attemptsLeft: body.attemptsLeft };
+  }
+  window.dispatchEvent(new CustomEvent('devmode:login'));
+  return { ok: true };
+}
+
 /** Right-click handler for content items; returns true when Dev Mode handled it. */
 export function devItemMenu(e, section, item) {
   const { active, module } = useDev.getState();

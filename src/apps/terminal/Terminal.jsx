@@ -4,6 +4,7 @@ import { useData } from '@/data/store.js';
 import { useWindows } from '@/os/store/windows.js';
 import { useSystem } from '@/os/store/system.js';
 import { useMotionPrefs } from '@/os/lib/hooks.js';
+import { devLogin } from '@/os/devmode.js';
 import { buildFileSystem, formatPath, HOME } from './filesystem.js';
 import { runCommand, complete, CMD_COLORS } from './commands.js';
 
@@ -144,21 +145,16 @@ export default function Terminal({ windowId }) {
   /** Hidden "sudo devmode": the password is only ever checked by the server (Dev Mode). */
   const devMode = useCallback(async () => {
     const pw = await askPassword('[sudo] password for guest: ');
-    let res;
-    try {
-      res = await fetch('/api/auth/login', { method: 'POST', headers: { 'Content-Type': 'application/json' }, credentials: 'same-origin', body: JSON.stringify({ password: pw }) });
-    } catch {
-      res = null;
-    }
-    if (!res || res.status === 404 || res.status === 405) {
+    const r = await devLogin(pw);
+    if (r.reason === 'unavailable') {
       print({ t: "sudo: Dev Mode isn't set up on this server yet.", c: '#f9f1a5' });
       return;
     }
-    if (res.status === 429) {
+    if (r.reason === 'locked') {
       print({ t: 'sudo: too many attempts. Try again later.', c: '#e74856' });
       return;
     }
-    if (!res.ok) {
+    if (!r.ok) {
       failedSudo.current++;
       if (failedSudo.current >= 3) {
         failedSudo.current = 0;
@@ -170,7 +166,6 @@ export default function Terminal({ windowId }) {
     }
     failedSudo.current = 0;
     print({ t: 'Access granted. Welcome back.', c: '#16c60c' });
-    window.dispatchEvent(new CustomEvent('devmode:login'));
   }, [print]);
 
   const ctx = {

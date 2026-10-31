@@ -16,7 +16,7 @@ Visitors never download Dev Mode code. It loads only after a valid login, and th
 
 2. Restart `npm run dev`.
 
-3. Open Command Prompt on the desktop and run `sudo devmode`, then type the password.
+3. On the lock screen, pick the **Developer** account (bottom left) and type the password. Or, from the desktop, open Command Prompt and run `sudo devmode`.
 
 Without `GITHUB_WRITE_TOKEN`, local publishing writes straight into this folder (`content/*.json`, `data/vault.inbox.json`, `public/media/…`) and rebuilds `src/data/generated/`. Review the changes and commit them yourself.
 
