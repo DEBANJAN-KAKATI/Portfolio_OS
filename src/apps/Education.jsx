@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { ChevronDown, ChevronRight, Monitor, GraduationCap, BookOpen } from 'lucide-react';
 import { useData } from '@/data/store.js';
-import { formatDate } from './kit/format.js';
+import { formatDate, scoreLabel } from './kit/format.js';
 
 export default function Education() {
   const education = useData((s) => s.portfolio.education);
@@ -20,7 +20,7 @@ export default function Education() {
       ['Institution', e?.institution],
       ['Degree', e?.degree],
       ['Duration', e?.duration],
-      ['GPA', e?.gpa],
+      [scoreLabel(e?.gpa), e?.gpa],
       ['Location', e?.location],
       ['Coursework categories', String(coursework.length)],
       ['Courses completed', String(totalCourses)],
@@ -34,7 +34,7 @@ export default function Education() {
       ['Duration', e.duration],
       ['Start', formatDate(e.startDate)],
       ['End', formatDate(e.endDate)],
-      ['GPA', e.gpa],
+      [scoreLabel(e.gpa), e.gpa],
       ['Location', e.location],
     ].filter(([, v]) => v);
   } else {
@@ -78,7 +78,8 @@ export default function Education() {
           <Node id="summary" icon={Monitor} label="System Summary" />
           <Group k="edu" label="Education" icon={GraduationCap}>
             {education.map((e) => (
-              <Node key={e.id} id={`edu:${e.id}`} label={e.institution} depth={1} />
+              // Several entries from one school (Class X, Class XII) are told apart by degree.
+              <Node key={e.id} id={`edu:${e.id}`} label={education.filter((x) => x.institution === e.institution).length > 1 ? `${e.degree} · ${e.institution}` : e.institution} depth={1} />
             ))}
           </Group>
           <Group k="course" label="Coursework" icon={BookOpen}>

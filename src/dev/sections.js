@@ -207,10 +207,14 @@ export const SECTIONS = {
       { key: 'icon', label: 'Icon (emoji)', type: 'text', required: true, quick: true, placeholder: '🎸' },
       { key: 'blurb', label: 'Blurb', type: 'textarea', required: true, quick: true },
       { key: 'funFact', label: 'Fun fact', type: 'text' },
+      { key: 'url', label: 'Link (e.g. Spotify)', type: 'url' },
+      { key: 'urlLabel', label: 'Link button text', type: 'text', placeholder: 'Open my Spotify' },
+      { key: 'projects', label: 'Projects', type: 'list', placeholder: 'Add a project' },
+      { key: 'projectsNote', label: 'Projects note', type: 'text', placeholder: 'Coming soon' },
       { key: 'images', label: 'Images', type: 'images' },
       { key: 'hidden', label: 'Hidden from visitors', type: 'toggle' },
     ],
-    blank: () => ({ name: '', icon: '✨', blurb: '', funFact: '', images: [], hidden: false }),
+    blank: () => ({ name: '', icon: '✨', blurb: '', funFact: '', url: '', urlLabel: '', projects: [], projectsNote: '', images: [], hidden: false }),
   },
 
   casualWorks: {
@@ -360,7 +364,10 @@ for (const [key, sec] of Object.entries(SECTIONS)) {
     };
     sec.fromForm ??= (f, id) => {
       const out = { id, ...f };
-      for (const k of Object.keys(out)) if (out[k] === '' && !['caption', 'description', 'funFact', 'body'].includes(k)) out[k] = null;
+      for (const k of Object.keys(out)) {
+        if (out[k] === '' && !['caption', 'description', 'funFact', 'body'].includes(k)) out[k] = null;
+        else if (Array.isArray(out[k])) out[k] = out[k].filter((x) => typeof x !== 'string' || x.trim());
+      }
       if ('timeOfDay' in out && !out.timeOfDay) out.timeOfDay = null;
       return out;
     };

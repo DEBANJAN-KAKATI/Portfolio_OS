@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-10-28T18:07:37.985Z",
+    "generatedAt": "2026-10-31T21:08:14.317Z",
     "sample": false,
     "sources": {
       "vault": {
@@ -40,6 +40,36 @@
       "endDate": "2027-07",
       "status": "published",
       "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "edu_gurukul_class_12",
+      "institution": "Gurukul Grammar Senior Secondary School",
+      "degree": "Class XII (CBSE)",
+      "duration": "2021 – 2023",
+      "gpa": "90%",
+      "location": null,
+      "startDate": "2021",
+      "endDate": "2023",
+      "status": "pending",
+      "source": "inbox",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "edu_gurukul_class_10",
+      "institution": "Gurukul Grammar Senior Secondary School",
+      "degree": "Class X",
+      "duration": "2010 – 2021",
+      "gpa": "91.6%",
+      "location": null,
+      "startDate": "2010",
+      "endDate": "2021",
+      "status": "pending",
+      "source": "inbox",
       "featured": false,
       "hidden": false,
       "vaultUpdatedAt": null
@@ -499,8 +529,8 @@
     {
       "id": "exp_shell",
       "role": "Digitalization Intern — Innovation & Learning Solutions (ILS)",
-      "company": "Shell Technology Centre (PTIN)",
-      "duration": "May 2026 – Jul 2026",
+      "company": "Shell India Markets Pvt. Ltd.",
+      "duration": "May 2026 – Dec 2026",
       "location": "Bengaluru, India",
       "tags": [
         "chemical",
@@ -523,46 +553,10 @@
         ]
       },
       "tech": [],
-      "thumbnail": null,
+      "thumbnail": "/media/logos/shell.svg",
       "startDate": "2026-05",
-      "endDate": "2026-07",
-      "status": "published",
-      "source": "vault",
-      "featured": false,
-      "hidden": false,
-      "vaultUpdatedAt": null
-    },
-    {
-      "id": "exp_intellipaat",
-      "role": "Business & Operations Growth Associate",
-      "company": "INTELLIPAAT",
-      "duration": "Aug 2025 – Present",
-      "location": "Remote",
-      "tags": [
-        "ai_ml",
-        "product",
-        "full_stack",
-        "quant"
-      ],
-      "bullets": {
-        "1": [
-          "Led development of 3 AI-driven operational analytics systems (multi-modal decision platform, traffic optimization model, HR automation tool), boosting process efficiency 30–45% and slashing manual workload 50%+."
-        ],
-        "2": [
-          "Led development of 3 AI-driven operational analytics systems (multi-modal decision platform, traffic optimization model, HR automation tool), boosting process efficiency 30–45% and slashing manual workload 50%+.",
-          "Engineered full end-to-end dataflow pipelines (data ingestion → model inference → interactive dashboard), outperforming peer benchmarks by ~35% on predictive accuracy and real-time execution speed."
-        ],
-        "3": [
-          "Led development of 3 AI-driven operational analytics systems (multi-modal decision platform, traffic optimization model, HR automation tool), boosting process efficiency 30–45% and slashing manual workload 50%+.",
-          "Engineered full end-to-end dataflow pipelines (data ingestion → model inference → interactive dashboard), outperforming peer benchmarks by ~35% on predictive accuracy and real-time execution speed.",
-          "Built multi-agent generative AI workflows using LangGraph and Python to automate candidate screening, performance scoring, and cross-department resource optimization."
-        ]
-      },
-      "tech": [],
-      "thumbnail": null,
-      "startDate": "2025-08",
-      "endDate": null,
-      "status": "published",
+      "endDate": "2026-12",
+      "status": "pending",
       "source": "vault",
       "featured": false,
       "hidden": false,
@@ -597,6 +591,42 @@
       "startDate": "2025-05",
       "endDate": "2025-07",
       "status": "published",
+      "source": "vault",
+      "featured": false,
+      "hidden": false,
+      "vaultUpdatedAt": null
+    },
+    {
+      "id": "exp_intellipaat",
+      "role": "Business & Operations Growth Associate",
+      "company": "INTELLIPAAT",
+      "duration": "Aug 2023 – Jul 2024",
+      "location": "Remote",
+      "tags": [
+        "ai_ml",
+        "product",
+        "full_stack",
+        "quant"
+      ],
+      "bullets": {
+        "1": [
+          "Led development of 3 AI-driven operational analytics systems (multi-modal decision platform, traffic optimization model, HR automation tool), boosting process efficiency 30–45% and slashing manual workload 50%+."
+        ],
+        "2": [
+          "Led development of 3 AI-driven operational analytics systems (multi-modal decision platform, traffic optimization model, HR automation tool), boosting process efficiency 30–45% and slashing manual workload 50%+.",
+          "Engineered full end-to-end dataflow pipelines (data ingestion → model inference → interactive dashboard), outperforming peer benchmarks by ~35% on predictive accuracy and real-time execution speed."
+        ],
+        "3": [
+          "Led development of 3 AI-driven operational analytics systems (multi-modal decision platform, traffic optimization model, HR automation tool), boosting process efficiency 30–45% and slashing manual workload 50%+.",
+          "Engineered full end-to-end dataflow pipelines (data ingestion → model inference → interactive dashboard), outperforming peer benchmarks by ~35% on predictive accuracy and real-time execution speed.",
+          "Built multi-agent generative AI workflows using LangGraph and Python to automate candidate screening, performance scoring, and cross-department resource optimization."
+        ]
+      },
+      "tech": [],
+      "thumbnail": null,
+      "startDate": "2023-08",
+      "endDate": "2024-07",
+      "status": "pending",
       "source": "vault",
       "featured": false,
       "hidden": false,

@@ -38,6 +38,20 @@ const defaultPositions = () => Object.fromEntries(useData.getState().layout.desk
 
 const key = (p) => `${p.col}:${p.row}`;
 
+/**
+ * The visitor's arrangement is saved with a fingerprint of the published default
+ * layout; when the owner publishes a new default, old arrangements are dropped.
+ */
+const layoutFingerprint = () => JSON.stringify(useData.getState().layout.desktopIcons);
+function loadPositions() {
+  if (load(KEYS.iconsBase, null) !== layoutFingerprint()) {
+    save(KEYS.icons, {});
+    save(KEYS.iconsBase, layoutFingerprint());
+    return {};
+  }
+  return load(KEYS.icons, {});
+}
+
 function firstFree(occupied, rows, from = { col: 0, row: 0 }) {
   for (let i = from.col * rows + from.row; i < 10_000; i++) {
     const cell = { col: Math.floor(i / rows), row: i % rows };
@@ -72,7 +86,7 @@ export function resolvePositions(saved, rows, items = getDesktopItems()) {
 }
 
 export const useDesktop = create((set, get) => ({
-  positions: load(KEYS.icons, {}), // the visitor's own moves; defaults come from layout.json
+  positions: loadPositions(), // the visitor's own moves; defaults come from layout.json
   selected: [],
   refreshTick: 0,
 

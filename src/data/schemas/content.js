@@ -26,6 +26,12 @@ export const Hobby = z.object({
   blurb: z.string(),
   funFact: z.string().optional(),
   images: z.array(Href).default([]),
+  // Optional link, e.g. a Spotify profile for Music.
+  url: Href.nullable().optional(),
+  urlLabel: z.string().nullable().optional(),
+  // Projects tied to the hobby; projectsNote is shown beside them, e.g. "Coming soon".
+  projects: z.array(z.string()).default([]),
+  projectsNote: z.string().nullable().optional(),
   hidden: z.boolean().default(false),
 });
 

@@ -5,6 +5,7 @@
 import { stripTags } from '@/data/sanitize.js';
 import { selectProjects } from '@/data/store.js';
 import { displayName } from '@/os/lib/format.js';
+import { scoreLabel } from '../kit/format.js';
 
 const dir = (children) => ({ type: 'dir', children });
 const file = (content) => ({ type: 'file', content });
@@ -39,7 +40,7 @@ export function buildFileSystem(state) {
   );
   const skills = Object.fromEntries(p.skills.map((g) => [`${safeName(g.label)}.txt`, file(() => g.skills.map((s) => `${s.name.padEnd(42)} ${String(s.usage).padStart(3)}%`))]));
   const education = Object.fromEntries(
-    p.education.map((e) => [`${safeName(e.institution)}.txt`, file(() => [e.institution, e.degree, e.duration, e.gpa ? `GPA ${e.gpa}` : ''].filter(Boolean))]),
+    p.education.map((e) => [`${safeName(e.institution)}${p.education.filter((x) => x.institution === e.institution).length > 1 ? ` - ${safeName(e.degree)}` : ''}.txt`, file(() => [e.institution, e.degree, e.duration, e.gpa ? `${scoreLabel(e.gpa)} ${e.gpa}` : ''].filter(Boolean))]),
   );
   const achievements = Object.fromEntries(p.achievements.map((a) => [`${safeName(a.title)}.txt`, file(() => [`[${a.label}] ${a.title}`, stripTags(a.details)])]));
   const hobbies = Object.fromEntries(extras.hobbies.filter((h) => !h.hidden).map((h) => [`${safeName(h.name)}.txt`, file(() => [`${h.icon} ${h.name}`, h.blurb, h.funFact ? `Fun fact: ${h.funFact}` : ''].filter(Boolean))]));

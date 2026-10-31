@@ -1,13 +1,13 @@
 /** Hobbies: a folder of hobby icons, each opening a fun popup. */
 import { useMemo, useState } from 'react';
 import { motion } from 'framer-motion';
-import { Sparkles, Clapperboard, Heart } from 'lucide-react';
+import { Sparkles, Clapperboard, Heart, ExternalLink, FolderGit2 } from 'lucide-react';
 import { useData } from '@/data/store.js';
 import { useWindows } from '@/os/store/windows.js';
 import { devItemMenu } from '@/os/devmode.js';
 import { useMotionPrefs } from '@/os/lib/hooks.js';
 import Dialog from './kit/Dialog.jsx';
-import { Button, EmptyState } from './kit/ui.jsx';
+import { Badge, Button, EmptyState, LinkButton } from './kit/ui.jsx';
 
 function Burst({ emoji }) {
   const { reduced } = useMotionPrefs();
@@ -83,6 +83,23 @@ export default function Hobbies() {
                 <Sparkles size={16} className="mt-0.5 shrink-0 text-amber-400" />
                 <span><b>Fun fact:</b> {current.funFact}</span>
               </p>
+            )}
+            {(current.projects?.length > 0 || current.projectsNote) && (
+              <div className="mt-3 rounded-md border border-[var(--border)] p-3">
+                <p className="mb-1 flex flex-wrap items-center gap-2 text-[13px] font-semibold">
+                  <FolderGit2 size={15} /> Projects {current.projectsNote && <Badge tone="amber">{current.projectsNote}</Badge>}
+                </p>
+                {current.projects?.length > 0 && (
+                  <ul className="list-disc pl-5 text-[13px]">
+                    {current.projects.map((pr) => <li key={pr}>{pr}</li>)}
+                  </ul>
+                )}
+              </div>
+            )}
+            {current.url && (
+              <LinkButton href={current.url} variant="primary" icon={ExternalLink} className="mt-3 inline-block">
+                {current.urlLabel || 'Open link'}
+              </LinkButton>
             )}
             {current.images.length > 0 && (
               <div className="mt-3 grid grid-cols-3 gap-2">

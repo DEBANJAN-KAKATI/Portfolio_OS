@@ -40,3 +40,6 @@ export function hashUnit(str) {
   for (const ch of str) h = Math.imul(h ^ ch.charCodeAt(0), 16777619);
   return ((h >>> 0) % 10_000) / 10_000;
 }
+
+/** "GPA 9.1" or "Score 90%": school results are percentages. */
+export const scoreLabel = (gpa) => (/%/.test(String(gpa ?? '')) ? 'Score' : 'GPA');

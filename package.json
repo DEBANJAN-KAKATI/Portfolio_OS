@@ -22,7 +22,8 @@
     "import-vault": "node scripts/import-vault.mjs",
     "validate": "node scripts/validate-data.mjs",
     "test": "node --test \"tests/**/*.test.mjs\"",
-    "hash-password": "node scripts/hash-password.mjs"
+    "hash-password": "node scripts/hash-password.mjs",
+    "resume": "node scripts/build-resume.mjs"
   },
   "overrides": {
     "@vercel/cli-config": {

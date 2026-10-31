@@ -157,7 +157,8 @@ export function togglePin(where, appId) {
 /** Save the current desktop arrangement (this browser's) as the default for visitors. */
 export function saveDesktopLayout(positions, items) {
   S().editDoc('layout', (l) => {
-    l.desktopIcons = items.filter((i) => i.kind === 'app').map((i) => ({ app: i.id, col: positions[i.id].col, row: positions[i.id].row }));
+    // Shortcut positions are stored here too, keyed by the shortcut id.
+    l.desktopIcons = items.map((i) => ({ app: i.id, col: positions[i.id].col, row: positions[i.id].row }));
   }, 'Desktop layout saved as default');
 }
 

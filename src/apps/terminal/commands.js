@@ -11,7 +11,7 @@ import { selectProjects } from '@/data/store.js';
 import { apps, getApp } from '@/os/apps/registry.js';
 import { displayName, firstName } from '@/os/lib/format.js';
 import { useDev } from '@/os/devmode.js';
-import { tagLabel, relativeTime } from '../kit/format.js';
+import { tagLabel, relativeTime, scoreLabel } from '../kit/format.js';
 import { checkForUpdates } from '../update/liveCheck.js';
 import { lookup, resolvePath, formatPath } from './filesystem.js';
 
@@ -211,7 +211,7 @@ export async function runCommand(raw, ctx) {
     case 'education':
       for (const e of p.education) {
         ctx.print(h(e.institution));
-        ctx.print(`  ${e.degree}`, dim(`  ${e.duration}`), e.gpa ? dim(`  GPA ${e.gpa}`) : '');
+        ctx.print(`  ${e.degree}`, dim(`  ${e.duration}`), e.gpa ? dim(`  ${scoreLabel(e.gpa)} ${e.gpa}`) : '');
       }
       for (const g of p.coursework) ctx.print({ t: `  ${g.label}: `, c: ACCENT }, g.courses.join(', '));
       return;

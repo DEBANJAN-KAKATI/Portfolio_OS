@@ -1,32 +1,30 @@
 {
   "desktopIcons": [
-    { "app": "about", "col": 0, "row": 0 },
-    { "app": "projects", "col": 0, "row": 1 },
-    { "app": "experience", "col": 0, "row": 2 },
-    { "app": "skills", "col": 0, "row": 3 },
-    { "app": "education", "col": 0, "row": 4 },
-    { "app": "achievements", "col": 0, "row": 5 },
-    { "app": "resume", "col": 1, "row": 0 },
-    { "app": "mail", "col": 1, "row": 1 },
-    { "app": "terminal", "col": 1, "row": 2 },
-    { "app": "games", "col": 1, "row": 3 },
-    { "app": "casual", "col": 1, "row": 4 },
-    { "app": "hobbies", "col": 1, "row": 5 },
-    { "app": "photos", "col": 2, "row": 0 },
-    { "app": "videos", "col": 2, "row": 1 },
-    { "app": "viewer3d", "col": 2, "row": 2 },
-    { "app": "paint", "col": 2, "row": 3 },
-    { "app": "recycle", "col": 2, "row": 5 }
+    {"app": "resume", "col": 0, "row": 0},
+    {"app": "sc_linkedin", "col": 0, "row": 1},
+    {"app": "sc_github", "col": 0, "row": 2},
+    {"app": "mail", "col": 0, "row": 3},
+    {"app": "about", "col": 0, "row": 4},
+    {"app": "projects", "col": 1, "row": 0},
+    {"app": "experience", "col": 1, "row": 1},
+    {"app": "skills", "col": 1, "row": 2},
+    {"app": "education", "col": 1, "row": 3},
+    {"app": "achievements", "col": 1, "row": 4},
+    {"app": "hobbies", "col": 2, "row": 0},
+    {"app": "casual", "col": 2, "row": 1},
+    {"app": "photos", "col": 2, "row": 2},
+    {"app": "videos", "col": 2, "row": 3},
+    {"app": "viewer3d", "col": 2, "row": 4},
+    {"app": "terminal", "col": 3, "row": 0},
+    {"app": "games", "col": 3, "row": 1},
+    {"app": "paint", "col": 3, "row": 2},
+    {"app": "recycle", "col": 3, "row": 3}
   ],
-  "pinnedTaskbar": ["projects", "about", "terminal", "mail", "settings"],
-  "pinnedStart": [
-    "about", "projects", "experience", "skills", "education", "achievements",
-    "resume", "mail", "terminal", "games", "photos", "videos",
-    "viewer3d", "paint", "update", "settings", "casual", "hobbies"
-  ],
+  "pinnedTaskbar": ["resume", "projects", "about", "mail", "terminal", "settings"],
+  "pinnedStart": ["resume", "about", "projects", "experience", "skills", "education", "achievements", "mail", "casual", "hobbies", "photos", "videos", "viewer3d", "games", "terminal", "paint", "update", "settings"],
   "defaultWallpaper": "auto",
   "shortcuts": [
-    { "id": "sc_github", "name": "GitHub", "url": "https://github.com/DEBANJAN-KAKATI", "icon": "github" },
-    { "id": "sc_linkedin", "name": "LinkedIn", "url": "https://www.linkedin.com/in/debanjan-kakati-5517891b7/", "icon": "linkedin" }
+    {"id": "sc_github", "name": "GitHub", "url": "https://github.com/DEBANJAN-KAKATI", "icon": "github"},
+    {"id": "sc_linkedin", "name": "LinkedIn", "url": "https://www.linkedin.com/in/debanjan-kakati-5517891b7/", "icon": "linkedin"}
   ]
 }

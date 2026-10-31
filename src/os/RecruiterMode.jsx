@@ -11,6 +11,7 @@ import { X, Printer, Download, MapPin, Globe, Mail, FileText } from 'lucide-reac
 import { useData, selectProjects } from '@/data/store.js';
 import { safeHtml } from '@/data/safeHtml.js';
 import { displayName } from './lib/format.js';
+import { scoreLabel } from '@/apps/kit/format.js';
 import { GithubGlyph } from './ui/AppIcon.jsx';
 import { useWindows } from './store/windows.js';
 
@@ -105,7 +106,7 @@ function Page() {
           <Heading>Education</Heading>
           {p.education.map((e) => (
             <div key={e.id} className="flex flex-wrap justify-between gap-2">
-              <p><b>{e.institution}</b> · {e.degree}{e.gpa && ` · GPA ${e.gpa}`}</p>
+              <p><b>{e.institution}</b> · {e.degree}{e.gpa && ` · ${scoreLabel(e.gpa)} ${e.gpa}`}</p>
               <p className="text-xs text-neutral-500">{e.duration}</p>
             </div>
           ))}

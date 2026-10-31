@@ -101,6 +101,7 @@ Open http://localhost:5173.
 | `npm run build:data` | Rebuild the generated data from what's already in `data/` and `content/` |
 | `npm run import-vault -- <file>` | Import a jstMyRB vault export by hand |
 | `npm run hash-password -- --env-local` | Set the Dev Mode password for local use |
+| `npm run resume` | Print `resume/resume.html` to `public/resume.pdf` (needs Chrome, Edge or Brave) |
 
 ### Dev Mode
 

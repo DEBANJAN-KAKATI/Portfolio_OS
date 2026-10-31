@@ -1,6 +1,40 @@
 {
   "entries": [
     {
+      "id": "sync_20261031210814",
+      "date": "2026-10-31T21:08:14.317Z",
+      "title": "Sync: 2 updated, 2 other items added",
+      "added": [
+        {
+          "id": "edu_gurukul_class_12",
+          "title": "Gurukul Grammar Senior Secondary School",
+          "section": "education"
+        },
+        {
+          "id": "edu_gurukul_class_10",
+          "title": "Gurukul Grammar Senior Secondary School",
+          "section": "education"
+        }
+      ],
+      "updated": [
+        {
+          "id": "exp_shell",
+          "title": "Digitalization Intern — Innovation & Learning Solutions (ILS) @ Shell India Markets Pvt. Ltd.",
+          "section": "experiences"
+        },
+        {
+          "id": "exp_intellipaat",
+          "title": "Business & Operations Growth Associate @ INTELLIPAAT",
+          "section": "experiences"
+        }
+      ],
+      "removed": [],
+      "sources": [
+        "vault",
+        "github"
+      ]
+    },
+    {
       "id": "sync_20261028151644",
       "date": "2026-10-28T15:16:44.957Z",
       "title": "Initial install",

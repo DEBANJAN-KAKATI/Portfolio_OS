@@ -28,5 +28,6 @@ export const KEYS = {
   booted: 'os.booted',
   settings: 'os.settings',
   icons: 'os.desktopIcons',
+  iconsBase: 'os.desktopIconsBase', // fingerprint of the default layout the saved icons were moved from
   lastVisit: 'os.lastVisit',
 };
