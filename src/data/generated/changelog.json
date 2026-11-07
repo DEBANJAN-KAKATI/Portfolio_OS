@@ -1,6 +1,125 @@
 {
   "entries": [
     {
+      "id": "sync_20261107102424",
+      "date": "2026-11-07T10:24:24.211Z",
+      "title": "Sync: 1 new project, 20 updated",
+      "added": [
+        {
+          "id": "proj_gh_portfolio_os",
+          "title": "Portfolio OS",
+          "section": "projects"
+        }
+      ],
+      "updated": [
+        {
+          "id": "proj_shell_hte",
+          "title": "HTE Catalyst Testing Digital Transformation Platform (DGD-2026)",
+          "section": "projects"
+        },
+        {
+          "id": "proj_gh_jstmyrb",
+          "title": "jstMyRB — AI Career OS",
+          "section": "projects"
+        },
+        {
+          "id": "proj_advanced_rag",
+          "title": "Advanced Local RAG Knowledge Engine",
+          "section": "projects"
+        },
+        {
+          "id": "proj_gh_qr_chat",
+          "title": "CipherDrop (QR-Chat)",
+          "section": "projects"
+        },
+        {
+          "id": "proj_gh_furo___travelswipe",
+          "title": "Furo — TravelSwipe",
+          "section": "projects"
+        },
+        {
+          "id": "proj_gh_sai___movieswipe",
+          "title": "Sai — MovieSwipe",
+          "section": "projects"
+        },
+        {
+          "id": "proj_gh_portfolio_analyser",
+          "title": "Portfolio Analyser",
+          "section": "projects"
+        },
+        {
+          "id": "proj_gh_jalpraloy",
+          "title": "JalProloy — Flood Early Warning",
+          "section": "projects"
+        },
+        {
+          "id": "proj_xai_retinopathy",
+          "title": "Explainable AI for Diabetic Retinopathy Screening in Rural India",
+          "section": "projects"
+        },
+        {
+          "id": "proj_jstpdf",
+          "title": "jstPDF — Privacy-First Desktop PDF Processing Suite",
+          "section": "projects"
+        },
+        {
+          "id": "proj_qf_algo_trading",
+          "title": "Algorithmic Trading & Technical Indicators",
+          "section": "projects"
+        },
+        {
+          "id": "proj_qf_credit_risk",
+          "title": "Credit Risk Modeling",
+          "section": "projects"
+        },
+        {
+          "id": "proj_qf_ipo_success",
+          "title": "IPO Success Prediction",
+          "section": "projects"
+        },
+        {
+          "id": "proj_qf_portfolio_optimization",
+          "title": "Portfolio Optimization (Modern Portfolio Theory)",
+          "section": "projects"
+        },
+        {
+          "id": "proj_qf_bitcoin_wikipedia",
+          "title": "Bitcoin Price Prediction from Wikipedia Sentiment",
+          "section": "projects"
+        },
+        {
+          "id": "proj_qf_news_sentiment",
+          "title": "Financial News Sentiment Analysis",
+          "section": "projects"
+        },
+        {
+          "id": "proj_qf_lstm_forecasting",
+          "title": "Stock Price Forecasting with LSTMs",
+          "section": "projects"
+        },
+        {
+          "id": "proj_qf_var_monte_carlo",
+          "title": "Value at Risk via Monte Carlo Simulation",
+          "section": "projects"
+        },
+        {
+          "id": "proj_ice_melting",
+          "title": "Ice Melting Rate Prediction via ML — Patent Pending",
+          "section": "projects"
+        },
+        {
+          "id": "proj_gh_22aiml_projects",
+          "title": "22AIML Projects",
+          "section": "projects"
+        }
+      ],
+      "removed": [],
+      "sources": [
+        "vault",
+        "github"
+      ]
+    },
+    {
       "id": "sync_20261031210814",
       "date": "2026-10-31T21:08:14.317Z",
       "title": "Sync: 2 updated, 2 other items added",
